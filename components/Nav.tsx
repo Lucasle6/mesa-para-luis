@@ -6,10 +6,21 @@ import { useEffect, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { BRAND, type Locale } from '@/lib/i18n';
 import type { UIDict } from '@/lib/dictionary';
+import { extra } from '@/lib/uiText';
+import type { Role } from '@/lib/supabase/types';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { UserMenu } from './UserMenu';
 import { Menu, Close } from './icons';
 
-export function Nav({ locale, ui }: { locale: Locale; ui: UIDict }) {
+export function Nav({
+  locale,
+  ui,
+  account,
+}: {
+  locale: Locale;
+  ui: UIDict;
+  account: { email: string; role: Role } | null;
+}) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -18,6 +29,7 @@ export function Nav({ locale, ui }: { locale: Locale; ui: UIDict }) {
   const links = [
     { href: `/${locale}/cuisines`, label: ui.nav.cuisines },
     { href: `/${locale}/recipes`, label: ui.nav.recipes },
+    { href: `/${locale}/blog`, label: extra(locale).blog.nav },
     { href: `/${locale}/about`, label: ui.nav.about },
   ];
 
@@ -49,7 +61,7 @@ export function Nav({ locale, ui }: { locale: Locale; ui: UIDict }) {
           <span className="text-ember">.</span>
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-7 md:flex">
           {links.map((l) => {
             const active = pathname === l.href || pathname.startsWith(l.href + '/');
             return (
@@ -64,16 +76,14 @@ export function Nav({ locale, ui }: { locale: Locale; ui: UIDict }) {
               </Link>
             );
           })}
-          <LanguageSwitcher locale={locale} label={ui.nav.language} />
-          <Link
-            href={`/${locale}/recipes`}
-            className="rounded-full bg-ink px-5 py-2 font-mono text-[0.7rem] uppercase tracking-label text-paper transition-colors hover:bg-ember"
-          >
-            {ui.nav.start}
-          </Link>
+          <div className="flex items-center gap-2">
+            <LanguageSwitcher locale={locale} label={ui.nav.language} />
+            <UserMenu locale={locale} initial={account} />
+          </div>
         </nav>
 
         <div className="flex items-center gap-2 md:hidden">
+          <UserMenu locale={locale} initial={account} />
           <LanguageSwitcher locale={locale} label={ui.nav.language} />
           <button
             type="button"

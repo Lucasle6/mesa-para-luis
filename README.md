@@ -14,16 +14,40 @@ Next.js, TypeScript, Tailwind CSS and Framer Motion.
 
 ```bash
 npm install
-npm run dev      # http://localhost:3000  (redirects to /es)
+cp .env.local.example .env.local   # then fill in your Supabase URL + anon key
+npm run dev                        # http://localhost:3000  (redirects to /es)
 ```
 
 Other scripts:
 
 ```bash
-npm run build    # production build (91 static pages, 4 locales)
+npm run build    # production build (Next.js server app — deploy on Vercel)
 npm run start    # serve the production build
 npm run lint
 ```
+
+## Database, accounts & admin (Supabase)
+
+Recipes, blog posts and uploaded images can be managed by an **admin** user; all
+other accounts are **read-only**.
+
+- **Backend:** Supabase (Postgres + Auth with email/password + Storage). One-time
+  setup is in [`SUPABASE-SETUP.md`](SUPABASE-SETUP.md); the schema + security
+  policies live in [`supabase/schema.sql`](supabase/schema.sql).
+- **Roles:** new sign-ups get the `reader` role automatically. Row-Level Security
+  blocks every write unless the user is `admin` — enforced in the database, not
+  just the UI. Promote yourself with the SQL snippet at the end of `schema.sql`.
+- **Admin panel:** `/[locale]/admin` (guarded server-side) to create recipes and
+  blog posts and upload images. The user menu (top-right of the nav) shows the
+  signed-in account and links to the panel for admins.
+- **Env vars:** `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+  (both public). Set them in `.env.local` for dev and in Vercel for production.
+
+## Deploy (Vercel)
+
+1. Push to GitHub (done) and import the repo at **vercel.com/new**.
+2. Add the two `NEXT_PUBLIC_SUPABASE_*` environment variables.
+3. Deploy. Every push to `main` redeploys automatically.
 
 ## Languages
 

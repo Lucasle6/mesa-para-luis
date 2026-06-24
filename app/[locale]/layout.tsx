@@ -12,6 +12,7 @@ import {
   type Locale,
 } from '@/lib/i18n';
 import { getCuisines } from '@/lib/data';
+import { getProfile } from '@/lib/supabase/server';
 
 const display = Fraunces({
   subsets: ['latin'],
@@ -73,6 +74,11 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale);
   const cuisines = getCuisines(dict);
 
+  const profile = await getProfile();
+  const account = profile
+    ? { email: profile.email ?? '', role: profile.role }
+    : null;
+
   return (
     <html
       lang={locale}
@@ -85,7 +91,7 @@ export default async function LocaleLayout({
         >
           {dict.ui.nav.skip}
         </a>
-        <Nav locale={locale} ui={dict.ui} />
+        <Nav locale={locale} ui={dict.ui} account={account} />
         <main id="main">{children}</main>
         <Footer locale={locale} ui={dict.ui} cuisines={cuisines} />
       </body>

@@ -1,27 +1,19 @@
 /** @type {import('next').NextConfig} */
 
-// When building for GitHub Pages we produce a fully static export served from a
-// repo subpath. Normal `dev`/`build` keep middleware + optimized images intact.
-const isPages = process.env.GITHUB_PAGES === 'true';
-const repo = 'mesa-para-luis';
+// Allow next/image to load uploaded images from the Supabase Storage bucket.
+const supabaseHost = process.env.NEXT_PUBLIC_SUPABASE_URL
+  ? new URL(process.env.NEXT_PUBLIC_SUPABASE_URL).hostname
+  : undefined;
 
 const nextConfig = {
   reactStrictMode: true,
-  ...(isPages
-    ? {
-        output: 'export',
-        basePath: `/${repo}`,
-        trailingSlash: true,
-        images: { unoptimized: true },
-      }
-    : {
-        images: {
-          formats: ['image/avif', 'image/webp'],
-          remotePatterns: [
-            { protocol: 'https', hostname: 'images.unsplash.com' },
-          ],
-        },
-      }),
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    remotePatterns: [
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      ...(supabaseHost ? [{ protocol: 'https', hostname: supabaseHost }] : []),
+    ],
+  },
 };
 
 export default nextConfig;

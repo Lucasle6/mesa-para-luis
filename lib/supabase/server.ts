@@ -1,5 +1,6 @@
 import { createServerClient, type CookieOptions } from '@supabase/ssr';
 import { cookies } from 'next/headers';
+import { redirect } from 'next/navigation';
 import type { Profile } from './types';
 
 type CookieToSet = { name: string; value: string; options: CookieOptions };
@@ -65,4 +66,12 @@ export async function getProfile(): Promise<Profile | null> {
 export async function isAdmin(): Promise<boolean> {
   const profile = await getProfile();
   return profile?.role === 'admin';
+}
+
+/** Server-side guard for admin routes. Redirects non-admins away. */
+export async function requireAdmin(locale: string): Promise<Profile> {
+  const profile = await getProfile();
+  if (!profile) redirect(`/${locale}/login`);
+  if (profile.role !== 'admin') redirect(`/${locale}`);
+  return profile;
 }

@@ -1,5 +1,6 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse, type NextRequest } from 'next/server';
 import { locales, defaultLocale, isLocale } from './lib/i18n';
+import { updateSession } from './lib/supabase/middleware';
 
 const COOKIE = 'NEXT_LOCALE';
 
@@ -18,21 +19,25 @@ function detectLocale(req: NextRequest): string {
   return defaultLocale;
 }
 
-export function middleware(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   const hasLocale = locales.some(
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`),
   );
-  if (hasLocale) return NextResponse.next();
 
-  const locale = detectLocale(req);
-  const url = req.nextUrl.clone();
-  url.pathname = `/${locale}${pathname === '/' ? '' : pathname}`;
-  return NextResponse.redirect(url);
+  if (!hasLocale) {
+    const locale = detectLocale(req);
+    const url = req.nextUrl.clone();
+    url.pathname = `/${locale}${pathname === '/' ? '' : pathname}`;
+    return NextResponse.redirect(url);
+  }
+
+  // On localized routes, keep the Supabase session fresh.
+  const res = NextResponse.next();
+  return updateSession(req, res);
 }
 
 export const config = {
-  // Skip Next internals and any path containing a file extension.
   matcher: ['/((?!_next|.*\\..*).*)'],
 };
