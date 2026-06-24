@@ -1,0 +1,719 @@
+{
+  "ui": {
+    "meta": {
+      "siteDescription": "Ein Kochtagebuch von der Straße bis zum Pass — Rezepte und Techniken aus den Küchen der Welt, vom Nachtmarktstand bis zur Michelin-Küche."
+    },
+    "nav": {
+      "cuisines": "Küchen",
+      "recipes": "Rezepte",
+      "about": "Das Tagebuch",
+      "start": "Loskochen",
+      "home": "Startseite",
+      "open": "Menü öffnen",
+      "close": "Menü schließen",
+      "language": "Sprache",
+      "skip": "Zum Inhalt springen"
+    },
+    "hero": {
+      "eyebrow": "Ein Kochtagebuch · seit 2026",
+      "titleA": "Von der Straße",
+      "titleB": "bis zum Pass.",
+      "lede": "Eine Idee, verfolgt über die ganze Landkarte des Essens: vom Nachtmarktwagen bis zum Michelin-Pass. Echte Rezepte, die Techniken dahinter und die Geschichten, die sie um die Welt trugen.",
+      "browse": "Rezepte ansehen",
+      "cuisines": "Küchen",
+      "quote": "Alles an seinem Platz, dann ist das Kochen leicht.",
+      "stats": "{c} Küchen · {r} Rezepte"
+    },
+    "home": {
+      "mapEyebrow": "01 — Die Landkarte",
+      "mapTitle": "Sechs Küchen, eine Besessenheit, es richtig zu machen.",
+      "allCuisines": "Alle Küchen",
+      "explore": "{name} entdecken",
+      "roadEyebrow": "02 — Der rote Faden",
+      "roadTitle": "Jedes Gericht liegt irgendwo auf derselben Straße.",
+      "roadLede": "Der Straßenstand und das Degustationsmenü sind keine Rivalen: sie sind zwei Punkte auf einer Reise. Mesa para Luis markiert, wo jedes Rezept liegt, damit du immer weißt, auf was für einen Abend du dich einlässt.",
+      "roadCta": "Nach Niveau kochen",
+      "featuredEyebrow": "03 — Am Pass",
+      "featuredTitle": "Was wir gerade kochen.",
+      "everyRecipe": "Alle Rezepte",
+      "ctaEyebrow": "Die wöchentliche Depesche",
+      "ctaTitle": "Ein Rezept, eine Technik, eine Geschichte: jeden Sonntag.",
+      "ctaBtn": "Mit einem Rezept beginnen"
+    },
+    "levels": {
+      "1": { "label": "Straße", "blurb": "Wagen, Stände, Nachtmärkte" },
+      "2": { "label": "Zuhause", "blurb": "Familienküchen, unter der Woche" },
+      "3": { "label": "Bistro", "blurb": "Restaurants im Viertel" },
+      "4": { "label": "Fein", "blurb": "Degustationsmenüs, raffiniert" },
+      "5": { "label": "Pass", "blurb": "Technik auf Michelin-Niveau" }
+    },
+    "heat": {
+      "Easy": "Sanft",
+      "Medium": "Stetig",
+      "Hard": "Fordernd",
+      "Expert": "Präzise"
+    },
+    "spec": {
+      "time": "Zeit",
+      "heat": "Anspruch",
+      "origin": "Herkunft",
+      "course": "Gang"
+    },
+    "techniqueLevel": "Technik-Niveau",
+    "recipe": {
+      "ingredients": "Zutaten",
+      "method": "Zubereitung",
+      "gathered": "{checked}/{total} bereit",
+      "done": "{done}/{total} fertig",
+      "fromPass": "Vom Pass",
+      "keepCooking": "Weiterkochen",
+      "print": "Rezept drucken",
+      "fewer": "Weniger Portionen",
+      "more": "Mehr Portionen",
+      "serving": "Portion",
+      "servings": "Portionen",
+      "min": "Min",
+      "allRecipes": "Alle Rezepte",
+      "breadcrumb": "Rezepte"
+    },
+    "explorer": {
+      "searchPlaceholder": "Gerichte, Zutaten, Städte suchen…",
+      "cuisine": "Küche",
+      "level": "Technik-Niveau",
+      "any": "Alle",
+      "all": "Alle",
+      "sort": "Sortieren",
+      "sortFeatured": "Empfohlen",
+      "sortQuick": "Schnellste",
+      "sortLevelAsc": "Straße → Pass",
+      "sortLevelDesc": "Pass → Straße",
+      "clear": "Zurücksetzen",
+      "resultOne": "1 Rezept",
+      "resultMany": "{count} Rezepte",
+      "emptyTitle": "Nichts an diesem Pass.",
+      "emptyBody": "Kein Rezept passt zu diesen Filtern: versuch, die Suche zu erweitern.",
+      "reset": "Filter zurücksetzen"
+    },
+    "footer": {
+      "tagline": "Ein Kochtagebuch, das einer Idee über die ganze Landkarte des Essens folgt: von der Straße bis zum Pass. Geschrieben, gekocht und fotografiert von einem einzigen Paar Hände.",
+      "cuisinesHeading": "Küchen",
+      "journalHeading": "Das Tagebuch",
+      "allRecipes": "Alle Rezepte",
+      "browseCuisines": "Küchen durchstöbern",
+      "about": "Über Mesa para Luis",
+      "rights": "Alle Rechte vorbehalten",
+      "madeWith": "Mit Geduld und einer sehr heißen Pfanne gemacht.",
+      "newsletterLabel": "Die wöchentliche Depesche",
+      "newsletterPlaceholder": "du@kueche.com",
+      "join": "Abonnieren",
+      "newsletterDone": "Du bist auf der Liste. Die nächste Depesche kommt bald.",
+      "newsletterError": "Diese E-Mail sieht nicht richtig aus, prüfst du sie noch mal?"
+    },
+    "about": {
+      "eyebrow": "Das Tagebuch",
+      "titleA": "Ein Koch,",
+      "titleB": "eine Straße,",
+      "titleC": "die ganze Landkarte des Essens.",
+      "lede1": "Mesa para Luis begann mit einer hartnäckigen Idee: dass der Nachtmarktstand und die Drei-Sterne-Küche dieselbe Geschichte in unterschiedlicher Lautstärke erzählen. Dies ist ein Tagebuch der Jagd nach dieser Geschichte: ein Gericht auf Straßenniveau zu kochen und es dann bis zum Pass hinauf zu verfolgen, um zu sehen, was die Technik wirklich verbarg.",
+      "lede2": "Alles hier wird von einem einzigen Paar Hände gekocht, gegessen und fotografiert. Wenn ein Rezept auf der Seite steht, wurde es oft genug gemacht, um ihm zu vertrauen.",
+      "quote": "Alles an seinem Platz, dann ist das Kochen leicht.",
+      "quoteAttr": "Mise en place — die erste Lektion jeder Küche",
+      "statsCuisines": "Küchen",
+      "statsRecipes": "Rezepte",
+      "statsLevels": "Technik-Stufen",
+      "statsPans": "Ruinierte Pfannen",
+      "believe": "Woran wir glauben",
+      "principles": [
+        {
+          "title": "Technik vor Trend",
+          "body": "Jedes Rezept verdient seinen Platz durch eine echte Methode: etwas, das du in zehn Jahren noch nutzt, keine vergängliche Anrichte-Mode."
+        },
+        {
+          "title": "Die Straße zählt",
+          "body": "Ein perfekter Taco al Pastor und ein makelloses Soufflé sind dasselbe Streben. Wir lehnen den Snobismus ab, der sagt, nur eines davon zähle."
+        },
+        {
+          "title": "Zum Kochen geschrieben",
+          "body": "Kein 1.500-Wörter-Vorwort vor dem Rezept. Klare Schritte, echte Zeiten und der eine Tipp, der das Ergebnis wirklich verändert."
+        }
+      ],
+      "ctaTitle": "Zieh dir einen Hocker heran. Kochen wir etwas.",
+      "ctaBtn": "Die Rezepte ansehen"
+    },
+    "cuisinesPage": {
+      "eyebrow": "Die Landkarte",
+      "titleA": "Sechs Welten,",
+      "titleB": "je eine Straße.",
+      "lede": "Jede Küche hier wird von ihrer lautesten Straßenecke bis zu ihrem stillsten Speisesaal verfolgt. Wähl eine Welt, in die du eintauchst.",
+      "recipesWord": "Rezepte"
+    },
+    "cuisinePage": {
+      "breadcrumb": "Küchen",
+      "tableTitle": "Die Tafel: {name}",
+      "runs": "Diese Sammlung reicht von",
+      "allRecipes": "Alle Rezepte"
+    },
+    "recipesPage": {
+      "eyebrow": "Das vollständige Verzeichnis",
+      "titleA": "Alle Rezepte,",
+      "titleB": "filterbar.",
+      "lede": "12 Gerichte aus 6 Küchen. Suche nach Name, Stadt oder Zutat; oder grenze ein, wie weit du heute Abend auf der Straße reisen willst."
+    },
+    "notFound": {
+      "eyebrow": "404 — Nicht auf der Karte",
+      "title": "Ausverkauft.",
+      "body": "Diese Seite steht heute Abend nicht im Service. Bringen wir dich zurück zu etwas, das du wirklich kochen kannst.",
+      "btn": "Zurück in die Küche"
+    }
+  },
+  "cuisines": {
+    "japanese": {
+      "name": "Japanisch",
+      "region": "Japan",
+      "tagline": "Zurückhaltung als Geschmack",
+      "description": "Eine Küche, die wenigen makellosen Zutaten mehr traut als einer langen Liste. Wir folgen ihr von einem Yatai-Wagen, der in einer Gasse von Fukuoka dampft, bis zur fast lautlosen Präzision eines Kaiseki-Tresens.",
+      "accentDish": "Dashi"
+    },
+    "mexican": {
+      "name": "Mexikanisch",
+      "region": "Mexiko",
+      "tagline": "Feuer, Limette und Zeit",
+      "description": "Vielschichtig, uralt und im besten Sinne laut. Vom Al-Pastor-Spieß, der sich an einer Ecke in Mexiko-Stadt dreht, bis zu den hellen, messergeführten Tellern der neuen Oaxaca-Speisesäle.",
+      "accentDish": "Salsa"
+    },
+    "italian": {
+      "name": "Italienisch",
+      "region": "Italien",
+      "tagline": "Weniger Dinge, richtig gemacht",
+      "description": "Die Disziplin des Weglassens. Ein römischer Trattoria-Teller Cacio e Pepe und ein am Tisch vollendetes Mailänder Risotto teilen denselben sturen Glauben: zuerst die Zutat, die Technik in ihrem Dienst.",
+      "accentDish": "Pasta"
+    },
+    "indian": {
+      "name": "Indisch",
+      "region": "Indien",
+      "tagline": "Eine Grammatik der Gewürze",
+      "description": "Gewürz als Sprache, nicht als Schärfe. Wir verfolgen es von einem Chaat-Stand in Mumbai, der im Eiltempo Pani Puri zusammensetzt, bis zu den langsamen, butterreichen Soßen, die den nordindischen Restaurant-Kanon begründeten.",
+      "accentDish": "Masala"
+    },
+    "french": {
+      "name": "Französisch",
+      "region": "Frankreich",
+      "tagline": "Die Mutter der Technik",
+      "description": "Die Küche, an der sich alle anderen messen. Vom Steak Frites an der Zinktheke bis zum Soufflé, das mit deinem Handgelenk lebt oder stirbt: Frankreich ist, wo Methode zum Muskelgedächtnis wird.",
+      "accentDish": "Sauce"
+    },
+    "thai": {
+      "name": "Thailändisch",
+      "region": "Thailand",
+      "tagline": "Balance, die man schmeckt",
+      "description": "Scharf, sauer, salzig, süß: auf einem einzigen Löffel in Spannung gehalten. Von einem Wok, der über einem Straßenbrenner in Bangkok kreischt, bis zu den komponierten Currys der königlichen Küchen.",
+      "accentDish": "Nam pla"
+    }
+  },
+  "recipes": {
+    "yatai-yakisoba": {
+      "title": "Yatai Yakisoba",
+      "course": "Nudeln",
+      "origin": "Fukuoka, Japan",
+      "excerpt": "Der Klang eines Festes in einer einzigen Pfanne: federnde Nudeln, eine rauchige Sauce und die Disziplin eines glühend heißen Woks.",
+      "intro": [
+        "Yakisoba ist Streetfood in seiner reinsten Form: nichts ist hier schwierig, und alles hängt von der Hitze ab. Ein Yatai-Koch arbeitet Portion für Portion über einer Flamme, die du zu Hause nicht halten könntest; genau deshalb verlangt die Heimversion nur zwei Dinge: eine heiße Pfanne und die Weigerung, sie zu überfüllen.",
+        "Die Sauce hat das Sagen. Mach sie einmal, und du hast für den Rest deines Lebens ein Glas in der Kühlschranktür."
+      ],
+      "ingredients": [
+        {
+          "title": "Sauce",
+          "items": [
+            { "qty": 3, "unit": "EL", "name": "Worcestershire-Sauce" },
+            { "qty": 2, "unit": "EL", "name": "Austernsauce" },
+            { "qty": 1, "unit": "EL", "name": "Ketchup" },
+            { "qty": 1, "unit": "EL", "name": "Sojasauce" },
+            { "qty": 1, "unit": "TL", "name": "Zucker" }
+          ]
+        },
+        {
+          "title": "Pfannengericht",
+          "items": [
+            { "qty": 2, "unit": "Portionen", "name": "frische Yakisoba- oder Ramen-Nudeln" },
+            { "qty": 150, "unit": "g", "name": "Schweinebauch", "note": "dünn geschnitten" },
+            { "qty": 0.25, "name": "Weißkohl", "note": "grob geschnitten" },
+            { "qty": 1, "name": "Karotte", "note": "in Julienne" },
+            { "qty": 2, "name": "Frühlingszwiebeln" },
+            { "qty": 1, "unit": "EL", "name": "neutrales Öl" },
+            { "name": "Aonori, eingelegter Ingwer und Bonitoflocken", "note": "zum Abschluss" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Sauce mischen", "body": "Alle Sauce-Zutaten verrühren, bis sich der Zucker löst. Probieren: sie sollte gleichzeitig süß, säuerlich und herzhaft sein." },
+        { "title": "Nudeln lösen", "body": "Die Nudeln unter warmem Wasser abspülen und mit den Fingern sanft auseinanderziehen, damit sie einzeln statt verklumpt braten." },
+        { "title": "Schwein anbraten", "body": "Die Pfanne richtig heiß werden lassen. Öl, dann den Schweinebauch in einer Schicht dazugeben. Unberührt lassen, bis die Ränder knusprig sind, dann rühren.", "minutes": 3 },
+        { "title": "Gemüse, dann Nudeln", "body": "Karotte und Kohl dazugeben; eine Minute schwenken, damit sie Biss behalten. Nudeln und Sauce hinzufügen und alles über hoher Hitze wenden, bis es glänzt und stellenweise leicht geröstet ist.", "minutes": 4 },
+        { "title": "Abschluss", "body": "Vom Herd nehmen und die Frühlingszwiebeln unterheben. Hoch aufhäufen und mit Aonori, Ingwer und einem Hauch Bonitoflocken abschließen, die sich im Dampf kräuseln sollten." }
+      ],
+      "tips": [
+        "In zwei Chargen kochen, wenn deine Pfanne klein ist: eine überfüllte Pfanne dämpft, statt zu braten.",
+        "Keine Yakisoba-Nudeln? Ramen oder sogar mit einer Prise Natron gekochte Spaghetti springen ein."
+      ],
+      "tags": ["schnell", "nudeln", "schwein", "alltag"]
+    },
+    "silken-chawanmushi": {
+      "title": "Seidiges Chawanmushi",
+      "course": "Kleiner Teller",
+      "origin": "Kyoto, Japan",
+      "excerpt": "Eine herzhafte Crème, so glatt, dass sie ihre Form kaum hält: das ganze Gericht ist eine Prüfung deines Dashi und deiner Geduld mit der Hitze.",
+      "intro": [
+        "Chawanmushi ist das leiseste Glanzstück der japanischen Küche. Es gibt kein Verstecken: die Crème stockt durch die Kraft deines Dashi und die Sanftheit deines Dampfes, und ein einziges Grad zu heiß lässt sie pockig und weinend statt zitternd.",
+        "Behandle das Verhältnis, drei Teile Dashi auf einen Teil Ei, als Gesetz und passiere zweimal. Alles andere ist Zurückhaltung."
+      ],
+      "ingredients": [
+        {
+          "title": "Crème",
+          "items": [
+            { "qty": 3, "name": "Eier", "note": "groß" },
+            { "qty": 450, "unit": "ml", "name": "kaltes Dashi" },
+            { "qty": 1, "unit": "TL", "name": "helle Sojasauce (usukuchi)" },
+            { "qty": 1, "unit": "TL", "name": "Mirin" },
+            { "qty": 0.5, "unit": "TL", "name": "feines Salz" }
+          ]
+        },
+        {
+          "title": "Garnitur",
+          "items": [
+            { "qty": 4, "name": "rohe Garnelen", "note": "geschält" },
+            { "qty": 4, "name": "Shiitake", "note": "in Scheiben" },
+            { "qty": 8, "name": "Ginkgonüsse oder Edamame" },
+            { "name": "Mitsuba oder Schnittlauch", "note": "zum Abschluss" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Basis ansetzen", "body": "Die Eier ohne Luft verquirlen: sie sollen aufgebrochen, nicht schaumig sein. Kaltes Dashi, Soja, Mirin und Salz dazugeben und sanft verrühren." },
+        { "title": "Zweimal passieren", "body": "Die Masse zweimal durch ein feines Sieb geben. Das ist der Unterschied zwischen glasglatt und körnig." },
+        { "title": "Tassen füllen", "body": "Garnelen, Shiitake und Ginkgo auf vier hitzefeste Tassen verteilen. Die Crème darübergießen und Blasen von der Oberfläche mit einem Löffel abschöpfen." },
+        { "title": "Niedrig und langsam dämpfen", "body": "Bei sanftester Hitze mit leicht geöffnetem Deckel dämpfen, sodass die Temperatur nie über ein knappes Köcheln steigt. Die Crème ist fertig, wenn sie als ein Stück wackelt.", "minutes": 18 },
+        { "title": "Ruhen und krönen", "body": "Zwei Minuten ruhen lassen, dann einen Zweig Mitsuba auflegen. Warm, mit einem Löffel, in Stille zu essen servieren." }
+      ],
+      "tips": [
+        "Ein Zahnstocher sollte sauber herauskommen und die Lücke sich langsam mit klarer, nicht trüber Flüssigkeit füllen.",
+        "Den Dämpferdeckel in ein Tuch wickeln, damit Kondenswasser nicht tropft und die Oberfläche zerkratert."
+      ],
+      "tags": ["crème", "gedämpft", "elegant", "meeresfrüchte"]
+    },
+    "tacos-al-pastor": {
+      "title": "Tacos al Pastor",
+      "course": "Tacos",
+      "origin": "Mexiko-Stadt, Mexiko",
+      "excerpt": "Libanesischer Schawarma über eine Straßenecke in Mexiko-Stadt: Chilis, Achiote und Ananas, heiß auf kleine warme Tortillas gehobelt.",
+      "intro": [
+        "Al Pastor ist ein Liebesbrief zwischen zwei Küchen: der vertikale Spieß kam mit libanesischen Einwanderern, die Marinade ist unverkennbar mexikanisch. Ohne Trompo zu Hause bringen dich ein heißer Ofen und ein letztes scharfes Anbraten verblüffend nah heran.",
+        "Die Ananas ist keine Garnitur. Ihre Säure ist Teil der Marinade und ihr Röstaroma Teil des Tacos."
+      ],
+      "ingredients": [
+        {
+          "title": "Marinade",
+          "items": [
+            { "qty": 3, "name": "Guajillo-Chilis", "note": "entstielt, entkernt" },
+            { "qty": 2, "name": "Ancho-Chilis", "note": "entstielt, entkernt" },
+            { "qty": 2, "unit": "EL", "name": "Achiote-Paste" },
+            { "qty": 3, "name": "Knoblauchzehen" },
+            { "qty": 60, "unit": "ml", "name": "Ananassaft" },
+            { "qty": 2, "unit": "EL", "name": "Weißweinessig" },
+            { "qty": 1, "unit": "TL", "name": "getrockneter Oregano" },
+            { "qty": 1, "unit": "TL", "name": "gemahlener Kreuzkümmel" }
+          ]
+        },
+        {
+          "title": "Zum Anrichten",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "Schweineschulter", "note": "dünn geschnitten" },
+            { "qty": 0.5, "name": "frische Ananas", "note": "in Scheiben" },
+            { "qty": 16, "name": "Maistortillas", "note": "klein" },
+            { "qty": 1, "name": "weiße Zwiebel", "note": "fein gewürfelt" },
+            { "name": "Koriander und Limette", "note": "zum Abschluss" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Chilis wecken", "body": "Die getrockneten Chilis in einer trockenen Pfanne rösten, bis sie duften, dann zehn Minuten in heißem Wasser einweichen, bis sie geschmeidig sind.", "minutes": 10 },
+        { "title": "Marinade mixen", "body": "Die eingeweichten Chilis mit Achiote, Knoblauch, Ananassaft, Essig und Gewürzen zu einer glatten, ziegelroten Paste mixen." },
+        { "title": "Marinieren", "body": "Das geschnittene Fleisch gründlich bedecken und mindestens zwei Stunden, idealerweise über Nacht ziehen lassen." },
+        { "title": "Braten und rösten", "body": "Das Fleisch dicht in einer Kastenform schichten und heiß braten, dann schneiden und die Ränder in einer glühenden Pfanne scharf knusprig braten. Die Ananas daneben rösten.", "minutes": 20 },
+        { "title": "Klein aufbauen", "body": "Die Tortillas erwärmen, doppelt legen und mit Fleisch, etwas Ananas, roher Zwiebel, Koriander und einem Spritzer Limette belegen. Sofort essen, möglichst im Stehen." }
+      ],
+      "tips": [
+        "Zwei kleine Tortillas pro Taco sind kein Übermaß: sie verhindern, dass der Taco unter dem Saft reißt.",
+        "Das Fleisch vor dem Schneiden 30 Minuten einfrieren, um es hauchdünn zu bekommen."
+      ],
+      "tags": ["schwein", "tacos", "chili", "grill"]
+    },
+    "aguachile-verde": {
+      "title": "Aguachile Verde",
+      "course": "Roh",
+      "origin": "Sinaloa, Mexiko",
+      "excerpt": "Garnelen, kaum von Limette geküsst, ertränkt in einem feurigen grünen Chiliwasser. Ein Messergericht: alles Timing, kein Garen.",
+      "intro": [
+        "Aguachile ist der rohe, elektrische Cousin des Ceviche. Die Säure berührt die Garnelen nur, Frische ist also nicht verhandelbar; die Schärfe ist sofort da und der ganze Teller wird à la minute angerichtet.",
+        "Serviere es in dem Moment, in dem es angemacht ist. Eine Minute zu lang und die Garnelen ziehen sich zusammen und werden kreidig."
+      ],
+      "ingredients": [
+        {
+          "title": "Chiliwasser",
+          "items": [
+            { "qty": 120, "unit": "ml", "name": "Limettensaft", "note": "frisch" },
+            { "qty": 2, "name": "Serrano-Chilis" },
+            { "qty": 1, "unit": "Handvoll", "name": "Koriander" },
+            { "qty": 0.5, "name": "Gurke", "note": "geschält" },
+            { "qty": 1, "unit": "Zehe", "name": "Knoblauch" }
+          ]
+        },
+        {
+          "title": "Zum Anrichten",
+          "items": [
+            { "qty": 500, "unit": "g", "name": "rohe Garnelen", "note": "schmetterlingsförmig aufgeschnitten" },
+            { "qty": 0.5, "name": "rote Zwiebel", "note": "fein gehobelt" },
+            { "qty": 0.5, "name": "Gurke", "note": "dünn geschnitten" },
+            { "name": "Flockensalz und Tostadas", "note": "zum Servieren" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Chiliwasser mixen", "body": "Limettensaft, Serrano, Koriander, Gurke und Knoblauch zu einem leuchtenden Grün mixen. Mit Salz würzen und für ein saubereres Ergebnis durch ein Sieb passieren." },
+        { "title": "Zwiebel wässern", "body": "Die gehobelte rote Zwiebel zehn Minuten in Eiswasser geben, damit sie knackig wird und ihre rohe Schärfe verliert.", "minutes": 10 },
+        { "title": "À la minute anmachen", "body": "Die aufgeschnittenen Garnelen flach auf einen kalten Teller legen. Das Chiliwasser erst angießen, wenn du servierbereit bist." },
+        { "title": "Abschließen und eilen", "body": "Gurke und abgetropfte Zwiebel darüberstreuen, eine Prise Flockensalz, und sofort mit Tostadas an den Tisch bringen." }
+      ],
+      "tips": [
+        "Kauf die frischesten Garnelen, die du bekommst, und sag deinem Fischhändler, dass sie roh verwendet werden.",
+        "Die Schärfe regulierst du, indem du die Serrano-Kerne vor dem Mixen drinlässt oder entfernst."
+      ],
+      "tags": ["meeresfrüchte", "roh", "scharf", "ohne kochen"]
+    },
+    "cacio-e-pepe": {
+      "title": "Cacio e Pepe",
+      "course": "Pasta",
+      "origin": "Rom, Italien",
+      "excerpt": "Drei Zutaten und absolut kein Versteck. Die römische Prüfung, ob du eine Emulsion zum Gehorchen bringst.",
+      "intro": [
+        "Cacio e Pepe ist das Gericht, das selbstsichere Köche demütigt. Käse, Pfeffer, Pasta und eine Sauce, die in dem Moment, in dem du hetzt, zu einer fettigen Masse gerinnt. Das Geheimnis ist die Temperatur: Pecorino verklumpt in kochendem Wasser, also muss das stärkereiche Kochwasser heiß, aber nicht brühend sein, wenn es auf den Käse trifft.",
+        "Arbeite schnell, weg vom Herd, und vertraue der Stärke."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 200, "unit": "g", "name": "Tonnarelli oder Spaghetti" },
+            { "qty": 120, "unit": "g", "name": "Pecorino Romano", "note": "fein gerieben" },
+            { "qty": 2, "unit": "TL", "name": "schwarze Pfefferkörner", "note": "grob zerstoßen" },
+            { "name": "Salz", "note": "für das Pastawasser" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Sparsam salzen", "body": "Die Pasta in weniger Wasser als üblich kochen und sparsam salzen: Pecorino ist salzig, und du willst das Wasser stärkehaltig." },
+        { "title": "Pfeffer aufwecken", "body": "Den zerstoßenen Pfeffer in einer weiten Pfanne rösten, bis er duftet, dann eine Kelle Pastawasser für eine duftende Basis dazugeben.", "minutes": 2 },
+        { "title": "Die Creme machen", "body": "In einer Schüssel den Pecorino mit etwas lauwarmem Pastawasser zu einer dicken, klümpchenfreien Paste verrühren. Das leichte Abkühlen des Wassers verhindert, dass der Käse verklumpt." },
+        { "title": "Weg vom Herd emulgieren", "body": "Die Pasta kurz vor al dente abgießen und in der Pfeffer-Pfanne schwenken. Weg vom Herd die Käsepaste zugeben und kräftig schwenken, mit Spritzern Wasser lockern, bis eine glänzende, anhaftende Sauce entsteht.", "minutes": 3 },
+        { "title": "Sofort servieren", "body": "Sofort anrichten mit einer weiteren Umdrehung Pfeffer und etwas Pecorino. Sie wartet auf niemanden." }
+      ],
+      "tips": [
+        "Reibe den Pecorino so fein wie möglich: grober Käse kämpft gegen die Emulsion.",
+        "Wenn sie gerinnt, vom Herd nehmen und etwas kaltes Wasser einrühren, um sie zurückzuholen."
+      ],
+      "tags": ["pasta", "käse", "schnell", "vegetarisch"]
+    },
+    "risotto-al-limone": {
+      "title": "Risotto al Limone",
+      "course": "Risotto",
+      "origin": "Mailand, Italien",
+      "excerpt": "Die Mantecatura, das finale Einschlagen von Butter und Käse, ist, wo aus einem gewöhnlichen Risotto ein Restaurant-Risotto wird.",
+      "intro": [
+        "Zitronenrisotto lebt und stirbt durch zwei Techniken zugleich: den langsamen, aufmerksamen Aufbau mit Brühe und die heftige Mantecatura in letzter Sekunde, die kalte Butter und Käse zu einer Welle aufschlägt, die du über den Teller streichen kannst. Die Zitrone kommt spät, damit sie frisch bleibt statt verkocht.",
+        "Ein gutes Risotto sollte all’onda sein: sich wie eine Welle bewegen, wenn man den Teller neigt, niemals steif."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 320, "unit": "g", "name": "Carnaroli-Reis" },
+            { "qty": 1.2, "unit": "l", "name": "heiße Gemüsebrühe" },
+            { "qty": 1, "name": "Schalotte", "note": "fein gewürfelt" },
+            { "qty": 120, "unit": "ml", "name": "trockener Weißwein" },
+            { "qty": 2, "name": "Zitronen", "note": "Abrieb und Saft" },
+            { "qty": 80, "unit": "g", "name": "kalte Butter", "note": "gewürfelt" },
+            { "qty": 70, "unit": "g", "name": "Parmigiano-Reggiano", "note": "gerieben" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Anschwitzen und rösten", "body": "Die Schalotte sanft in etwas Butter weich dünsten, dann den Reis dazugeben und rösten, bis die Körner an den Rändern glasig werden und nussig duften.", "minutes": 3 },
+        { "title": "Ablöschen", "body": "Den Wein angießen und vollständig einkochen lassen, dabei den Pfannenboden abkratzen." },
+        { "title": "Mit Brühe aufbauen", "body": "Die heiße Brühe kellenweise zugeben, oft rühren, jede Zugabe fast aufgesogen abwarten, bevor die nächste folgt. Hier wird die Stärke herausgelockt.", "minutes": 18 },
+        { "title": "Mantecatura", "body": "Wenn der Reis al dente ist, vom Herd ziehen. Die kalte Butter und den Parmesan kräftig einschlagen, bis das Risotto cremig und glänzend wird, dann Zitronenabrieb und -saft unterheben.", "minutes": 2 },
+        { "title": "Ruhen und anrichten", "body": "Eine Minute ruhen lassen, auf warme Teller streichen und den Boden antippen, damit es sich zu einer Welle setzt." }
+      ],
+      "tips": [
+        "Die Brühe in einem benachbarten Topf heiß halten: kalte Brühe stoppt das Garen und macht die Körner klebrig.",
+        "Eine Minute früher vom Herd nehmen; es gart auf dem Weg zum Tisch weiter."
+      ],
+      "tags": ["reis", "zitrone", "vegetarisch", "elegant"]
+    },
+    "pani-puri": {
+      "title": "Pani Puri",
+      "course": "Chaat",
+      "origin": "Mumbai, Indien",
+      "excerpt": "Ein ganzer Snack, konstruiert für einen perfekten Bissen: knusprige Schale, gewürztes Wasser und das Tempo der Hände eines Straßenhändlers.",
+      "intro": [
+        "Pani Puri ist Theater. Der Händler knackt jede knusprige Schale, füllt sie, taucht sie in kaltes gewürztes Wasser und reicht sie dir in der halben Sekunde, bevor sie aufweicht. Das Geniale ist das Pani: ein Tamarinden-Minz-Wasser, das zugleich sauer, scharf und kräuterig ist.",
+        "Bereite die Wasser im Voraus zu; setze nur am Tisch zusammen, Bissen für Bissen."
+      ],
+      "ingredients": [
+        {
+          "title": "Grünes Pani",
+          "items": [
+            { "qty": 1, "unit": "Bund", "name": "Minze" },
+            { "qty": 1, "unit": "Bund", "name": "Koriander" },
+            { "qty": 2, "name": "grüne Chilis" },
+            { "qty": 2, "unit": "EL", "name": "Tamarindenpaste" },
+            { "qty": 1, "unit": "TL", "name": "gerösteter Kreuzkümmel", "note": "gemahlen" },
+            { "qty": 1, "unit": "TL", "name": "schwarzes Salz" },
+            { "qty": 750, "unit": "ml", "name": "kaltes Wasser" }
+          ]
+        },
+        {
+          "title": "Zum Anrichten",
+          "items": [
+            { "qty": 24, "name": "Puri-Schalen", "note": "gekauft ist in Ordnung" },
+            { "qty": 1, "name": "Kartoffel", "note": "gekocht, gewürfelt" },
+            { "qty": 150, "unit": "g", "name": "Kichererbsen", "note": "gekocht" },
+            { "name": "Tamarinden-Chutney und Sev", "note": "zum Abschluss" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Pani mixen", "body": "Minze, Koriander, Chili, Tamarinde und Gewürze mit etwas Wasser zu einer leuchtenden Paste mixen, dann mit dem restlichen kalten Wasser lockern. Gut durchkühlen." },
+        { "title": "Füllung machen", "body": "Die gewürfelte Kartoffel und die Kichererbsen mit etwas schwarzem Salz und Kreuzkümmel vermengen." },
+        { "title": "Knacken und füllen", "body": "Mit dem Daumen oben in jede Puri ein Loch drücken und etwas Füllung hineingeben." },
+        { "title": "Eintauchen und essen", "body": "Die gefüllte Puri in das kalte Pani tauchen, sodass es die Schale flutet, und sie ganz, sofort, essen, bevor sie kapituliert." }
+      ],
+      "tips": [
+        "Serviere das Pani eiskalt: Wärme dämpft die ganze Wirkung.",
+        "Stell alles in Schüsseln bereit und lass die Gäste ihre eigene zusammensetzen; darum geht es."
+      ],
+      "tags": ["snack", "vegetarisch", "scharf", "zum teilen"]
+    },
+    "murgh-makhani": {
+      "title": "Murgh Makhani",
+      "course": "Curry",
+      "origin": "Delhi, Indien",
+      "excerpt": "Butter Chicken auf Restaurantart: gegrilltes Hähnchen im Tandoori-Stil, spät in eine seidig glatte Tomatensauce eingerührt.",
+      "intro": [
+        "Murgh Makhani wurde erfunden, um das Tandoori-Hähnchen von gestern zu verwerten, und dieser Ursprung ist das Geheimnis: das Hähnchen wird zuerst mariniert und gegrillt, dann in der Sauce vollendet, damit es seinen Rauch behält. Die Sauce wird ganz zum Schluss mit Butter, Sahne und einem Hauch zerriebenem Bockshornklee verfeinert.",
+        "Zwei Stufen, ein Topf Belohnung."
+      ],
+      "ingredients": [
+        {
+          "title": "Hähnchen",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "Hähnchenschenkel", "note": "ohne Knochen" },
+            { "qty": 150, "unit": "g", "name": "Joghurt" },
+            { "qty": 2, "unit": "EL", "name": "Ingwer-Knoblauch-Paste" },
+            { "qty": 1, "unit": "EL", "name": "Tandoori Masala" }
+          ]
+        },
+        {
+          "title": "Sauce",
+          "items": [
+            { "qty": 6, "name": "Tomaten", "note": "oder 400 g aus der Dose" },
+            { "qty": 2, "unit": "EL", "name": "Butter" },
+            { "qty": 1, "name": "Zwiebel" },
+            { "qty": 1, "unit": "EL", "name": "Ingwer-Knoblauch-Paste" },
+            { "qty": 1, "unit": "TL", "name": "Kaschmir-Chilipulver" },
+            { "qty": 100, "unit": "ml", "name": "Sahne" },
+            { "qty": 1, "unit": "TL", "name": "getrockneter Bockshornklee (kasuri methi)" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Marinieren", "body": "Das Hähnchen mit Joghurt, Ingwer-Knoblauch-Paste und Tandoori Masala bedecken und mindestens eine Stunde ziehen lassen." },
+        { "title": "Hähnchen grillen", "body": "Das marinierte Hähnchen in einer sehr heißen Pfanne oder unter dem Grill scharf anbraten, bis die Ränder schwärzen. Es muss noch nicht durchgegart sein.", "minutes": 8 },
+        { "title": "Sauce aufbauen", "body": "Die Zwiebel in Butter weich dünsten, Ingwer-Knoblauch und Chili, dann die Tomaten dazugeben. Einkochen, bis es marmeladig ist, glatt mixen und für die typische Seidigkeit durch ein Sieb passieren.", "minutes": 20 },
+        { "title": "Zusammenführen", "body": "Die Sauce zurück in den Topf geben, das gegrillte Hähnchen hineingleiten lassen und köcheln, bis es durch und glänzend ist.", "minutes": 12 },
+        { "title": "Reichhaltig abschließen", "body": "Weg vom Herd Sahne und Butter einrühren und den Bockshornklee zwischen den Handflächen darüber zerreiben. Vor dem Servieren mit Naan ruhen lassen." }
+      ],
+      "tips": [
+        "Die Sauce durch ein Sieb zu passieren ist der eine Schritt, der Restaurant von Zuhause trennt.",
+        "Den Kasuri Methi beim Zugeben in den Händen zerreiben, um sein Aroma freizusetzen."
+      ],
+      "tags": ["hähnchen", "curry", "cremig", "publikumsliebling"]
+    },
+    "steak-frites": {
+      "title": "Steak Frites",
+      "course": "Hauptgericht",
+      "origin": "Paris, Frankreich",
+      "excerpt": "Der Bistro-Maßstab. Eine ordentliche Kruste, ein rosa Kern, doppelt frittierte Pommes und ein Stück Café-de-Paris-Butter, das obenauf zerläuft.",
+      "intro": [
+        "Steak Frites ist eine Prüfung zweier Techniken zugleich: ein scharfes, gleichmäßiges Anbraten des Steaks und das doppelte Frittieren, das eine Pommes erst splittern und dann nachgeben lässt. Keine ist schwer; beide belohnen Aufmerksamkeit. Die zusammengesetzte Butter ist der Bistro-Schliff, der sie verbindet.",
+        "Lass das Steak so lange ruhen, wie du es gegart hast. Diese Geduld ist das Rezept."
+      ],
+      "ingredients": [
+        {
+          "title": "Steak",
+          "items": [
+            { "qty": 2, "name": "Rumpsteaks", "note": "dick geschnitten, je 250 g" },
+            { "qty": 1, "unit": "EL", "name": "neutrales Öl" },
+            { "qty": 30, "unit": "g", "name": "Butter" },
+            { "qty": 2, "name": "Knoblauchzehen", "note": "zerdrückt" },
+            { "qty": 1, "unit": "Zweig", "name": "Thymian" }
+          ]
+        },
+        {
+          "title": "Frites",
+          "items": [
+            { "qty": 600, "unit": "g", "name": "Maris-Piper-Kartoffeln", "note": "in Stäbchen geschnitten" },
+            { "qty": 1, "unit": "l", "name": "Frittieröl" },
+            { "name": "Flockensalz", "note": "zum Abschluss" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Erstes Frittieren, niedrig", "body": "Die Kartoffelstäbchen abspülen und gut trocknen. Bei niedriger Temperatur sanft frittieren, bis sie weich, aber blass sind, dann abtropfen und vollständig auskühlen lassen.", "minutes": 8 },
+        { "title": "Steak temperieren", "body": "Die Steaks salzen und auf Raumtemperatur kommen lassen. Ein kaltes Steak brät ungleichmäßig an." },
+        { "title": "Anbraten und arrosieren", "body": "Die Steaks in Öl scharf anbraten, ohne sie zu bewegen, dann Butter, Knoblauch und Thymian zugeben und die schäumende Butter darüberlöffeln, bis sich eine Kruste bildet und der Kern deinen Wunsch erreicht.", "minutes": 6 },
+        { "title": "Ruhen", "body": "Die Steaks so lange an einem warmen Ort ruhen lassen, wie du sie gegart hast, während du die Pommes fertigstellst." },
+        { "title": "Zweites Frittieren, heiß", "body": "Das Öl hochdrehen und die Pommes erneut frittieren, bis sie tiefgoldbraun und blasig sind. Abtropfen, aus der Höhe salzen und sofort neben dem geruhten Steak servieren.", "minutes": 4 }
+      ],
+      "tips": [
+        "Zwei Temperaturen machen die Pommes: niedrig zum Durchgaren, hoch zum Knusprigmachen.",
+        "Das Steak gegen die Faser schneiden, damit jeder Bissen zart bleibt."
+      ],
+      "tags": ["rind", "klassisch", "frittiert", "zu zweit"]
+    },
+    "souffle-au-fromage": {
+      "title": "Soufflé au Fromage",
+      "course": "Hauptgericht",
+      "origin": "Lyon, Frankreich",
+      "excerpt": "Das Gericht, das Reputationen begründete. Eine Béchamel, ein Baiser und die Nerven, die Ofentür nicht zu öffnen.",
+      "intro": [
+        "Ein Käsesoufflé ist reine Technik, essbar gemacht. Es ist eine mit aufgeschlagenem Eiweiß aufgehellte Béchamel, und sein Aufgehen hängt vollständig davon ab, wie sanft du hebst und wie stabil dein Ofen hält. Es gibt kein Korrigieren, wenn es drin ist; es gibt nur die Architektur, die du vorher baust.",
+        "Serviere es in dem Augenblick, in dem es aus dem Ofen kommt: ein Soufflé wartet auf keinen Gast, und das Fallen ist seine Natur, nicht sein Versagen."
+      ],
+      "ingredients": [
+        {
+          "title": "Basis",
+          "items": [
+            { "qty": 50, "unit": "g", "name": "Butter", "note": "plus extra für die Förmchen" },
+            { "qty": 50, "unit": "g", "name": "Mehl" },
+            { "qty": 350, "unit": "ml", "name": "Vollmilch", "note": "lauwarm" },
+            { "qty": 4, "name": "Eigelb" },
+            { "qty": 120, "unit": "g", "name": "Gruyère", "note": "gerieben" },
+            { "qty": 1, "unit": "Prise", "name": "Muskatnuss" }
+          ]
+        },
+        {
+          "title": "Baiser",
+          "items": [
+            { "qty": 5, "name": "Eiweiß" },
+            { "qty": 1, "unit": "Prise", "name": "Weinstein" },
+            { "qty": 2, "unit": "EL", "name": "fein geriebener Parmesan", "note": "zum Auskleiden der Förmchen" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Förmchen vorbereiten", "body": "Die Förmchen in Aufwärtsstrichen buttern und mit geriebenem Parmesan auskleiden: das gibt dem Soufflé etwas zum Hochklettern. Kalt stellen." },
+        { "title": "Béchamel machen", "body": "Butter und Mehl zu einer Mehlschwitze garen, dann die lauwarme Milch einrühren und zu einer dicken, glatten Sauce kochen. Weg vom Herd Eigelb, Gruyère und Muskat einrühren.", "minutes": 8 },
+        { "title": "Eiweiß schlagen", "body": "Das Eiweiß mit Weinstein zu festen, glänzenden Spitzen schlagen: fest genug zum Halten, nicht so weit, dass es körnig wird.", "minutes": 4 },
+        { "title": "Heben, nicht rühren", "body": "Einen Löffel Eiweiß in die lauwarme Basis rühren, um sie zu lockern, dann den Rest in zwei Portionen mit leichter Hand unterheben, dabei so viel Luft wie möglich bewahren." },
+        { "title": "Backen und Nerven behalten", "body": "Die Förmchen füllen, mit dem Daumen um jeden Rand fahren, um das Aufgehen zu unterstützen, und in einem gleichmäßig heißen Ofen backen, ohne die Tür zu öffnen, bis es aufgegangen und gerade gestockt ist mit weichem Kern.", "minutes": 22 }
+      ],
+      "tips": [
+        "Ein Streifen lauwarmer Béchamel im Eiweiß ist in Ordnung; Übermischen ist fatal.",
+        "Öffne den Ofen nicht vor den letzten Minuten, sonst lässt der Temperatursturz das Aufgehen einstürzen."
+      ],
+      "tags": ["käse", "backen", "vegetarisch", "glanzstück"]
+    },
+    "pad-kra-pao": {
+      "title": "Pad Kra Pao",
+      "course": "Reisgericht",
+      "origin": "Bangkok, Thailand",
+      "excerpt": "Das Gericht, das Thailand wirklich isst: Heiliges Basilikum, Chili und ein kreischender Wok, gekrönt von einem Spiegelei mit knusprigen Rändern.",
+      "intro": [
+        "Pad Kra Pao ist aus gutem Grund die Standardbestellung in ganz Thailand: es ist schnell, wild und auf einem Wok aufgebaut, der heiß genug ist, dir Angst zu machen. Das Heilige Basilikum ist nicht verhandelbar: seine pfeffrige, fast medizinische Note ist die ganze Identität des Tellers.",
+        "Ein laufendes Spiegelei mit spitzenartigen Rändern obenauf ist in keiner ernsthaften Küche optional."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 300, "unit": "g", "name": "Hackfleisch vom Schwein oder Huhn" },
+            { "qty": 4, "name": "Knoblauchzehen" },
+            { "qty": 4, "name": "Vogelaugen-Chilis" },
+            { "qty": 2, "unit": "EL", "name": "Austernsauce" },
+            { "qty": 1, "unit": "EL", "name": "Sojasauce" },
+            { "qty": 1, "unit": "TL", "name": "Fischsauce" },
+            { "qty": 1, "unit": "TL", "name": "Zucker" },
+            { "qty": 1, "unit": "große Handvoll", "name": "Heiliges Basilikum" },
+            { "qty": 2, "name": "Eier", "note": "zum Braten" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Aromaten stampfen", "body": "Knoblauch und Chili in einem Mörser zu einer groben Paste stampfen: ein saubererer Schnitt als ein Mixer, und es schlägt mehr Aroma heraus." },
+        { "title": "Erst die Eier braten", "body": "In heißem Öl die Eier braten, bis das Eiweiß blasig und an den Rändern spitzenartig ist, die Eigelbe aber laufend bleiben. Beiseitestellen.", "minutes": 3 },
+        { "title": "Den Wok rauchen lassen", "body": "Im selben heißen Öl die Knoblauch-Chili-Paste einige Sekunden braten, dann das Hackfleisch dazugeben und zerteilen, sodass es ansetzt und bräunt.", "minutes": 4 },
+        { "title": "Sauce und Basilikum", "body": "Austernsauce, Soja, Fischsauce und Zucker zugeben, schwenken, dann die Hitze abstellen und das Heilige Basilikum unterheben, sodass es nur zusammenfällt." },
+        { "title": "Anrichten", "body": "Über gedämpftem Reis anrichten und mit einem Spiegelei krönen. Mit Chili-Fischsauce dazu essen." }
+      ],
+      "tips": [
+        "Heiliges Basilikum, nicht thailändisches Süßbasilikum: der Geschmack ist völlig anders.",
+        "Das Hackfleisch zwischen dem Rühren im Wok ruhen lassen, damit es bräunt, statt zu schmoren."
+      ],
+      "tags": ["schnell", "schwein", "scharf", "alltag"]
+    },
+    "massaman-curry": {
+      "title": "Massaman Curry",
+      "course": "Curry",
+      "origin": "Südthailand",
+      "excerpt": "Thailands sanftestes Curry: ein langsamer, gewürzter Schmortopf, in dem Kardamom und Zimt auf Kokos und ein langes, geduldiges Köcheln treffen.",
+      "intro": [
+        "Massaman ist das Curry, das Grenzen überschritt: persische und indische Gewürze, eingefaltet in eine thailändische Kokosbasis, dann köcheln gelassen, bis das Rindfleisch nachgibt. Es ist süß, warm und fast schläfrig im Vergleich zu seinen feurigen Cousins: ein Gericht, das Zeit mehr belohnt als Können.",
+        "Die eigene Paste zu rösten und zu stampfen ist, was es hebt; das Köcheln erledigt den Rest."
+      ],
+      "ingredients": [
+        {
+          "title": "Paste",
+          "items": [
+            { "qty": 4, "name": "getrocknete rote Chilis", "note": "eingeweicht" },
+            { "qty": 4, "name": "Schalotten" },
+            { "qty": 4, "name": "Knoblauchzehen" },
+            { "qty": 1, "unit": "EL", "name": "Koriandersamen" },
+            { "qty": 4, "name": "Kardamomkapseln" },
+            { "qty": 1, "unit": "Stange", "name": "Zimt" },
+            { "qty": 1, "unit": "EL", "name": "Galgant", "note": "gehackt" }
+          ]
+        },
+        {
+          "title": "Schmoren",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "Rinderbeinscheibe", "note": "in Stücken" },
+            { "qty": 400, "unit": "ml", "name": "Kokosmilch" },
+            { "qty": 2, "unit": "EL", "name": "Tamarindenpaste" },
+            { "qty": 2, "unit": "EL", "name": "Palmzucker" },
+            { "qty": 2, "unit": "EL", "name": "Fischsauce" },
+            { "qty": 2, "name": "Kartoffeln", "note": "in Stücken" },
+            { "qty": 60, "unit": "g", "name": "geröstete Erdnüsse" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Rösten und stampfen", "body": "Die ganzen Gewürze rösten, bis sie duften, dann alles für die Paste zu einer glatten, duftenden Masse stampfen; oder mit einem Schuss Wasser pürieren.", "minutes": 10 },
+        { "title": "Die Kokoscreme brechen", "body": "Den dicken oberen Teil der Kokosmilch köcheln, bis er bricht und das Öl aufsteigt, dann die Paste darin braten, bis sie tief aromatisch ist.", "minutes": 6 },
+        { "title": "Anbraten und schmoren", "body": "Das Rindfleisch zugeben und mit der Paste überziehen, dann die restliche Kokosmilch und so viel Wasser angießen, dass es bedeckt ist. Niedrig und langsam köcheln, bis das Fleisch zart ist.", "minutes": 60 },
+        { "title": "Ausbalancieren und abschließen", "body": "Kartoffeln, Tamarinde, Palmzucker und Fischsauce zugeben und garen, bis die Kartoffel weich ist und die Sauce zugleich süß, sauer und salzig schmeckt.", "minutes": 15 },
+        { "title": "Servieren", "body": "Mit gerösteten Erdnüssen bestreuen und mit Jasminreis servieren." }
+      ],
+      "tips": [
+        "Rinderbeinscheibe oder -backe belohnt das lange Garen weit besser als ein magerer Schnitt.",
+        "Am Ende ausbalancieren: ein Massaman soll rund und sanft sein, niemals scharfkantig."
+      ],
+      "tags": ["rind", "curry", "langsam", "wohlfühlessen"]
+    }
+  }
+}

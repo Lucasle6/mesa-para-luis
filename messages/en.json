@@ -1,0 +1,719 @@
+{
+  "ui": {
+    "meta": {
+      "siteDescription": "A cooking journal from the street to the pass — recipes and techniques across world cuisines, from the night-market stall to the Michelin kitchen."
+    },
+    "nav": {
+      "cuisines": "Cuisines",
+      "recipes": "Recipes",
+      "about": "The journal",
+      "start": "Start cooking",
+      "home": "home",
+      "open": "Open menu",
+      "close": "Close menu",
+      "language": "Language",
+      "skip": "Skip to content"
+    },
+    "hero": {
+      "eyebrow": "A cooking journal · est. 2026",
+      "titleA": "From the street",
+      "titleB": "to the pass.",
+      "lede": "One idea, traced across the whole map of food — from a night-market cart to the Michelin pass. Real recipes, the techniques behind them, and the stories that carried them around the world.",
+      "browse": "Browse recipes",
+      "cuisines": "Cuisines",
+      "quote": "Everything in its place — then the cooking is easy.",
+      "stats": "{c} cuisines · {r} recipes"
+    },
+    "home": {
+      "mapEyebrow": "01 — The map",
+      "mapTitle": "Six kitchens, one obsession with getting it right.",
+      "allCuisines": "All cuisines",
+      "explore": "Explore {name}",
+      "roadEyebrow": "02 — The through-line",
+      "roadTitle": "Every dish sits somewhere on the same road.",
+      "roadLede": "The street stall and the tasting menu are not rivals — they are two points on one journey. Mesa para Luis marks where each recipe falls, so you always know what kind of evening you are signing up for.",
+      "roadCta": "Cook by level",
+      "featuredEyebrow": "03 — On the pass",
+      "featuredTitle": "What we’re cooking now.",
+      "everyRecipe": "Every recipe",
+      "ctaEyebrow": "The weekly dispatch",
+      "ctaTitle": "One recipe, one technique, one story — every Sunday.",
+      "ctaBtn": "Start with a recipe"
+    },
+    "levels": {
+      "1": { "label": "Street", "blurb": "Carts, stalls, night markets" },
+      "2": { "label": "Home", "blurb": "Family kitchens, weeknights" },
+      "3": { "label": "Bistro", "blurb": "Neighbourhood restaurants" },
+      "4": { "label": "Fine", "blurb": "Tasting menus, refined" },
+      "5": { "label": "Pass", "blurb": "Michelin-level technique" }
+    },
+    "heat": {
+      "Easy": "Gentle",
+      "Medium": "Steady",
+      "Hard": "Demanding",
+      "Expert": "Exacting"
+    },
+    "spec": {
+      "time": "Time",
+      "heat": "Heat",
+      "origin": "Origin",
+      "course": "Course"
+    },
+    "techniqueLevel": "Technique level",
+    "recipe": {
+      "ingredients": "Ingredients",
+      "method": "Method",
+      "gathered": "{checked}/{total} gathered",
+      "done": "{done}/{total} done",
+      "fromPass": "From the pass",
+      "keepCooking": "Keep cooking",
+      "print": "Print recipe",
+      "fewer": "Fewer servings",
+      "more": "More servings",
+      "serving": "serving",
+      "servings": "servings",
+      "min": "min",
+      "allRecipes": "All recipes",
+      "breadcrumb": "Recipes"
+    },
+    "explorer": {
+      "searchPlaceholder": "Search dishes, ingredients, cities…",
+      "cuisine": "Cuisine",
+      "level": "Technique level",
+      "any": "Any",
+      "all": "All",
+      "sort": "Sort",
+      "sortFeatured": "Featured",
+      "sortQuick": "Quickest",
+      "sortLevelAsc": "Street → Pass",
+      "sortLevelDesc": "Pass → Street",
+      "clear": "Clear",
+      "resultOne": "1 recipe",
+      "resultMany": "{count} recipes",
+      "emptyTitle": "Nothing on this pass.",
+      "emptyBody": "No recipe matches those filters yet — try widening the search.",
+      "reset": "Reset filters"
+    },
+    "footer": {
+      "tagline": "A cooking journal tracing one idea across the whole map of food — from the street to the pass. Written, cooked and photographed by one pair of hands.",
+      "cuisinesHeading": "Cuisines",
+      "journalHeading": "The journal",
+      "allRecipes": "All recipes",
+      "browseCuisines": "Browse cuisines",
+      "about": "About Mesa para Luis",
+      "rights": "All rights reserved",
+      "madeWith": "Made with patience and a very hot pan.",
+      "newsletterLabel": "The weekly dispatch",
+      "newsletterPlaceholder": "you@kitchen.com",
+      "join": "Join",
+      "newsletterDone": "You’re on the list. The next dispatch lands soon.",
+      "newsletterError": "That email doesn’t look right — check it over?"
+    },
+    "about": {
+      "eyebrow": "The journal",
+      "titleA": "One cook,",
+      "titleB": "one road,",
+      "titleC": "the whole map of food.",
+      "lede1": "Mesa para Luis began with a stubborn idea: that the night-market stall and the three-star kitchen are telling the same story at different volumes. This is a journal of chasing that story — cooking a dish at street level, then following it all the way up to the pass to see what the technique was really hiding.",
+      "lede2": "Everything here is cooked, eaten and photographed by one pair of hands. If a recipe is on the site, it has been made enough times to trust.",
+      "quote": "Everything in its place — then the cooking is easy.",
+      "quoteAttr": "Mise en place — the first lesson of every kitchen",
+      "statsCuisines": "Cuisines",
+      "statsRecipes": "Recipes",
+      "statsLevels": "Technique levels",
+      "statsPans": "Pans ruined",
+      "believe": "What we believe",
+      "principles": [
+        {
+          "title": "Technique over trend",
+          "body": "Every recipe earns its place on a real method — something you will still use in ten years, not a passing plating fad."
+        },
+        {
+          "title": "The street counts",
+          "body": "A perfect taco al pastor and a faultless soufflé are the same pursuit. We refuse the snobbery that says only one of them matters."
+        },
+        {
+          "title": "Written to be cooked",
+          "body": "No 1,500-word preamble before the recipe. Clear steps, real timings, and the one tip that actually changes the outcome."
+        }
+      ],
+      "ctaTitle": "Pull up a stool. Let’s cook something.",
+      "ctaBtn": "Browse the recipes"
+    },
+    "cuisinesPage": {
+      "eyebrow": "The map",
+      "titleA": "Six worlds,",
+      "titleB": "one road each.",
+      "lede": "Every cuisine here is followed from its loudest street corner to its quietest dining room. Pick a world to wander into.",
+      "recipesWord": "recipes"
+    },
+    "cuisinePage": {
+      "breadcrumb": "Cuisines",
+      "tableTitle": "The {name} table",
+      "runs": "This collection runs",
+      "allRecipes": "All recipes"
+    },
+    "recipesPage": {
+      "eyebrow": "The full index",
+      "titleA": "Every recipe,",
+      "titleB": "filterable.",
+      "lede": "12 dishes across 6 cuisines. Search by name, city or ingredient — or narrow by how far down the road you feel like travelling tonight."
+    },
+    "notFound": {
+      "eyebrow": "404 — Off the menu",
+      "title": "86’d.",
+      "body": "That page isn’t on tonight’s service. Let’s get you back to something you can actually cook.",
+      "btn": "Back to the kitchen"
+    }
+  },
+  "cuisines": {
+    "japanese": {
+      "name": "Japanese",
+      "region": "Japan",
+      "tagline": "Restraint as a flavour",
+      "description": "A cuisine that trusts a few faultless ingredients more than a long list. We follow it from a yatai cart steaming on a Fukuoka backstreet to the near-silent precision of a kaiseki counter.",
+      "accentDish": "Dashi"
+    },
+    "mexican": {
+      "name": "Mexican",
+      "region": "Mexico",
+      "tagline": "Fire, lime, and time",
+      "description": "Layered, ancient, and loud in the best way. From a spit of al pastor turning on a Mexico City corner to the bright, knife-led plates of the new Oaxacan dining rooms.",
+      "accentDish": "Salsa"
+    },
+    "italian": {
+      "name": "Italian",
+      "region": "Italy",
+      "tagline": "Fewer things, done right",
+      "description": "The discipline of subtraction. A Roman trattoria plate of cacio e pepe and a Milanese risotto finished tableside share the same stubborn belief: ingredients first, technique in service of them.",
+      "accentDish": "Pasta"
+    },
+    "indian": {
+      "name": "Indian",
+      "region": "India",
+      "tagline": "A grammar of spice",
+      "description": "Spice as language, not heat. We trace it from a Mumbai chaat stall assembling pani puri at speed to the slow, butter-rich gravies that built the restaurant North-Indian canon.",
+      "accentDish": "Masala"
+    },
+    "french": {
+      "name": "French",
+      "region": "France",
+      "tagline": "The mother of technique",
+      "description": "The cuisine the rest of the kitchen is measured against. From a zinc-bar steak frites to a soufflé that lives or dies by your wrist, France is where method becomes muscle memory.",
+      "accentDish": "Sauce"
+    },
+    "thai": {
+      "name": "Thai",
+      "region": "Thailand",
+      "tagline": "Balance you can taste",
+      "description": "Hot, sour, salty, sweet — held in tension on a single spoon. From a wok screaming over a Bangkok street burner to the composed curries of the royal kitchens.",
+      "accentDish": "Nam pla"
+    }
+  },
+  "recipes": {
+    "yatai-yakisoba": {
+      "title": "Yatai Yakisoba",
+      "course": "Noodles",
+      "origin": "Fukuoka, Japan",
+      "excerpt": "The sound of a festival in a single pan — springy noodles, a smoky sauce, and the discipline of a screaming-hot wok.",
+      "intro": [
+        "Yakisoba is street food in its purest argument: nothing here is difficult, and everything depends on heat. A yatai cook works one portion at a time over a flame you could not keep at home, which is exactly why the home version asks for two things — a hot pan and a refusal to crowd it.",
+        "The sauce does the talking. Build it once and you will keep a jar in the door of your fridge for the rest of your life."
+      ],
+      "ingredients": [
+        {
+          "title": "Sauce",
+          "items": [
+            { "qty": 3, "unit": "tbsp", "name": "Worcestershire sauce" },
+            { "qty": 2, "unit": "tbsp", "name": "oyster sauce" },
+            { "qty": 1, "unit": "tbsp", "name": "ketchup" },
+            { "qty": 1, "unit": "tbsp", "name": "soy sauce" },
+            { "qty": 1, "unit": "tsp", "name": "sugar" }
+          ]
+        },
+        {
+          "title": "Stir-fry",
+          "items": [
+            { "qty": 2, "unit": "portions", "name": "fresh yakisoba or ramen noodles" },
+            { "qty": 150, "unit": "g", "name": "pork belly", "note": "thinly sliced" },
+            { "qty": 0.25, "name": "green cabbage", "note": "roughly cut" },
+            { "qty": 1, "name": "carrot", "note": "julienned" },
+            { "qty": 2, "name": "spring onions" },
+            { "qty": 1, "unit": "tbsp", "name": "neutral oil" },
+            { "name": "Aonori, pickled ginger and bonito flakes", "note": "to finish" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Mix the sauce", "body": "Stir all the sauce ingredients together until the sugar dissolves. Taste — it should be sweet, tangy and savoury at once." },
+        { "title": "Loosen the noodles", "body": "Rinse the noodles under warm water and gently pull them apart with your fingers so they fry separately rather than clumping." },
+        { "title": "Sear the pork", "body": "Get the pan genuinely hot. Add oil, then the pork belly in a single layer. Leave it untouched until the edges crisp, then stir.", "minutes": 3 },
+        { "title": "Vegetables, then noodles", "body": "Add carrot and cabbage; toss for a minute so they keep a bite. Add the noodles and the sauce, and fold everything over high heat until glossy and just-charred in places.", "minutes": 4 },
+        { "title": "Finish", "body": "Off the heat, fold through the spring onions. Pile high and finish with aonori, ginger and a drift of bonito flakes that should curl in the steam." }
+      ],
+      "tips": [
+        "Cook in two batches if your pan is small — a crowded pan steams instead of fries.",
+        "No yakisoba noodles? Ramen, or even spaghetti boiled with a pinch of baking soda, will stand in."
+      ],
+      "tags": ["quick", "noodles", "pork", "weeknight"]
+    },
+    "silken-chawanmushi": {
+      "title": "Silken Chawanmushi",
+      "course": "Small plate",
+      "origin": "Kyoto, Japan",
+      "excerpt": "A savoury custard so smooth it barely holds its shape — the whole dish is a test of your dashi and your patience with heat.",
+      "intro": [
+        "Chawanmushi is the quietest showpiece in Japanese cooking. There is nowhere to hide: the custard sets on the strength of your dashi and the gentleness of your steam, and a single degree too hot leaves it pocked and weeping instead of trembling.",
+        "Treat the ratio — three parts dashi to one part egg — as law, and strain twice. Everything else is restraint."
+      ],
+      "ingredients": [
+        {
+          "title": "Custard",
+          "items": [
+            { "qty": 3, "name": "eggs", "note": "large" },
+            { "qty": 450, "unit": "ml", "name": "cold dashi" },
+            { "qty": 1, "unit": "tsp", "name": "light soy sauce (usukuchi)" },
+            { "qty": 1, "unit": "tsp", "name": "mirin" },
+            { "qty": 0.5, "unit": "tsp", "name": "fine salt" }
+          ]
+        },
+        {
+          "title": "Garnish",
+          "items": [
+            { "qty": 4, "name": "raw prawns", "note": "peeled" },
+            { "qty": 4, "name": "shiitake", "note": "sliced" },
+            { "qty": 8, "name": "ginkgo nuts or edamame" },
+            { "name": "Mitsuba or chives", "note": "to finish" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Build the base", "body": "Whisk the eggs without aerating — you want them broken, not frothy. Add the cold dashi, soy, mirin and salt, then stir gently." },
+        { "title": "Strain twice", "body": "Pass the mixture through a fine sieve twice. This is the difference between glass-smooth and grainy." },
+        { "title": "Fill the cups", "body": "Divide the prawns, shiitake and ginkgo among four heatproof cups. Pour the custard over and skim any bubbles from the surface with a spoon." },
+        { "title": "Steam low and slow", "body": "Steam over the gentlest heat with the lid cracked open, so the temperature never climbs past a bare simmer. The custard is done when it wobbles as one piece.", "minutes": 18 },
+        { "title": "Rest and crown", "body": "Rest two minutes, then lay over a sprig of mitsuba. Serve warm, with a spoon, to be eaten in silence." }
+      ],
+      "tips": [
+        "A toothpick should come out clean and the gap it leaves should fill slowly with clear, not cloudy, liquid.",
+        "Wrap the steamer lid in a cloth to stop condensation dripping and cratering the surface."
+      ],
+      "tags": ["custard", "steamed", "elegant", "seafood"]
+    },
+    "tacos-al-pastor": {
+      "title": "Tacos al Pastor",
+      "course": "Tacos",
+      "origin": "Mexico City, Mexico",
+      "excerpt": "Lebanese shawarma by way of a Mexico City corner — chillies, achiote and pineapple, shaved hot onto small warm tortillas.",
+      "intro": [
+        "Al pastor is a love letter between two cuisines: the vertical spit arrived with Lebanese immigrants, the marinade is unmistakably Mexican. Without a trompo at home, a hot oven and a final hard sear get you startlingly close.",
+        "The pineapple is not a garnish. Its acid is part of the marinade and its char is part of the taco."
+      ],
+      "ingredients": [
+        {
+          "title": "Marinade",
+          "items": [
+            { "qty": 3, "name": "guajillo chillies", "note": "stemmed, seeded" },
+            { "qty": 2, "name": "ancho chillies", "note": "stemmed, seeded" },
+            { "qty": 2, "unit": "tbsp", "name": "achiote paste" },
+            { "qty": 3, "name": "garlic cloves" },
+            { "qty": 60, "unit": "ml", "name": "pineapple juice" },
+            { "qty": 2, "unit": "tbsp", "name": "white vinegar" },
+            { "qty": 1, "unit": "tsp", "name": "dried oregano" },
+            { "qty": 1, "unit": "tsp", "name": "ground cumin" }
+          ]
+        },
+        {
+          "title": "To assemble",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "pork shoulder", "note": "sliced thin" },
+            { "qty": 0.5, "name": "fresh pineapple", "note": "in slabs" },
+            { "qty": 16, "name": "corn tortillas", "note": "small" },
+            { "qty": 1, "name": "white onion", "note": "finely diced" },
+            { "name": "Coriander and lime", "note": "to finish" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Wake the chillies", "body": "Toast the dried chillies in a dry pan until fragrant, then soak in hot water for ten minutes until pliable.", "minutes": 10 },
+        { "title": "Blend the marinade", "body": "Blend the soaked chillies with achiote, garlic, pineapple juice, vinegar and spices into a smooth, brick-red paste." },
+        { "title": "Marinate", "body": "Coat the sliced pork thoroughly and leave at least two hours, ideally overnight." },
+        { "title": "Roast and char", "body": "Stack the pork tightly in a loaf tin and roast hot, then slice and crisp the edges hard in a screaming pan. Char the pineapple alongside.", "minutes": 20 },
+        { "title": "Build small", "body": "Warm the tortillas, double them up, and pile on pork, a little pineapple, raw onion, coriander and a squeeze of lime. Eat immediately, standing up if possible." }
+      ],
+      "tips": [
+        "Two small tortillas per taco is not excess — it keeps the taco from tearing under the juices.",
+        "Freeze the pork for 30 minutes before slicing to get it paper-thin."
+      ],
+      "tags": ["pork", "tacos", "chilli", "grill"]
+    },
+    "aguachile-verde": {
+      "title": "Aguachile Verde",
+      "course": "Raw / Crudo",
+      "origin": "Sinaloa, Mexico",
+      "excerpt": "Prawns barely kissed by lime, drowned in a fierce green chilli water. A knife dish — all timing, no cooking.",
+      "intro": [
+        "Aguachile is the raw, electric cousin of ceviche. The acid only just touches the prawns, so freshness is not negotiable; the heat is immediate and the whole plate is assembled to order.",
+        "Serve it the moment it is dressed. A minute too long and the prawns tighten and turn chalky."
+      ],
+      "ingredients": [
+        {
+          "title": "Chilli water",
+          "items": [
+            { "qty": 120, "unit": "ml", "name": "lime juice", "note": "fresh" },
+            { "qty": 2, "name": "serrano chillies" },
+            { "qty": 1, "unit": "handful", "name": "coriander" },
+            { "qty": 0.5, "name": "cucumber", "note": "peeled" },
+            { "qty": 1, "unit": "clove", "name": "garlic" }
+          ]
+        },
+        {
+          "title": "To plate",
+          "items": [
+            { "qty": 500, "unit": "g", "name": "raw prawns", "note": "butterflied" },
+            { "qty": 0.5, "name": "red onion", "note": "shaved" },
+            { "qty": 0.5, "name": "cucumber", "note": "sliced thin" },
+            { "name": "Flaky salt and tostadas", "note": "to serve" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Blend the chilli water", "body": "Blend lime juice, serrano, coriander, cucumber and garlic until vivid green. Season with salt and pass through a sieve for a cleaner finish." },
+        { "title": "Soak the onion", "body": "Drop the shaved red onion into iced water for ten minutes so it turns crisp and loses its raw bite.", "minutes": 10 },
+        { "title": "Dress to order", "body": "Lay the butterflied prawns flat on a chilled plate. Pour the chilli water over only when you are ready to serve." },
+        { "title": "Finish and rush", "body": "Scatter cucumber and drained onion, a pinch of flaky salt, and bring it to the table at once with tostadas alongside." }
+      ],
+      "tips": [
+        "Buy the freshest prawns you can and tell your fishmonger they are going in raw.",
+        "Adjust heat by leaving in or removing the serrano seeds before blending."
+      ],
+      "tags": ["seafood", "raw", "spicy", "no-cook"]
+    },
+    "cacio-e-pepe": {
+      "title": "Cacio e Pepe",
+      "course": "Pasta",
+      "origin": "Rome, Italy",
+      "excerpt": "Three ingredients and absolutely nowhere to hide. The Roman test of whether you can make an emulsion behave.",
+      "intro": [
+        "Cacio e pepe is the dish that humbles confident cooks. Cheese, pepper, pasta — and a sauce that splits into a greasy mess the instant you rush it. The secret is temperature: pecorino seizes in boiling water, so the starch-rich cooking liquid must be hot but not scalding when it meets the cheese.",
+        "Work fast, off the heat, and trust the starch."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 200, "unit": "g", "name": "tonnarelli or spaghetti" },
+            { "qty": 120, "unit": "g", "name": "Pecorino Romano", "note": "finely grated" },
+            { "qty": 2, "unit": "tsp", "name": "black peppercorns", "note": "coarsely cracked" },
+            { "name": "Salt", "note": "for the pasta water" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Salt lightly", "body": "Cook the pasta in less water than usual and salt it sparingly — pecorino is salty, and you want the water starchy." },
+        { "title": "Bloom the pepper", "body": "Toast the cracked pepper in a wide pan until aromatic, then add a ladle of pasta water to make a fragrant base.", "minutes": 2 },
+        { "title": "Make the cream", "body": "In a bowl, mix the pecorino with a little cool pasta water into a thick, lump-free paste. Cooling the water slightly stops the cheese seizing." },
+        { "title": "Emulsify off the heat", "body": "Drain the pasta just shy of al dente and toss it in the peppery pan. Off the heat, add the cheese paste and toss hard, loosening with splashes of water until it turns into a glossy, clinging sauce.", "minutes": 3 },
+        { "title": "Serve at once", "body": "Plate immediately with an extra grind of pepper and a dusting of pecorino. It waits for no one." }
+      ],
+      "tips": [
+        "Grate the pecorino as finely as you can — coarse cheese fights the emulsion.",
+        "If it splits, take it off the heat and whisk in a little cold water to bring it back."
+      ],
+      "tags": ["pasta", "cheese", "quick", "vegetarian"]
+    },
+    "risotto-al-limone": {
+      "title": "Risotto al Limone",
+      "course": "Risotto",
+      "origin": "Milan, Italy",
+      "excerpt": "The mantecatura — that final beating-in of butter and cheese — is where an ordinary risotto becomes a restaurant one.",
+      "intro": [
+        "Lemon risotto lives and dies by two techniques: the slow, attentive building of stock, and the violent, last-second mantecatura that whips cold butter and cheese into a wave you can spread across the plate. The lemon arrives late, to keep it bright rather than cooked-out.",
+        "A good risotto should be all’onda — moving like a wave when you tilt the plate, never stiff."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 320, "unit": "g", "name": "carnaroli rice" },
+            { "qty": 1.2, "unit": "l", "name": "hot vegetable stock" },
+            { "qty": 1, "name": "shallot", "note": "finely diced" },
+            { "qty": 120, "unit": "ml", "name": "dry white wine" },
+            { "qty": 2, "name": "lemons", "note": "zest and juice" },
+            { "qty": 80, "unit": "g", "name": "cold butter", "note": "cubed" },
+            { "qty": 70, "unit": "g", "name": "Parmigiano-Reggiano", "note": "grated" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Sweat and toast", "body": "Soften the shallot gently in a little butter, then add the rice and toast it until the grains turn translucent at the edges and smell nutty.", "minutes": 3 },
+        { "title": "Deglaze", "body": "Pour in the wine and let it cook away completely, scraping the base of the pan." },
+        { "title": "Build the stock", "body": "Add hot stock a ladle at a time, stirring often, waiting until each addition is nearly absorbed before the next. This is where the starch is coaxed out.", "minutes": 18 },
+        { "title": "Mantecatura", "body": "When the rice is al dente, pull it off the heat. Beat in the cold butter and parmesan vigorously until the risotto turns creamy and glossy, then fold through the lemon zest and juice.", "minutes": 2 },
+        { "title": "Rest and plate", "body": "Rest one minute, then spread across warm plates and tap the base so it settles into a wave." }
+      ],
+      "tips": [
+        "Keep the stock hot in a neighbouring pan — cold stock stalls the cook and makes the grains gluey.",
+        "Take it off the heat one minute early; it keeps cooking on the way to the table."
+      ],
+      "tags": ["rice", "lemon", "vegetarian", "elegant"]
+    },
+    "pani-puri": {
+      "title": "Pani Puri",
+      "course": "Chaat",
+      "origin": "Mumbai, India",
+      "excerpt": "A whole snack engineered for one perfect bite — crisp shell, spiced water, and the speed of a street vendor’s hands.",
+      "intro": [
+        "Pani puri is theatre. The vendor cracks each crisp shell, stuffs it, dunks it in cold spiced water and hands it over in the half-second before it can go soggy. The genius is the pani — a tamarind-mint water that is sour, hot and herbal all at once.",
+        "Make the waters ahead; assemble only at the table, one bite at a time."
+      ],
+      "ingredients": [
+        {
+          "title": "Green pani",
+          "items": [
+            { "qty": 1, "unit": "bunch", "name": "mint" },
+            { "qty": 1, "unit": "bunch", "name": "coriander" },
+            { "qty": 2, "name": "green chillies" },
+            { "qty": 2, "unit": "tbsp", "name": "tamarind paste" },
+            { "qty": 1, "unit": "tsp", "name": "roasted cumin, ground" },
+            { "qty": 1, "unit": "tsp", "name": "black salt" },
+            { "qty": 750, "unit": "ml", "name": "cold water" }
+          ]
+        },
+        {
+          "title": "To assemble",
+          "items": [
+            { "qty": 24, "name": "puri shells", "note": "shop-bought is fine" },
+            { "qty": 1, "name": "potato", "note": "boiled, diced" },
+            { "qty": 150, "unit": "g", "name": "chickpeas", "note": "cooked" },
+            { "name": "Tamarind chutney and sev", "note": "to finish" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Blend the pani", "body": "Blend mint, coriander, chilli, tamarind and spices with a little water into a vivid paste, then loosen with the rest of the cold water. Chill it hard." },
+        { "title": "Make the filling", "body": "Toss the diced potato and chickpeas with a little black salt and cumin." },
+        { "title": "Crack and fill", "body": "Press a thumb through the top of each puri to make an opening, and spoon in a little filling." },
+        { "title": "Dunk and eat", "body": "Dip the filled puri into the cold pani so it floods the shell, then eat it whole, immediately, before it surrenders." }
+      ],
+      "tips": [
+        "Serve the pani ice-cold — warmth dulls the whole effect.",
+        "Set everything out in bowls and let guests assemble their own; that is the point."
+      ],
+      "tags": ["snack", "vegetarian", "spicy", "sharing"]
+    },
+    "murgh-makhani": {
+      "title": "Murgh Makhani",
+      "course": "Curry",
+      "origin": "Delhi, India",
+      "excerpt": "Butter chicken, built the restaurant way — charred tandoori-style chicken folded late into a silk-smooth tomato gravy.",
+      "intro": [
+        "Murgh makhani was invented to use yesterday’s tandoori chicken, and that origin is the secret: the chicken is marinated and charred first, then finished in the sauce so it keeps its smoke. The gravy is enriched at the very end with butter and cream and a whisper of crushed fenugreek.",
+        "Two stages, one pan of payoff."
+      ],
+      "ingredients": [
+        {
+          "title": "Chicken",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "chicken thigh", "note": "boneless" },
+            { "qty": 150, "unit": "g", "name": "yoghurt" },
+            { "qty": 2, "unit": "tbsp", "name": "ginger-garlic paste" },
+            { "qty": 1, "unit": "tbsp", "name": "tandoori masala" }
+          ]
+        },
+        {
+          "title": "Gravy",
+          "items": [
+            { "qty": 6, "name": "tomatoes", "note": "or 400g tinned" },
+            { "qty": 2, "unit": "tbsp", "name": "butter" },
+            { "qty": 1, "name": "onion" },
+            { "qty": 1, "unit": "tbsp", "name": "ginger-garlic paste" },
+            { "qty": 1, "unit": "tsp", "name": "kashmiri chilli powder" },
+            { "qty": 100, "unit": "ml", "name": "double cream" },
+            { "qty": 1, "unit": "tsp", "name": "dried fenugreek (kasuri methi)" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Marinate", "body": "Coat the chicken in yoghurt, ginger-garlic paste and tandoori masala and leave for at least an hour." },
+        { "title": "Char the chicken", "body": "Sear the marinated chicken hard in a very hot pan or under a grill until the edges blacken. It need not be cooked through yet.", "minutes": 8 },
+        { "title": "Build the gravy", "body": "Soften onion in butter, add ginger-garlic and chilli, then the tomatoes. Simmer until jammy, then blend smooth and pass through a sieve for that signature silk.", "minutes": 20 },
+        { "title": "Bring it together", "body": "Return the gravy to the pan, slide in the charred chicken and simmer until cooked through and glossy.", "minutes": 12 },
+        { "title": "Finish rich", "body": "Off the heat, swirl in cream and butter and crush the fenugreek between your palms over the top. Rest before serving with naan." }
+      ],
+      "tips": [
+        "Passing the gravy through a sieve is the single step that separates restaurant from home.",
+        "Crush the kasuri methi in your hands as you add it to release its aroma."
+      ],
+      "tags": ["chicken", "curry", "creamy", "crowd-pleaser"]
+    },
+    "steak-frites": {
+      "title": "Steak Frites",
+      "course": "Main",
+      "origin": "Paris, France",
+      "excerpt": "The bistro benchmark. A proper crust, a pink centre, twice-fried chips, and a pat of café de Paris butter melting over the top.",
+      "intro": [
+        "Steak frites is a test of two techniques running at once: a hard, even sear on the steak and the double-fry that makes a chip shatter then yield. Neither is hard; both reward attention. The compound butter is the bistro flourish that ties them together.",
+        "Rest the steak as long as you cooked it. That patience is the recipe."
+      ],
+      "ingredients": [
+        {
+          "title": "Steak",
+          "items": [
+            { "qty": 2, "name": "sirloin steaks", "note": "thick-cut, 250g each" },
+            { "qty": 1, "unit": "tbsp", "name": "neutral oil" },
+            { "qty": 30, "unit": "g", "name": "butter" },
+            { "qty": 2, "name": "garlic cloves", "note": "crushed" },
+            { "qty": 1, "unit": "sprig", "name": "thyme" }
+          ]
+        },
+        {
+          "title": "Frites",
+          "items": [
+            { "qty": 600, "unit": "g", "name": "Maris Piper potatoes", "note": "cut into batons" },
+            { "qty": 1, "unit": "l", "name": "frying oil" },
+            { "name": "Flaky salt", "note": "to finish" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "First fry, low", "body": "Rinse the potato batons and dry them well. Fry gently at a low temperature until soft but pale, then drain and cool completely.", "minutes": 8 },
+        { "title": "Temper the steak", "body": "Salt the steaks and let them sit at room temperature. A cold steak sears unevenly." },
+        { "title": "Sear and baste", "body": "Sear the steaks hard in oil without moving them, then add butter, garlic and thyme and spoon the foaming butter over until a crust forms and the centre reaches your liking.", "minutes": 6 },
+        { "title": "Rest", "body": "Rest the steaks somewhere warm for as long as you cooked them while you finish the chips." },
+        { "title": "Second fry, hot", "body": "Crank the oil up and fry the chips again until deep golden and blistered. Drain, salt from a height, and serve at once beside the rested steak.", "minutes": 4 }
+      ],
+      "tips": [
+        "Two temperatures make the chip: low to cook through, high to crisp.",
+        "Slice the steak against the grain so every bite stays tender."
+      ],
+      "tags": ["beef", "classic", "fried", "date-night"]
+    },
+    "souffle-au-fromage": {
+      "title": "Soufflé au Fromage",
+      "course": "Main",
+      "origin": "Lyon, France",
+      "excerpt": "The dish that built reputations. A béchamel, a meringue, and the nerve not to open the oven door.",
+      "intro": [
+        "A cheese soufflé is pure technique made edible. It is a béchamel lightened with whipped egg whites, and its rise depends entirely on how gently you fold and how steadily your oven holds. There is no fixing it once it is in; there is only the architecture you build beforehand.",
+        "Serve it the instant it leaves the oven — a soufflé waits for no diner, and falling is its nature, not its failure."
+      ],
+      "ingredients": [
+        {
+          "title": "Base",
+          "items": [
+            { "qty": 50, "unit": "g", "name": "butter", "note": "plus extra for the dishes" },
+            { "qty": 50, "unit": "g", "name": "plain flour" },
+            { "qty": 350, "unit": "ml", "name": "whole milk", "note": "warm" },
+            { "qty": 4, "name": "egg yolks" },
+            { "qty": 120, "unit": "g", "name": "Gruyère", "note": "grated" },
+            { "qty": 1, "unit": "pinch", "name": "nutmeg" }
+          ]
+        },
+        {
+          "title": "Meringue",
+          "items": [
+            { "qty": 5, "name": "egg whites" },
+            { "qty": 1, "unit": "pinch", "name": "cream of tartar" },
+            { "qty": 2, "unit": "tbsp", "name": "finely grated parmesan", "note": "to line the dishes" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Prepare the dishes", "body": "Butter the ramekins in upward strokes and coat with grated parmesan — this gives the soufflé something to climb. Chill them." },
+        { "title": "Make the béchamel", "body": "Cook the butter and flour into a roux, then whisk in the warm milk and cook to a thick, smooth sauce. Off the heat, beat in the yolks, Gruyère and nutmeg.", "minutes": 8 },
+        { "title": "Whip the whites", "body": "Whisk the whites with cream of tartar to firm, glossy peaks — stiff enough to hold, not so far they go grainy.", "minutes": 4 },
+        { "title": "Fold, do not stir", "body": "Stir a spoon of whites into the warm base to slacken it, then fold in the rest in two additions with a light hand, keeping as much air as you can." },
+        { "title": "Bake and hold your nerve", "body": "Fill the dishes, run a thumb around each rim to help the rise, and bake in a steady hot oven without opening the door until risen and just set with a soft centre.", "minutes": 22 }
+      ],
+      "tips": [
+        "A streak of warm béchamel left in the whites is fine; overmixing is fatal.",
+        "Do not open the oven before the final few minutes, or the temperature drop will collapse the rise."
+      ],
+      "tags": ["cheese", "baking", "vegetarian", "showpiece"]
+    },
+    "pad-kra-pao": {
+      "title": "Pad Kra Pao",
+      "course": "Rice plate",
+      "origin": "Bangkok, Thailand",
+      "excerpt": "The dish Thailand actually eats — holy basil, chilli and a screaming wok, finished with a crisp-edged fried egg.",
+      "intro": [
+        "Pad kra pao is the default order across Thailand for a reason: it is fast, fierce and built on a wok hot enough to scare you. The holy basil is non-negotiable — its peppery, almost medicinal note is the whole identity of the plate.",
+        "A runny, lace-edged fried egg on top is not optional in any serious kitchen."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 300, "unit": "g", "name": "minced pork or chicken" },
+            { "qty": 4, "name": "garlic cloves" },
+            { "qty": 4, "name": "bird's-eye chillies" },
+            { "qty": 2, "unit": "tbsp", "name": "oyster sauce" },
+            { "qty": 1, "unit": "tbsp", "name": "soy sauce" },
+            { "qty": 1, "unit": "tsp", "name": "fish sauce" },
+            { "qty": 1, "unit": "tsp", "name": "sugar" },
+            { "qty": 1, "unit": "large handful", "name": "holy basil" },
+            { "qty": 2, "name": "eggs", "note": "to fry" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Pound the aromatics", "body": "Pound the garlic and chilli to a rough paste in a mortar — a cleaner cut than a blender and it bruises out more aroma." },
+        { "title": "Fry the eggs first", "body": "In hot oil, fry the eggs until the whites are blistered and lacy at the edges but the yolks stay loose. Set aside.", "minutes": 3 },
+        { "title": "Get the wok smoking", "body": "In the same hot oil, fry the garlic-chilli paste for a few seconds, then add the mince and break it up, leaving it to catch and brown.", "minutes": 4 },
+        { "title": "Sauce and basil", "body": "Add the oyster sauce, soy, fish sauce and sugar, toss, then kill the heat and fold through the holy basil so it just wilts." },
+        { "title": "Plate", "body": "Spoon over steamed rice and crown with a fried egg. Eat with chilli fish sauce on the side." }
+      ],
+      "tips": [
+        "Holy basil, not Thai sweet basil — the flavour is completely different.",
+        "Leave the mince to sit in the wok between stirs so it browns instead of stewing."
+      ],
+      "tags": ["quick", "pork", "spicy", "weeknight"]
+    },
+    "massaman-curry": {
+      "title": "Massaman Curry",
+      "course": "Curry",
+      "origin": "Southern Thailand",
+      "excerpt": "Thailand’s gentlest curry — a slow, spiced braise where cardamom and cinnamon meet coconut and a long, patient simmer.",
+      "intro": [
+        "Massaman is the curry that crossed borders: Persian and Indian spices folded into a Thai coconut base, then left to simmer until the beef gives way. It is sweet, warm and almost sleepy compared to its fiery cousins — a dish that rewards time more than skill.",
+        "Toasting and pounding your own paste is what lifts it; the simmer does the rest."
+      ],
+      "ingredients": [
+        {
+          "title": "Paste",
+          "items": [
+            { "qty": 4, "name": "dried red chillies", "note": "soaked" },
+            { "qty": 4, "name": "shallots" },
+            { "qty": 4, "name": "garlic cloves" },
+            { "qty": 1, "unit": "tbsp", "name": "coriander seeds" },
+            { "qty": 4, "name": "cardamom pods" },
+            { "qty": 1, "unit": "stick", "name": "cinnamon" },
+            { "qty": 1, "unit": "tbsp", "name": "galangal", "note": "chopped" }
+          ]
+        },
+        {
+          "title": "Braise",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "beef shin", "note": "in chunks" },
+            { "qty": 400, "unit": "ml", "name": "coconut milk" },
+            { "qty": 2, "unit": "tbsp", "name": "tamarind paste" },
+            { "qty": 2, "unit": "tbsp", "name": "palm sugar" },
+            { "qty": 2, "unit": "tbsp", "name": "fish sauce" },
+            { "qty": 2, "name": "potatoes", "note": "in chunks" },
+            { "qty": 60, "unit": "g", "name": "roasted peanuts" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Toast and pound", "body": "Toast the whole spices until fragrant, then pound everything for the paste into a smooth, fragrant mass — or blitz with a splash of water.", "minutes": 10 },
+        { "title": "Crack the coconut cream", "body": "Simmer the thick top of the coconut milk until it splits and the oil rises, then fry the paste in it until deeply aromatic.", "minutes": 6 },
+        { "title": "Brown and braise", "body": "Add the beef and coat it in the paste, then pour in the rest of the coconut milk and enough water to cover. Simmer low and slow until the beef is tender.", "minutes": 60 },
+        { "title": "Balance and finish", "body": "Add potatoes, tamarind, palm sugar and fish sauce, and cook until the potato is soft and the sauce tastes sweet, sour and salty at once.", "minutes": 15 },
+        { "title": "Serve", "body": "Scatter with roasted peanuts and serve with jasmine rice." }
+      ],
+      "tips": [
+        "Beef shin or cheek rewards the long cook far better than a lean cut.",
+        "Balance at the end: a massaman should be rounded and gentle, never sharp."
+      ],
+      "tags": ["beef", "curry", "slow", "comfort"]
+    }
+  }
+}

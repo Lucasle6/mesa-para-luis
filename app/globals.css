@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --shell-pad: clamp(1.25rem, 5vw, 4rem);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: #BF3B2B;
+    color: #F6F3ED;
+  }
+
+  /* Visible, on-brand focus for keyboard users */
+  :focus-visible {
+    outline: 2px solid #BF3B2B;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .shell {
+    width: 100%;
+    max-width: var(--max-w, 1280px);
+    margin-inline: auto;
+    padding-inline: var(--shell-pad);
+  }
+
+  /* Mono eyebrow label — the structural "spec sheet" device */
+  .eyebrow {
+    @apply font-mono text-[0.7rem] uppercase tracking-label text-muted;
+  }
+
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+
+  .hairline {
+    @apply border-line;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  /* Hide scrollbar for horizontal tab rails while keeping it scrollable */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Respect users who prefer reduced motion — global safety net on top of
+   Framer Motion's per-component useReducedMotion handling. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print: clean recipe card for the kitchen */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .print-full {
+    grid-template-columns: 1fr !important;
+  }
+}

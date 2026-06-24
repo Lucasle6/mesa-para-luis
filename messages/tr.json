@@ -1,0 +1,719 @@
+{
+  "ui": {
+    "meta": {
+      "siteDescription": "Sokaktan geçiş tezgâhına bir yemek günlüğü — dünya mutfaklarından tarifler ve teknikler, gece pazarı tezgâhından Michelin mutfağına."
+    },
+    "nav": {
+      "cuisines": "Mutfaklar",
+      "recipes": "Tarifler",
+      "about": "Günlük",
+      "start": "Pişirmeye başla",
+      "home": "ana sayfa",
+      "open": "Menüyü aç",
+      "close": "Menüyü kapat",
+      "language": "Dil",
+      "skip": "İçeriğe geç"
+    },
+    "hero": {
+      "eyebrow": "Bir yemek günlüğü · 2026’dan beri",
+      "titleA": "Sokaktan",
+      "titleB": "geçiş tezgâhına.",
+      "lede": "Tek bir fikir, yemeğin tüm haritasında izlendi: bir gece pazarı arabasından Michelin geçiş tezgâhına. Gerçek tarifler, ardındaki teknikler ve onları dünyaya taşıyan hikâyeler.",
+      "browse": "Tariflere göz at",
+      "cuisines": "Mutfaklar",
+      "quote": "Her şey yerli yerinde, sonra pişirmek kolay.",
+      "stats": "{c} mutfak · {r} tarif"
+    },
+    "home": {
+      "mapEyebrow": "01 — Harita",
+      "mapTitle": "Altı mutfak, doğru yapmaya dair tek bir tutku.",
+      "allCuisines": "Tüm mutfaklar",
+      "explore": "{name} mutfağını keşfet",
+      "roadEyebrow": "02 — Ortak çizgi",
+      "roadTitle": "Her tabak aynı yolun bir yerinde durur.",
+      "roadLede": "Sokak tezgâhı ve tadım menüsü rakip değil: tek bir yolculuğun iki noktasıdır. Mesa para Luis her tarifin nereye düştüğünü işaretler, böylece nasıl bir akşama girdiğini hep bilirsin.",
+      "roadCta": "Seviyeye göre pişir",
+      "featuredEyebrow": "03 — Geçiş tezgâhında",
+      "featuredTitle": "Şu an ne pişiriyoruz.",
+      "everyRecipe": "Tüm tarifler",
+      "ctaEyebrow": "Haftalık bülten",
+      "ctaTitle": "Bir tarif, bir teknik, bir hikâye: her pazar.",
+      "ctaBtn": "Bir tarifle başla"
+    },
+    "levels": {
+      "1": { "label": "Sokak", "blurb": "Arabalar, tezgâhlar, gece pazarları" },
+      "2": { "label": "Ev", "blurb": "Aile mutfakları, hafta içi" },
+      "3": { "label": "Bistro", "blurb": "Mahalle restoranları" },
+      "4": { "label": "Rafine", "blurb": "Tadım menüleri, ince teknik" },
+      "5": { "label": "Geçiş", "blurb": "Michelin düzeyinde teknik" }
+    },
+    "heat": {
+      "Easy": "Nazik",
+      "Medium": "Dengeli",
+      "Hard": "Zorlu",
+      "Expert": "Kusursuz"
+    },
+    "spec": {
+      "time": "Süre",
+      "heat": "Zorluk",
+      "origin": "Köken",
+      "course": "Tür"
+    },
+    "techniqueLevel": "Teknik seviyesi",
+    "recipe": {
+      "ingredients": "Malzemeler",
+      "method": "Yapılışı",
+      "gathered": "{checked}/{total} hazır",
+      "done": "{done}/{total} tamam",
+      "fromPass": "Tezgâhtan",
+      "keepCooking": "Pişirmeye devam",
+      "print": "Tarifi yazdır",
+      "fewer": "Daha az porsiyon",
+      "more": "Daha çok porsiyon",
+      "serving": "porsiyon",
+      "servings": "porsiyon",
+      "min": "dk",
+      "allRecipes": "Tüm tarifler",
+      "breadcrumb": "Tarifler"
+    },
+    "explorer": {
+      "searchPlaceholder": "Yemek, malzeme, şehir ara…",
+      "cuisine": "Mutfak",
+      "level": "Teknik seviyesi",
+      "any": "Hepsi",
+      "all": "Tümü",
+      "sort": "Sırala",
+      "sortFeatured": "Öne çıkanlar",
+      "sortQuick": "En hızlı",
+      "sortLevelAsc": "Sokak → Geçiş",
+      "sortLevelDesc": "Geçiş → Sokak",
+      "clear": "Temizle",
+      "resultOne": "1 tarif",
+      "resultMany": "{count} tarif",
+      "emptyTitle": "Bu tezgâhta bir şey yok.",
+      "emptyBody": "Bu filtrelere uyan tarif yok: aramayı genişletmeyi dene.",
+      "reset": "Filtreleri sıfırla"
+    },
+    "footer": {
+      "tagline": "Tek bir fikri yemeğin tüm haritasında izleyen bir yemek günlüğü: sokaktan geçiş tezgâhına. Tek bir çift el tarafından yazıldı, pişirildi ve fotoğraflandı.",
+      "cuisinesHeading": "Mutfaklar",
+      "journalHeading": "Günlük",
+      "allRecipes": "Tüm tarifler",
+      "browseCuisines": "Mutfaklara göz at",
+      "about": "Mesa para Luis hakkında",
+      "rights": "Tüm hakları saklıdır",
+      "madeWith": "Sabırla ve çok sıcak bir tavayla yapıldı.",
+      "newsletterLabel": "Haftalık bülten",
+      "newsletterPlaceholder": "sen@mutfak.com",
+      "join": "Katıl",
+      "newsletterDone": "Listedesin. Bir sonraki bülten yakında geliyor.",
+      "newsletterError": "Bu e-posta doğru görünmüyor, kontrol eder misin?"
+    },
+    "about": {
+      "eyebrow": "Günlük",
+      "titleA": "Bir aşçı,",
+      "titleB": "bir yol,",
+      "titleC": "yemeğin tüm haritası.",
+      "lede1": "Mesa para Luis inatçı bir fikirle başladı: gece pazarı tezgâhı ile üç yıldızlı mutfağın aynı hikâyeyi farklı seslerde anlattığı fikriyle. Bu, o hikâyenin peşinden gitmenin günlüğü: bir yemeği sokak seviyesinde pişirip sonra tekniğin gerçekte ne sakladığını görmek için ta geçiş tezgâhına kadar izlemek.",
+      "lede2": "Buradaki her şey tek bir çift el tarafından pişiriliyor, yeniyor ve fotoğraflanıyor. Bir tarif sitedeyse, güvenilecek kadar çok kez yapılmış demektir.",
+      "quote": "Her şey yerli yerinde, sonra pişirmek kolay.",
+      "quoteAttr": "Mise en place — her mutfağın ilk dersi",
+      "statsCuisines": "Mutfak",
+      "statsRecipes": "Tarif",
+      "statsLevels": "Teknik seviyesi",
+      "statsPans": "Yakılan tava",
+      "believe": "Neye inanıyoruz",
+      "principles": [
+        {
+          "title": "Modaya değil tekniğe",
+          "body": "Her tarif yerini gerçek bir yöntemle hak eder: on yıl sonra da kullanacağın bir şey, geçici bir sunum modası değil."
+        },
+        {
+          "title": "Sokak da sayılır",
+          "body": "Kusursuz bir taco al pastor ile kusursuz bir sufle aynı arayıştır. Yalnızca birinin önemli olduğunu söyleyen züppeliği reddediyoruz."
+        },
+        {
+          "title": "Pişirilmek için yazıldı",
+          "body": "Tariften önce 1.500 kelimelik giriş yok. Net adımlar, gerçek süreler ve sonucu gerçekten değiştiren tek ipucu."
+        }
+      ],
+      "ctaTitle": "Bir tabure çek. Hadi bir şeyler pişirelim.",
+      "ctaBtn": "Tariflere göz at"
+    },
+    "cuisinesPage": {
+      "eyebrow": "Harita",
+      "titleA": "Altı dünya,",
+      "titleB": "her birine bir yol.",
+      "lede": "Buradaki her mutfak, en gürültülü sokak köşesinden en sessiz yemek salonuna kadar izleniyor. İçine dalacağın bir dünya seç.",
+      "recipesWord": "tarif"
+    },
+    "cuisinePage": {
+      "breadcrumb": "Mutfaklar",
+      "tableTitle": "{name} sofrası",
+      "runs": "Bu derleme şu aralıkta:",
+      "allRecipes": "Tüm tarifler"
+    },
+    "recipesPage": {
+      "eyebrow": "Tam dizin",
+      "titleA": "Tüm tarifler,",
+      "titleB": "filtrelenebilir.",
+      "lede": "6 mutfakta 12 yemek. Ada, şehre veya malzemeye göre ara; ya da bu akşam yolda ne kadar ilerlemek istediğine göre daralt."
+    },
+    "notFound": {
+      "eyebrow": "404 — Menüde yok",
+      "title": "Tükendi.",
+      "body": "O sayfa bu akşamki serviste yok. Seni gerçekten pişirebileceğin bir şeye geri götürelim.",
+      "btn": "Mutfağa dön"
+    }
+  },
+  "cuisines": {
+    "japanese": {
+      "name": "Japon",
+      "region": "Japonya",
+      "tagline": "Tat olarak sadelik",
+      "description": "Uzun bir listeden çok, birkaç kusursuz malzemeye güvenen bir mutfak. Onu Fukuoka’nın arka sokağında tüten bir yatai arabasından, neredeyse sessiz bir kaiseki tezgâhının inceliğine kadar izliyoruz.",
+      "accentDish": "Dashi"
+    },
+    "mexican": {
+      "name": "Meksika",
+      "region": "Meksika",
+      "tagline": "Ateş, misket limonu ve zaman",
+      "description": "Katmanlı, kadim ve en güzel anlamda gürültülü. Meksiko’da bir köşede dönen al pastor şişinden, yeni Oaxaca yemek salonlarının parlak, bıçak işi tabaklarına.",
+      "accentDish": "Salsa"
+    },
+    "italian": {
+      "name": "İtalyan",
+      "region": "İtalya",
+      "tagline": "Daha az şey, doğru yapılmış",
+      "description": "Çıkarmanın disiplini. Bir Roma trattoria’sının cacio e pepe tabağı ile masada tamamlanan bir Milano risottosu aynı inatçı inancı paylaşır: önce malzeme, teknik onun hizmetinde.",
+      "accentDish": "Makarna"
+    },
+    "indian": {
+      "name": "Hint",
+      "region": "Hindistan",
+      "tagline": "Baharatın grameri",
+      "description": "Acı değil, dil olarak baharat. Onu Bombay’da hızla pani puri hazırlayan bir chaat tezgâhından, restoran tarzı Kuzey Hint kanonunu kuran yavaş, tereyağı dolu soslara kadar izliyoruz.",
+      "accentDish": "Masala"
+    },
+    "french": {
+      "name": "Fransız",
+      "region": "Fransa",
+      "tagline": "Tekniğin anası",
+      "description": "Mutfağın geri kalanının kendisiyle ölçüldüğü mutfak. Çinko bar steak frites’ten, bileğine bağlı yaşayan ya da çöken bir sufleye; Fransa, yöntemin kas hafızasına dönüştüğü yerdir.",
+      "accentDish": "Sos"
+    },
+    "thai": {
+      "name": "Tayland",
+      "region": "Tayland",
+      "tagline": "Tadılabilen denge",
+      "description": "Acı, ekşi, tuzlu, tatlı: tek bir kaşıkta gergin biçimde tutulur. Bangkok’ta bir sokak ocağında uğuldayan bir woktan, kraliyet mutfaklarının özenli körilerine.",
+      "accentDish": "Nam pla"
+    }
+  },
+  "recipes": {
+    "yatai-yakisoba": {
+      "title": "Yatai Yakisoba",
+      "course": "Erişte",
+      "origin": "Fukuoka, Japonya",
+      "excerpt": "Tek bir tavada bir festivalin sesi: diri erişteler, dumanlı bir sos ve kıpkızıl bir wokun disiplini.",
+      "intro": [
+        "Yakisoba en saf hâliyle sokak yemeği: burada hiçbir şey zor değil ve her şey ateşe bağlı. Bir yatai aşçısı, evde tutturamayacağın bir alevin üzerinde porsiyonu tek tek pişirir; ev versiyonunun istediği tam da iki şey: çok sıcak bir tava ve tavayı tıka basa doldurmamaya kararlılık.",
+        "Konuşan sostur. Bir kez hazırla, ömrünün sonuna kadar buzdolabının kapağında bir kavanoz bulunsun."
+      ],
+      "ingredients": [
+        {
+          "title": "Sos",
+          "items": [
+            { "qty": 3, "unit": "yk", "name": "Worcestershire sosu" },
+            { "qty": 2, "unit": "yk", "name": "istiridye sosu" },
+            { "qty": 1, "unit": "yk", "name": "ketçap" },
+            { "qty": 1, "unit": "yk", "name": "soya sosu" },
+            { "qty": 1, "unit": "çk", "name": "şeker" }
+          ]
+        },
+        {
+          "title": "Sote",
+          "items": [
+            { "qty": 2, "unit": "porsiyon", "name": "taze yakisoba veya ramen eriştesi" },
+            { "qty": 150, "unit": "g", "name": "domuz pançetası", "note": "ince dilimlenmiş" },
+            { "qty": 0.25, "name": "yeşil lahana", "note": "iri doğranmış" },
+            { "qty": 1, "name": "havuç", "note": "jülyen" },
+            { "qty": 2, "name": "taze soğan" },
+            { "qty": 1, "unit": "yk", "name": "nötr yağ" },
+            { "name": "Aonori, turşu zencefil ve bonito pulu", "note": "üzeri için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Sosu karıştır", "body": "Tüm sos malzemelerini şeker eriyene dek karıştır. Tat: aynı anda tatlı, ekşi ve umami olmalı." },
+        { "title": "Erişteleri ayır", "body": "Erişteleri ılık suyun altında durula ve parmaklarınla nazikçe ayır ki topaklanmadan, ayrı ayrı kızarsın." },
+        { "title": "Domuzu mühürle", "body": "Tavayı iyice ısıt. Yağı, ardından pançetayı tek kat hâlinde ekle. Kenarları çıtırlaşana dek dokunmadan bırak, sonra karıştır.", "minutes": 3 },
+        { "title": "Önce sebze, sonra erişte", "body": "Havuç ve lahanayı ekle; diri kalsınlar diye bir dakika çevir. Erişteleri ve sosu ekleyip her şeyi yüksek ateşte parlayana ve yer yer hafif kavrulana dek çevir.", "minutes": 4 },
+        { "title": "Tamamla", "body": "Ocaktan alıp taze soğanı katarak karıştır. Yüksekçe servis et; üzerine aonori, zencefil ve buharla kıvrılması gereken bir tutam bonito pulu serp." }
+      ],
+      "tips": [
+        "Tavan küçükse iki partide pişir: tıka basa dolu tava sote yerine buğular.",
+        "Yakisoba eriştesi yok mu? Ramen, hatta bir tutam karbonatla haşlanmış spagetti de iş görür."
+      ],
+      "tags": ["hızlı", "erişte", "domuz", "hafta içi"]
+    },
+    "silken-chawanmushi": {
+      "title": "İpeksi Chawanmushi",
+      "course": "Küçük tabak",
+      "origin": "Kyoto, Japonya",
+      "excerpt": "Şeklini zar zor koruyacak kadar pürüzsüz, tuzlu bir muhallebi: tüm tabak, dashinin ve ateşe karşı sabrının sınavı.",
+      "intro": [
+        "Chawanmushi, Japon mutfağının en sessiz gösteri parçasıdır. Saklanacak yer yok: muhallebi, dashinin gücüyle ve buharının yumuşaklığıyla tutar; tek bir derece fazlası onu titrek yerine delik deşik ve sulu bırakır.",
+        "Oranı, üç ölçü dashi bir ölçü yumurta, kanun bil ve iki kez süz. Gerisi sadeliktir."
+      ],
+      "ingredients": [
+        {
+          "title": "Muhallebi",
+          "items": [
+            { "qty": 3, "name": "yumurta", "note": "büyük" },
+            { "qty": 450, "unit": "ml", "name": "soğuk dashi" },
+            { "qty": 1, "unit": "çk", "name": "açık soya sosu (usukuchi)" },
+            { "qty": 1, "unit": "çk", "name": "mirin" },
+            { "qty": 0.5, "unit": "çk", "name": "ince tuz" }
+          ]
+        },
+        {
+          "title": "Süsleme",
+          "items": [
+            { "qty": 4, "name": "çiğ karides", "note": "ayıklanmış" },
+            { "qty": 4, "name": "shiitake", "note": "dilimlenmiş" },
+            { "qty": 8, "name": "ginkgo cevizi veya edamame" },
+            { "name": "Mitsuba veya frenk soğanı", "note": "üzeri için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Tabanı hazırla", "body": "Yumurtaları havalandırmadan çırp: kırılmış olsunlar, köpüklü değil. Soğuk dashi, soya, mirin ve tuzu ekleyip nazikçe karıştır." },
+        { "title": "İki kez süz", "body": "Karışımı ince bir süzgeçten iki kez geçir. Cam gibi pürüzsüz ile pütürlü arasındaki fark budur." },
+        { "title": "Kâseleri doldur", "body": "Karides, shiitake ve ginkgoyu dört ısıya dayanıklı kâseye paylaştır. Üzerine muhallebiyi dök ve yüzeydeki kabarcıkları kaşıkla al." },
+        { "title": "Kısık ateşte yavaş buğula", "body": "Kapağı aralık bırakarak en kısık ateşte buğula; sıcaklık asla zar zor kaynamanın ötesine geçmesin. Muhallebi tek parça hâlinde titrediğinde hazırdır.", "minutes": 18 },
+        { "title": "Dinlendir ve taçlandır", "body": "İki dakika dinlendir, üzerine bir dal mitsuba koy. Ilık olarak, kaşıkla, sessizce yemek için servis et." }
+      ],
+      "tips": [
+        "Bir kürdan temiz çıkmalı ve bıraktığı boşluk yavaşça bulanık değil berrak bir sıvıyla dolmalı.",
+        "Buhar kapağının yüzeyi delmesini önlemek için kapağı bir beze sar."
+      ],
+      "tags": ["muhallebi", "buğulama", "zarif", "deniz ürünü"]
+    },
+    "tacos-al-pastor": {
+      "title": "Tacos al Pastor",
+      "course": "Taco",
+      "origin": "Meksiko, Meksika",
+      "excerpt": "Meksiko köşesinden geçen bir Lübnan şavurması: biber, achiote ve ananas, küçük ılık tortillalara sıcak sıcak rendelenir.",
+      "intro": [
+        "Al pastor iki mutfak arasında bir aşk mektubudur: dikey şiş Lübnanlı göçmenlerle geldi, sosu ise yanılmaz biçimde Meksika işi. Evde trompo olmadan, çok sıcak bir fırın ve son sert bir mühür seni şaşırtıcı kadar yaklaştırır.",
+        "Ananas bir süs değil. Asidi sosun, kavruğu da taconun bir parçası."
+      ],
+      "ingredients": [
+        {
+          "title": "Sos",
+          "items": [
+            { "qty": 3, "name": "guajillo biberi", "note": "sapı ve çekirdeği alınmış" },
+            { "qty": 2, "name": "ancho biberi", "note": "sapı ve çekirdeği alınmış" },
+            { "qty": 2, "unit": "yk", "name": "achiote ezmesi" },
+            { "qty": 3, "name": "diş sarımsak" },
+            { "qty": 60, "unit": "ml", "name": "ananas suyu" },
+            { "qty": 2, "unit": "yk", "name": "beyaz sirke" },
+            { "qty": 1, "unit": "çk", "name": "kuru kekik" },
+            { "qty": 1, "unit": "çk", "name": "toz kimyon" }
+          ]
+        },
+        {
+          "title": "Hazırlamak için",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "domuz kürek", "note": "ince dilimlenmiş" },
+            { "qty": 0.5, "name": "taze ananas", "note": "kalın dilimler" },
+            { "qty": 16, "name": "mısır tortillası", "note": "küçük" },
+            { "qty": 1, "name": "beyaz soğan", "note": "ince doğranmış" },
+            { "name": "Kişniş ve misket limonu", "note": "üzeri için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Biberleri uyandır", "body": "Kuru biberleri kuru tavada kokusu çıkana dek kavur, sonra esneyene dek on dakika sıcak suda ıslat.", "minutes": 10 },
+        { "title": "Sosu çek", "body": "Islatılmış biberleri achiote, sarımsak, ananas suyu, sirke ve baharatlarla pürüzsüz, tuğla kırmızısı bir ezme olana dek blendırdan geçir." },
+        { "title": "Marine et", "body": "Dilimlenmiş eti iyice kapla ve en az iki saat, ideali bütün gece beklet." },
+        { "title": "Kızart ve kavur", "body": "Eti bir baton kalıbına sıkıca istifleyip yüksek ısıda kızart; sonra dilimleyip kenarlarını kıpkızgın bir tavada sertçe çıtırlat. Ananası yanında kavur.", "minutes": 20 },
+        { "title": "Küçük kur", "body": "Tortillaları ısıt, ikişer ikişer üst üste koy ve üzerine et, biraz ananas, çiğ soğan, kişniş ve bir sıkım misket limonu koy. Hemen, mümkünse ayakta ye." }
+      ],
+      "tips": [
+        "Taco başına iki küçük tortilla abartı değil: taconun sularla yırtılmasını önler.",
+        "Kâğıt inceliğinde dilimlemek için eti kesmeden önce 30 dakika dondur."
+      ],
+      "tags": ["domuz", "taco", "biber", "ızgara"]
+    },
+    "aguachile-verde": {
+      "title": "Aguachile Verde",
+      "course": "Çiğ",
+      "origin": "Sinaloa, Meksika",
+      "excerpt": "Misket limonuyla zar zor öpüşmüş karidesler, sert bir yeşil biber suyunda boğulur. Bıçak işi bir tabak: hep zamanlama, hiç pişirme yok.",
+      "intro": [
+        "Aguachile, ceviche’nin çiğ ve elektrikli kuzenidir. Asit karideslere yalnızca değer, bu yüzden tazelik pazarlık konusu değil; acı anında gelir ve tüm tabak sipariş üzerine kurulur.",
+        "Sosladığın anda servis et. Bir dakika fazlası karidesleri sıkılaştırıp tebeşirimsi yapar."
+      ],
+      "ingredients": [
+        {
+          "title": "Biber suyu",
+          "items": [
+            { "qty": 120, "unit": "ml", "name": "misket limonu suyu", "note": "taze" },
+            { "qty": 2, "name": "serrano biberi" },
+            { "qty": 1, "unit": "avuç", "name": "kişniş" },
+            { "qty": 0.5, "name": "salatalık", "note": "soyulmuş" },
+            { "qty": 1, "unit": "diş", "name": "sarımsak" }
+          ]
+        },
+        {
+          "title": "Tabağa",
+          "items": [
+            { "qty": 500, "unit": "g", "name": "çiğ karides", "note": "kelebek kesilmiş" },
+            { "qty": 0.5, "name": "mor soğan", "note": "ince dilimlenmiş" },
+            { "qty": 0.5, "name": "salatalık", "note": "ince dilimlenmiş" },
+            { "name": "Pul tuz ve tostada", "note": "servis için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Biber suyunu çek", "body": "Misket limonu suyu, serrano, kişniş, salatalık ve sarımsağı canlı yeşil olana dek blendırla. Tuzla tatlandır ve daha temiz bir sonuç için süzgeçten geçir." },
+        { "title": "Soğanı ıslat", "body": "İnce dilimlenmiş mor soğanı on dakika buzlu suya at; böylece çıtır olur ve çiğ keskinliğini kaybeder.", "minutes": 10 },
+        { "title": "Sipariş üzerine sosla", "body": "Kelebek karidesleri soğuk bir tabağa düz yerleştir. Biber suyunu yalnızca servise hazır olunca dök." },
+        { "title": "Tamamla ve koş", "body": "Salatalığı ve süzülmüş soğanı serp, bir tutam pul tuz at ve yanında tostada ile hemen masaya götür." }
+      ],
+      "tips": [
+        "Bulabildiğin en taze karidesi al ve balıkçına çiğ kullanılacağını söyle.",
+        "Acıyı, blendırlamadan önce serrano çekirdeklerini bırakarak veya çıkararak ayarla."
+      ],
+      "tags": ["deniz ürünü", "çiğ", "acılı", "pişirmesiz"]
+    },
+    "cacio-e-pepe": {
+      "title": "Cacio e Pepe",
+      "course": "Makarna",
+      "origin": "Roma, İtalya",
+      "excerpt": "Üç malzeme ve saklanacak kesinlikle hiçbir yer. Bir emülsiyonu söz dinletip dinletemediğinin Roma sınavı.",
+      "intro": [
+        "Cacio e pepe, kendine güvenen aşçıları alçaltan tabaktır. Peynir, karabiber, makarna ve acele ettiğin an yağlı bir karmaşaya dönüşen bir sos. Sır sıcaklıkta: pecorino kaynar suda tutar, bu yüzden nişasta açısından zengin pişirme suyu peynirle buluştuğunda sıcak ama kavurucu olmamalı.",
+        "Hızlı çalış, ocaktan uzakta, ve nişastaya güven."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 200, "unit": "g", "name": "tonnarelli veya spagetti" },
+            { "qty": 120, "unit": "g", "name": "Pecorino Romano", "note": "ince rendelenmiş" },
+            { "qty": 2, "unit": "çk", "name": "karabiber tanesi", "note": "iri dövülmüş" },
+            { "name": "Tuz", "note": "makarna suyu için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Az tuzla", "body": "Makarnayı her zamankinden az suda haşla ve az tuzla: pecorino tuzlu ve suyun nişastalı olmasını istiyorsun." },
+        { "title": "Karabiberi uyandır", "body": "Dövülmüş karabiberi geniş bir tavada kokusu çıkana dek kavur, sonra kokulu bir taban için bir kepçe makarna suyu ekle.", "minutes": 2 },
+        { "title": "Kremayı yap", "body": "Bir kâsede pecorinoyu biraz ılık makarna suyuyla koyu, topaksız bir ezme olana dek karıştır. Suyu biraz soğutmak peynirin tutmasını önler." },
+        { "title": "Ocaktan uzakta emülsifiye et", "body": "Makarnayı al dente’den biraz önce süz ve karabiberli tavada çevir. Ocaktan uzakta peynir ezmesini ekle ve sertçe çevir; parlak, sarılan bir sos olana dek azar azar suyla yumuşat.", "minutes": 3 },
+        { "title": "Hemen servis et", "body": "Üzerine biraz daha karabiber ve serpme pecorino ile hemen tabağa al. Kimseyi beklemez." }
+      ],
+      "tips": [
+        "Pecorinoyu yapabildiğin kadar ince rendele: iri peynir emülsiyona direnir.",
+        "Kesilirse ocaktan al ve biraz soğuk su çırparak geri kazan."
+      ],
+      "tags": ["makarna", "peynir", "hızlı", "vejetaryen"]
+    },
+    "risotto-al-limone": {
+      "title": "Risotto al Limone",
+      "course": "Risotto",
+      "origin": "Milano, İtalya",
+      "excerpt": "Mantecatura, tereyağı ve peynirin o son çırpılışı, sıradan bir risottonun restoran risottosuna dönüştüğü yerdir.",
+      "intro": [
+        "Limonlu risotto aynı anda iki tekniğe bağlı yaşar ve ölür: et suyunun yavaş, özenli kuruluşu ve soğuk tereyağıyla peyniri tabağa yayabileceğin bir dalgaya dönüştüren son saniyenin şiddetli mantecatura’sı. Limon, pişip kaybolmasın diye canlı kalsın diye geç gelir.",
+        "İyi bir risotto all’onda olmalı: tabağı eğince dalga gibi akan, asla katı değil."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 320, "unit": "g", "name": "carnaroli pirinci" },
+            { "qty": 1.2, "unit": "lt", "name": "sıcak sebze suyu" },
+            { "qty": 1, "name": "arpacık soğanı", "note": "ince doğranmış" },
+            { "qty": 120, "unit": "ml", "name": "kuru beyaz şarap" },
+            { "qty": 2, "name": "limon", "note": "kabuk rendesi ve suyu" },
+            { "qty": 80, "unit": "g", "name": "soğuk tereyağı", "note": "küp doğranmış" },
+            { "qty": 70, "unit": "g", "name": "Parmigiano-Reggiano", "note": "rendelenmiş" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Soldur ve kavur", "body": "Arpacığı biraz tereyağında nazikçe yumuşat, pirinci ekle ve taneler kenarlardan saydamlaşıp fındıksı kokana dek kavur.", "minutes": 3 },
+        { "title": "Deglaze et", "body": "Şarabı dök ve tencerenin dibini kazıyarak tamamen uçur." },
+        { "title": "Et suyuyla kur", "body": "Sıcak et suyunu birer kepçe ekle, sık karıştır, her eklemenin neredeyse emilmesini bekleyip sonrakini koy. Nişasta burada ortaya çıkar.", "minutes": 18 },
+        { "title": "Mantecatura", "body": "Pirinç al dente olunca ocaktan al. Soğuk tereyağı ve parmesanı risotto kremamsı ve parlak olana dek güçlüce çırp, sonra limon kabuğu ve suyunu katarak karıştır.", "minutes": 2 },
+        { "title": "Dinlendir ve tabağa al", "body": "Bir dakika dinlendir, ılık tabaklara yay ve bir dalga hâlinde otursun diye tabanına hafifçe vur." }
+      ],
+      "tips": [
+        "Et suyunu yan tencerede sıcak tut: soğuk et suyu pişmeyi durdurur ve taneleri yapışkan yapar.",
+        "Bir dakika erken ocaktan al; masaya giderken pişmeye devam eder."
+      ],
+      "tags": ["pirinç", "limon", "vejetaryen", "zarif"]
+    },
+    "pani-puri": {
+      "title": "Pani Puri",
+      "course": "Chaat",
+      "origin": "Bombay, Hindistan",
+      "excerpt": "Tek bir kusursuz lokma için tasarlanmış bütün bir atıştırmalık: çıtır kabuk, baharatlı su ve bir sokak satıcısının ellerinin hızı.",
+      "intro": [
+        "Pani puri tiyatrodur. Satıcı her çıtır kabuğu kırar, doldurur, soğuk baharatlı suya batırır ve yumuşamadan önceki yarım saniyede sana uzatır. Dahiyane olan pani: aynı anda ekşi, acı ve otsu bir demirhindi-nane suyu.",
+        "Suları önceden hazırla; yalnızca masada, lokma lokma kur."
+      ],
+      "ingredients": [
+        {
+          "title": "Yeşil pani",
+          "items": [
+            { "qty": 1, "unit": "demet", "name": "nane" },
+            { "qty": 1, "unit": "demet", "name": "kişniş" },
+            { "qty": 2, "name": "yeşil biber" },
+            { "qty": 2, "unit": "yk", "name": "demirhindi ezmesi" },
+            { "qty": 1, "unit": "çk", "name": "kavrulmuş kimyon", "note": "öğütülmüş" },
+            { "qty": 1, "unit": "çk", "name": "kara tuz" },
+            { "qty": 750, "unit": "ml", "name": "soğuk su" }
+          ]
+        },
+        {
+          "title": "Kurmak için",
+          "items": [
+            { "qty": 24, "name": "puri kabuğu", "note": "hazır alınması sorun değil" },
+            { "qty": 1, "name": "patates", "note": "haşlanmış, küp" },
+            { "qty": 150, "unit": "g", "name": "nohut", "note": "pişmiş" },
+            { "name": "Demirhindi sosu ve sev", "note": "üzeri için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Pani’yi çek", "body": "Nane, kişniş, biber, demirhindi ve baharatları biraz suyla canlı bir ezme olana dek blendırla, sonra kalan soğuk suyla aç. İyice soğut." },
+        { "title": "İç harcı yap", "body": "Küp patates ve nohutu biraz kara tuz ve kimyonla karıştır." },
+        { "title": "Kır ve doldur", "body": "Her puri’nin üstüne başparmağınla bastırıp delik aç ve içine biraz harç koy." },
+        { "title": "Batır ve ye", "body": "Dolu puri’yi soğuk pani’ye batır ki kabuğu doldursun ve teslim olmadan önce, hemen, bütün olarak ye." }
+      ],
+      "tips": [
+        "Pani’yi buz gibi servis et: ılıklık tüm etkiyi köreltir.",
+        "Her şeyi kâselere koy ve herkes kendininkini kursun; olay bu zaten."
+      ],
+      "tags": ["atıştırmalık", "vejetaryen", "acılı", "paylaşımlık"]
+    },
+    "murgh-makhani": {
+      "title": "Murgh Makhani",
+      "course": "Köri",
+      "origin": "Delhi, Hindistan",
+      "excerpt": "Restoran usulü tereyağlı tavuk: közlenmiş tandır tarzı tavuk, ipek gibi bir domates sosuna geç katılır.",
+      "intro": [
+        "Murgh makhani, dünkü tandır tavuğunu değerlendirmek için icat edildi ve bu köken sırrı: tavuk önce marine edilip közlenir, sonra dumanını koruması için sosta tamamlanır. Sos en sonda tereyağı, krema ve bir fısıltı dövülmüş çemenle zenginleştirilir.",
+        "İki aşama, tek tencere ödül."
+      ],
+      "ingredients": [
+        {
+          "title": "Tavuk",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "tavuk but", "note": "kemiksiz" },
+            { "qty": 150, "unit": "g", "name": "yoğurt" },
+            { "qty": 2, "unit": "yk", "name": "zencefil-sarımsak ezmesi" },
+            { "qty": 1, "unit": "yk", "name": "tandır masalası" }
+          ]
+        },
+        {
+          "title": "Sos",
+          "items": [
+            { "qty": 6, "name": "domates", "note": "veya 400 g konserve" },
+            { "qty": 2, "unit": "yk", "name": "tereyağı" },
+            { "qty": 1, "name": "soğan" },
+            { "qty": 1, "unit": "yk", "name": "zencefil-sarımsak ezmesi" },
+            { "qty": 1, "unit": "çk", "name": "Keşmir pul biberi" },
+            { "qty": 100, "unit": "ml", "name": "krema" },
+            { "qty": 1, "unit": "çk", "name": "kuru çemen (kasuri methi)" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Marine et", "body": "Tavuğu yoğurt, zencefil-sarımsak ezmesi ve tandır masalasıyla kapla ve en az bir saat beklet." },
+        { "title": "Tavuğu közle", "body": "Marine tavuğu çok sıcak bir tavada veya ızgarada kenarları kararana dek sertçe mühürle. Henüz tamamen pişmesi gerekmez.", "minutes": 8 },
+        { "title": "Sosu kur", "body": "Soğanı tereyağında yumuşat, zencefil-sarımsak ve biberi, sonra domatesleri ekle. Reçelimsi olana dek pişir, pürüzsüz olana dek blendırla ve o imza ipeksiliği için süzgeçten geçir.", "minutes": 20 },
+        { "title": "Bir araya getir", "body": "Sosu tencereye geri al, közlenmiş tavuğu içine kaydır ve pişip parlayana dek kaynat.", "minutes": 12 },
+        { "title": "Zengin bitir", "body": "Ocaktan uzakta krema ve tereyağını karıştır ve çemeni avuçların arasında ezerek üzerine serp. Naan ile servis etmeden önce dinlendir." }
+      ],
+      "tips": [
+        "Sosu süzgeçten geçirmek, restoranı evden ayıran tek adımdır.",
+        "Kasuri methi’yi eklerken aromasını açığa çıkarmak için ellerinde ufala."
+      ],
+      "tags": ["tavuk", "köri", "kremalı", "herkese göre"]
+    },
+    "steak-frites": {
+      "title": "Steak Frites",
+      "course": "Ana yemek",
+      "origin": "Paris, Fransa",
+      "excerpt": "Bistronun ölçütü. Düzgün bir kabuk, pembe bir orta, iki kez kızartılmış patatesler ve üzerinde eriyen bir parça café de Paris tereyağı.",
+      "intro": [
+        "Steak frites aynı anda iki tekniğin sınavı: ette sert, eşit bir mühür ve patatesi önce çıtırdayıp sonra teslim olan iki kez kızartma. İkisi de zor değil; ikisi de dikkati ödüllendirir. Bileşik tereyağı, ikisini birbirine bağlayan bistro dokunuşudur.",
+        "Eti pişirdiğin kadar dinlendir. O sabır, tarifin kendisidir."
+      ],
+      "ingredients": [
+        {
+          "title": "Et",
+          "items": [
+            { "qty": 2, "name": "sığır kontrfile", "note": "kalın kesim, her biri 250 g" },
+            { "qty": 1, "unit": "yk", "name": "nötr yağ" },
+            { "qty": 30, "unit": "g", "name": "tereyağı" },
+            { "qty": 2, "name": "diş sarımsak", "note": "ezilmiş" },
+            { "qty": 1, "unit": "dal", "name": "kekik" }
+          ]
+        },
+        {
+          "title": "Patates",
+          "items": [
+            { "qty": 600, "unit": "g", "name": "Maris Piper patatesi", "note": "çubuk doğranmış" },
+            { "qty": 1, "unit": "lt", "name": "kızartma yağı" },
+            { "name": "Pul tuz", "note": "üzeri için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "İlk kızartma, kısık", "body": "Patates çubuklarını durula ve iyice kurula. Yumuşak ama soluk olana dek düşük ısıda nazikçe kızart, sonra süzüp tamamen soğut.", "minutes": 8 },
+        { "title": "Eti oda sıcaklığına getir", "body": "Etleri tuzla ve oda sıcaklığında beklet. Soğuk et eşit mühürlenmez." },
+        { "title": "Mühürle ve gez", "body": "Etleri yağda kıpırdatmadan sertçe mühürle, sonra tereyağı, sarımsak ve kekiği ekle ve köpüren tereyağını kabuk oluşana ve orta istediğin kıvama gelene dek üzerine gezdir.", "minutes": 6 },
+        { "title": "Dinlendir", "body": "Patatesleri bitirirken etleri pişirdiğin süre kadar ılık bir yerde dinlendir." },
+        { "title": "İkinci kızartma, kızgın", "body": "Yağı yükselt ve patatesleri koyu altın ve kabarcıklı olana dek tekrar kızart. Süz, yüksekten tuzla ve dinlenmiş etin yanında hemen servis et.", "minutes": 4 }
+      ],
+      "tips": [
+        "Patatesi iki sıcaklık yapar: içini pişirmek için kısık, çıtırlatmak için kızgın.",
+        "Her lokma yumuşak kalsın diye eti lif yönünün tersine dilimle."
+      ],
+      "tags": ["sığır", "klasik", "kızartma", "ikili akşam"]
+    },
+    "souffle-au-fromage": {
+      "title": "Soufflé au Fromage",
+      "course": "Ana yemek",
+      "origin": "Lyon, Fransa",
+      "excerpt": "İtibarlar kuran tabak. Bir beşamel, bir beze ve fırın kapağını açmama cesareti.",
+      "intro": [
+        "Peynirli sufle, yenebilir hâle gelmiş saf tekniktir. Çırpılmış yumurta akıyla hafifletilmiş bir beşameldir ve kabarması tamamen ne kadar nazik kattığına ve fırının ne kadar sabit kaldığına bağlıdır. İçeri girdikten sonra düzeltmesi yok; yalnızca önceden kurduğun mimari var.",
+        "Fırından çıktığı anda servis et: sufle hiçbir misafiri beklemez ve çökmek onun başarısızlığı değil, doğasıdır."
+      ],
+      "ingredients": [
+        {
+          "title": "Taban",
+          "items": [
+            { "qty": 50, "unit": "g", "name": "tereyağı", "note": "kâseler için ekstra" },
+            { "qty": 50, "unit": "g", "name": "sade un" },
+            { "qty": 350, "unit": "ml", "name": "tam yağlı süt", "note": "ılık" },
+            { "qty": 4, "name": "yumurta sarısı" },
+            { "qty": 120, "unit": "g", "name": "Gruyère", "note": "rendelenmiş" },
+            { "qty": 1, "unit": "tutam", "name": "muskat" }
+          ]
+        },
+        {
+          "title": "Beze",
+          "items": [
+            { "qty": 5, "name": "yumurta akı" },
+            { "qty": 1, "unit": "tutam", "name": "krem tartar" },
+            { "qty": 2, "unit": "yk", "name": "ince rendelenmiş parmesan", "note": "kâseleri kaplamak için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Kâseleri hazırla", "body": "Sufle kâselerini yukarı doğru fırça darbeleriyle tereyağla ve rendelenmiş parmesanla kapla: bu, suflenin tırmanacağı bir şey verir. Soğut." },
+        { "title": "Beşameli yap", "body": "Tereyağı ve unu bir roux olana dek pişir, ılık sütü çırparak ekle ve koyu, pürüzsüz bir sos olana dek pişir. Ocaktan uzakta yumurta sarılarını, Gruyère’i ve muskatı çırp.", "minutes": 8 },
+        { "title": "Akları çırp", "body": "Akları krem tartarla sert, parlak tepeler olana dek çırp: tutacak kadar sert, pütürlenecek kadar değil.", "minutes": 4 },
+        { "title": "Katla, karıştırma", "body": "Bir kaşık akı ılık tabana karıştırarak gevşet, sonra kalanını hafif bir elle iki seferde, olabildiğince çok hava koruyarak katla." },
+        { "title": "Pişir ve sinirine hâkim ol", "body": "Kâseleri doldur, kabarmaya yardımcı olmak için her kenarda başparmağını gezdir ve sabit sıcak bir fırında kapağı açmadan kabarana ve ortası yumuşak, tam tutana dek pişir.", "minutes": 22 }
+      ],
+      "tips": [
+        "Akların içinde kalan bir tutam ılık beşamel sorun değil; fazla karıştırmak ölümcül.",
+        "Son birkaç dakikadan önce fırını açma, yoksa sıcaklık düşüşü kabarışı çökertir."
+      ],
+      "tags": ["peynir", "fırın", "vejetaryen", "gösteri tabağı"]
+    },
+    "pad-kra-pao": {
+      "title": "Pad Kra Pao",
+      "course": "Pilav tabağı",
+      "origin": "Bangkok, Tayland",
+      "excerpt": "Tayland’ın gerçekten yediği yemek: kutsal fesleğen, biber ve uğuldayan bir wok, çıtır kenarlı bir sahanda yumurtayla taçlanır.",
+      "intro": [
+        "Pad kra pao, tüm Tayland’da varsayılan sipariştir, sebebi var: hızlı, sert ve seni korkutacak kadar sıcak bir wok üzerine kurulu. Kutsal fesleğen pazarlık konusu değil: biberimsi, neredeyse şifalı notası tabağın tüm kimliği.",
+        "Akışkan, dantel kenarlı bir sahanda yumurta hiçbir ciddi mutfakta isteğe bağlı değildir."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 300, "unit": "g", "name": "domuz veya tavuk kıyması" },
+            { "qty": 4, "name": "diş sarımsak" },
+            { "qty": 4, "name": "kuş gözü biberi" },
+            { "qty": 2, "unit": "yk", "name": "istiridye sosu" },
+            { "qty": 1, "unit": "yk", "name": "soya sosu" },
+            { "qty": 1, "unit": "çk", "name": "balık sosu" },
+            { "qty": 1, "unit": "çk", "name": "şeker" },
+            { "qty": 1, "unit": "büyük avuç", "name": "kutsal fesleğen" },
+            { "qty": 2, "name": "yumurta", "note": "kızartmak için" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Aromatikleri döv", "body": "Sarımsak ve biberi bir havanda kaba bir ezme olana dek döv: blendırdan daha temiz bir kesim ve daha çok aroma açığa çıkarır." },
+        { "title": "Önce yumurtaları kızart", "body": "Sıcak yağda yumurtaları akları kabarcıklı ve kenarları dantel olana ama sarıları akışkan kalana dek kızart. Kenara al.", "minutes": 3 },
+        { "title": "Woku dumanlat", "body": "Aynı sıcak yağda sarımsak-biber ezmesini birkaç saniye kavur, kıymayı ekleyip dağıt ve tutup kızarması için bırak.", "minutes": 4 },
+        { "title": "Sos ve fesleğen", "body": "İstiridye sosu, soya, balık sosu ve şekeri ekle, çevir, sonra ateşi kapat ve kutsal fesleğeni yalnızca solacak kadar katarak karıştır." },
+        { "title": "Tabağa al", "body": "Buğulanmış pilavın üzerine koy ve bir sahanda yumurtayla taçlandır. Yanında acılı balık soslu servis et." }
+      ],
+      "tips": [
+        "Kutsal fesleğen, tatlı Tayland fesleğeni değil: tat tamamen farklı.",
+        "Buğulanmak yerine kızarması için kıymayı çevirmeler arasında wokta bırak."
+      ],
+      "tags": ["hızlı", "domuz", "acılı", "hafta içi"]
+    },
+    "massaman-curry": {
+      "title": "Massaman Köri",
+      "course": "Köri",
+      "origin": "Güney Tayland",
+      "excerpt": "Tayland’ın en yumuşak körisi: kakule ve tarçının hindistan cevizi ve uzun, sabırlı bir kaynayışla buluştuğu yavaş, baharatlı bir yahni.",
+      "intro": [
+        "Massaman, sınırları aşan köridir: Pers ve Hint baharatları Tayland hindistan cevizi tabanına katlanır, sonra et yumuşayana dek kısık ateşte bırakılır. Ateşli kuzenlerine kıyasla tatlı, sıcak ve neredeyse uykuludur: beceriden çok zamanı ödüllendiren bir tabak.",
+        "Kendi ezmeni kavurup dövmek onu yükseltir; gerisini kaynama yapar."
+      ],
+      "ingredients": [
+        {
+          "title": "Ezme",
+          "items": [
+            { "qty": 4, "name": "kuru kırmızı biber", "note": "ıslatılmış" },
+            { "qty": 4, "name": "arpacık soğanı" },
+            { "qty": 4, "name": "diş sarımsak" },
+            { "qty": 1, "unit": "yk", "name": "kişniş tohumu" },
+            { "qty": 4, "name": "kakule" },
+            { "qty": 1, "unit": "çubuk", "name": "tarçın" },
+            { "qty": 1, "unit": "yk", "name": "galangal", "note": "doğranmış" }
+          ]
+        },
+        {
+          "title": "Yahni",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "sığır incik", "note": "iri parçalar" },
+            { "qty": 400, "unit": "ml", "name": "hindistan cevizi sütü" },
+            { "qty": 2, "unit": "yk", "name": "demirhindi ezmesi" },
+            { "qty": 2, "unit": "yk", "name": "palmiye şekeri" },
+            { "qty": 2, "unit": "yk", "name": "balık sosu" },
+            { "qty": 2, "name": "patates", "note": "iri parçalar" },
+            { "qty": 60, "unit": "g", "name": "kavrulmuş yer fıstığı" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Kavur ve döv", "body": "Bütün baharatları kokuları çıkana dek kavur, sonra ezmenin tüm malzemelerini pürüzsüz, kokulu bir kütle olana dek döv; ya da bir tutam suyla blendırla.", "minutes": 10 },
+        { "title": "Hindistan cevizi kremasını kır", "body": "Hindistan cevizi sütünün koyu üst kısmını kesilip yağı yükselene dek kaynat, ezmeyi içinde derin aromatik olana dek kavur.", "minutes": 6 },
+        { "title": "Mühürle ve yavaş pişir", "body": "Eti ekle ve ezmeyle kapla, kalan hindistan cevizi sütünü ve örtecek kadar suyu dök. Et yumuşayana dek kısık ateşte yavaş yavaş kaynat.", "minutes": 60 },
+        { "title": "Dengele ve bitir", "body": "Patatesleri, demirhindiyi, palmiye şekerini ve balık sosunu ekle ve patates yumuşayıp sos aynı anda tatlı, ekşi ve tuzlu olana dek pişir.", "minutes": 15 },
+        { "title": "Servis et", "body": "Kavrulmuş yer fıstığını serp ve yasemin pirinciyle servis et." }
+      ],
+      "tips": [
+        "Sığır incik veya yanak, uzun pişmeyi yağsız bir parçadan çok daha iyi ödüllendirir.",
+        "Sonda dengele: bir massaman yuvarlak ve yumuşak olmalı, asla keskin değil."
+      ],
+      "tags": ["sığır", "köri", "yavaş", "doyurucu"]
+    }
+  }
+}

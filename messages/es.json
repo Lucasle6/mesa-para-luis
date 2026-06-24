@@ -1,0 +1,719 @@
+{
+  "ui": {
+    "meta": {
+      "siteDescription": "Un diario de cocina de la calle al pase: recetas y técnicas de las cocinas del mundo, del puesto callejero al Michelin."
+    },
+    "nav": {
+      "cuisines": "Cocinas",
+      "recipes": "Recetas",
+      "about": "El diario",
+      "start": "Empezar a cocinar",
+      "home": "inicio",
+      "open": "Abrir menú",
+      "close": "Cerrar menú",
+      "language": "Idioma",
+      "skip": "Saltar al contenido"
+    },
+    "hero": {
+      "eyebrow": "Un diario de cocina · desde 2026",
+      "titleA": "De la calle",
+      "titleB": "al pase.",
+      "lede": "Una sola idea, seguida por todo el mapa de la comida: del carrito de un mercado nocturno al pase de un Michelin. Recetas reales, las técnicas que las sostienen y las historias que las llevaron por el mundo.",
+      "browse": "Ver recetas",
+      "cuisines": "Cocinas",
+      "quote": "Todo en su sitio, y cocinar se vuelve fácil.",
+      "stats": "{c} cocinas · {r} recetas"
+    },
+    "home": {
+      "mapEyebrow": "01 — El mapa",
+      "mapTitle": "Seis cocinas, una misma obsesión por hacerlo bien.",
+      "allCuisines": "Todas las cocinas",
+      "explore": "Explorar {name}",
+      "roadEyebrow": "02 — El hilo conductor",
+      "roadTitle": "Cada plato está en algún punto del mismo camino.",
+      "roadLede": "El puesto callejero y el menú de degustación no son rivales: son dos puntos de un mismo viaje. Mesa para Luis marca dónde cae cada receta, para que sepas siempre en qué noche te estás metiendo.",
+      "roadCta": "Cocinar por nivel",
+      "featuredEyebrow": "03 — En el pase",
+      "featuredTitle": "Lo que estamos cocinando ahora.",
+      "everyRecipe": "Todas las recetas",
+      "ctaEyebrow": "El boletín semanal",
+      "ctaTitle": "Una receta, una técnica, una historia: cada domingo.",
+      "ctaBtn": "Empezar por una receta"
+    },
+    "levels": {
+      "1": { "label": "Calle", "blurb": "Carritos, puestos, mercados nocturnos" },
+      "2": { "label": "Casa", "blurb": "Cocinas de familia, entre semana" },
+      "3": { "label": "Bistró", "blurb": "Restaurantes de barrio" },
+      "4": { "label": "Refinada", "blurb": "Menús de degustación, técnica fina" },
+      "5": { "label": "Pase", "blurb": "Técnica de nivel Michelin" }
+    },
+    "heat": {
+      "Easy": "Suave",
+      "Medium": "Constante",
+      "Hard": "Exigente",
+      "Expert": "Precisa"
+    },
+    "spec": {
+      "time": "Tiempo",
+      "heat": "Intensidad",
+      "origin": "Origen",
+      "course": "Plato"
+    },
+    "techniqueLevel": "Nivel de técnica",
+    "recipe": {
+      "ingredients": "Ingredientes",
+      "method": "Elaboración",
+      "gathered": "{checked}/{total} reunidos",
+      "done": "{done}/{total} hechos",
+      "fromPass": "Desde el pase",
+      "keepCooking": "Seguir cocinando",
+      "print": "Imprimir receta",
+      "fewer": "Menos raciones",
+      "more": "Más raciones",
+      "serving": "ración",
+      "servings": "raciones",
+      "min": "min",
+      "allRecipes": "Todas las recetas",
+      "breadcrumb": "Recetas"
+    },
+    "explorer": {
+      "searchPlaceholder": "Busca platos, ingredientes, ciudades…",
+      "cuisine": "Cocina",
+      "level": "Nivel de técnica",
+      "any": "Cualquiera",
+      "all": "Todas",
+      "sort": "Orden",
+      "sortFeatured": "Destacadas",
+      "sortQuick": "Más rápidas",
+      "sortLevelAsc": "Calle → Pase",
+      "sortLevelDesc": "Pase → Calle",
+      "clear": "Limpiar",
+      "resultOne": "1 receta",
+      "resultMany": "{count} recetas",
+      "emptyTitle": "Nada en este pase.",
+      "emptyBody": "Ninguna receta coincide con esos filtros: prueba a ampliar la búsqueda.",
+      "reset": "Restablecer filtros"
+    },
+    "footer": {
+      "tagline": "Un diario de cocina que sigue una sola idea por todo el mapa de la comida, de la calle al pase. Escrito, cocinado y fotografiado por un mismo par de manos.",
+      "cuisinesHeading": "Cocinas",
+      "journalHeading": "El diario",
+      "allRecipes": "Todas las recetas",
+      "browseCuisines": "Explorar cocinas",
+      "about": "Sobre Mesa para Luis",
+      "rights": "Todos los derechos reservados",
+      "madeWith": "Hecho con paciencia y una sartén muy caliente.",
+      "newsletterLabel": "El boletín semanal",
+      "newsletterPlaceholder": "tu@cocina.com",
+      "join": "Unirme",
+      "newsletterDone": "Estás en la lista. El próximo envío llega pronto.",
+      "newsletterError": "Ese correo no parece correcto, ¿lo revisas?"
+    },
+    "about": {
+      "eyebrow": "El diario",
+      "titleA": "Un cocinero,",
+      "titleB": "un camino,",
+      "titleC": "todo el mapa de la comida.",
+      "lede1": "Mesa para Luis nació de una idea testaruda: que el puesto del mercado nocturno y la cocina de tres estrellas cuentan la misma historia a distinto volumen. Este es un diario de perseguir esa historia: cocinar un plato a nivel de calle y luego seguirlo hasta el pase para ver qué escondía de verdad la técnica.",
+      "lede2": "Todo lo que hay aquí está cocinado, comido y fotografiado por un mismo par de manos. Si una receta está en el sitio, es porque se ha hecho las veces suficientes como para confiar en ella.",
+      "quote": "Todo en su sitio, y cocinar se vuelve fácil.",
+      "quoteAttr": "Mise en place — la primera lección de toda cocina",
+      "statsCuisines": "Cocinas",
+      "statsRecipes": "Recetas",
+      "statsLevels": "Niveles de técnica",
+      "statsPans": "Sartenes arruinadas",
+      "believe": "Lo que creemos",
+      "principles": [
+        {
+          "title": "La técnica por encima de la moda",
+          "body": "Cada receta se gana su sitio por un método real: algo que seguirás usando dentro de diez años, no una moda pasajera de emplatado."
+        },
+        {
+          "title": "La calle cuenta",
+          "body": "Un taco al pastor perfecto y un soufflé impecable son la misma búsqueda. Rechazamos el esnobismo que dice que solo uno de los dos importa."
+        },
+        {
+          "title": "Escrito para cocinarse",
+          "body": "Nada de mil palabras antes de la receta. Pasos claros, tiempos reales y el único consejo que de verdad cambia el resultado."
+        }
+      ],
+      "ctaTitle": "Acércate un taburete. Vamos a cocinar algo.",
+      "ctaBtn": "Ver las recetas"
+    },
+    "cuisinesPage": {
+      "eyebrow": "El mapa",
+      "titleA": "Seis mundos,",
+      "titleB": "un camino cada uno.",
+      "lede": "Cada cocina aquí se sigue desde su esquina callejera más ruidosa hasta su comedor más silencioso. Elige un mundo en el que adentrarte.",
+      "recipesWord": "recetas"
+    },
+    "cuisinePage": {
+      "breadcrumb": "Cocinas",
+      "tableTitle": "La mesa {name}",
+      "runs": "Esta colección va de",
+      "allRecipes": "Todas las recetas"
+    },
+    "recipesPage": {
+      "eyebrow": "El índice completo",
+      "titleA": "Todas las recetas,",
+      "titleB": "filtrables.",
+      "lede": "12 platos en 6 cocinas. Busca por nombre, ciudad o ingrediente, o acota según hasta dónde quieras llegar esta noche por el camino."
+    },
+    "notFound": {
+      "eyebrow": "404 — Fuera de carta",
+      "title": "Agotado.",
+      "body": "Esa página no está en el servicio de hoy. Te llevamos de vuelta a algo que sí puedas cocinar.",
+      "btn": "Volver a la cocina"
+    }
+  },
+  "cuisines": {
+    "japanese": {
+      "name": "Japonesa",
+      "region": "Japón",
+      "tagline": "La contención como sabor",
+      "description": "Una cocina que confía más en unos pocos ingredientes impecables que en una lista larga. La seguimos desde un carrito yatai humeando en una callejuela de Fukuoka hasta la precisión casi silenciosa de una barra kaiseki.",
+      "accentDish": "Dashi"
+    },
+    "mexican": {
+      "name": "Mexicana",
+      "region": "México",
+      "tagline": "Fuego, lima y tiempo",
+      "description": "Estratificada, antigua y ruidosa en el mejor sentido. De un trompo de pastor girando en una esquina de Ciudad de México a los platos luminosos y de cuchillo de los nuevos comedores oaxaqueños.",
+      "accentDish": "Salsa"
+    },
+    "italian": {
+      "name": "Italiana",
+      "region": "Italia",
+      "tagline": "Menos cosas, bien hechas",
+      "description": "La disciplina de la resta. Un plato romano de cacio e pepe y un risotto milanés terminado en la mesa comparten la misma creencia testaruda: primero el ingrediente, la técnica a su servicio.",
+      "accentDish": "Pasta"
+    },
+    "indian": {
+      "name": "India",
+      "region": "India",
+      "tagline": "Una gramática de la especia",
+      "description": "La especia como lenguaje, no como picante. La seguimos desde un puesto de chaat en Bombay montando pani puri a toda velocidad hasta las salsas lentas y mantecosas que construyeron el canon del norte de la India.",
+      "accentDish": "Masala"
+    },
+    "french": {
+      "name": "Francesa",
+      "region": "Francia",
+      "tagline": "La madre de la técnica",
+      "description": "La cocina con la que se mide todo lo demás. De un steak frites de barra de zinc a un soufflé que vive o muere por tu muñeca, Francia es donde el método se vuelve memoria muscular.",
+      "accentDish": "Salsa"
+    },
+    "thai": {
+      "name": "Tailandesa",
+      "region": "Tailandia",
+      "tagline": "Equilibrio que se saborea",
+      "description": "Picante, ácido, salado, dulce: en tensión sobre una misma cuchara. De un wok rugiendo sobre un quemador callejero de Bangkok a los curris compuestos de las cocinas reales.",
+      "accentDish": "Nam pla"
+    }
+  },
+  "recipes": {
+    "yatai-yakisoba": {
+      "title": "Yakisoba de yatai",
+      "course": "Fideos",
+      "origin": "Fukuoka, Japón",
+      "excerpt": "El sonido de una fiesta en una sola sartén: fideos con cuerpo, una salsa ahumada y la disciplina de un wok al rojo vivo.",
+      "intro": [
+        "El yakisoba es comida callejera en su forma más pura: aquí nada es difícil y todo depende del calor. El cocinero de un yatai trabaja ración a ración sobre una llama que no podrías mantener en casa, y por eso la versión casera pide solo dos cosas: una sartén muy caliente y la negativa a llenarla en exceso.",
+        "La salsa es la que habla. Prepárala una vez y tendrás un bote en la puerta de la nevera para el resto de tu vida."
+      ],
+      "ingredients": [
+        {
+          "title": "Salsa",
+          "items": [
+            { "qty": 3, "unit": "cda", "name": "salsa Worcestershire" },
+            { "qty": 2, "unit": "cda", "name": "salsa de ostras" },
+            { "qty": 1, "unit": "cda", "name": "kétchup" },
+            { "qty": 1, "unit": "cda", "name": "salsa de soja" },
+            { "qty": 1, "unit": "cdta", "name": "azúcar" }
+          ]
+        },
+        {
+          "title": "Salteado",
+          "items": [
+            { "qty": 2, "unit": "porciones", "name": "fideos yakisoba o ramen frescos" },
+            { "qty": 150, "unit": "g", "name": "panceta de cerdo", "note": "en lonchas finas" },
+            { "qty": 0.25, "name": "repollo verde", "note": "en trozos" },
+            { "qty": 1, "name": "zanahoria", "note": "en juliana" },
+            { "qty": 2, "name": "cebolletas" },
+            { "qty": 1, "unit": "cda", "name": "aceite neutro" },
+            { "name": "Aonori, jengibre encurtido y copos de bonito", "note": "para terminar" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Mezcla la salsa", "body": "Mezcla todos los ingredientes de la salsa hasta disolver el azúcar. Pruébala: debe ser dulce, ácida y salada a la vez." },
+        { "title": "Suelta los fideos", "body": "Enjuaga los fideos bajo agua templada y sepáralos con los dedos para que se salteen sueltos y no apelmazados." },
+        { "title": "Sella el cerdo", "body": "Calienta bien la sartén. Añade el aceite y luego la panceta en una sola capa. Déjala sin tocar hasta que los bordes estén crujientes y luego remueve.", "minutes": 3 },
+        { "title": "Verduras y luego fideos", "body": "Añade la zanahoria y el repollo; saltéalos un minuto para que queden al dente. Incorpora los fideos y la salsa y voltéalo todo a fuego fuerte hasta que brille y esté algo tostado por puntos.", "minutes": 4 },
+        { "title": "Termina", "body": "Fuera del fuego, incorpora las cebolletas. Sírvelo bien alto y termina con aonori, jengibre y una nube de copos de bonito que deben rizarse con el vapor." }
+      ],
+      "tips": [
+        "Cocina en dos tandas si tu sartén es pequeña: una sartén abarrotada cuece al vapor en vez de saltear.",
+        "¿Sin fideos yakisoba? El ramen, o incluso unos espaguetis hervidos con una pizca de bicarbonato, sirven igual."
+      ],
+      "tags": ["rápido", "fideos", "cerdo", "entre semana"]
+    },
+    "silken-chawanmushi": {
+      "title": "Chawanmushi sedoso",
+      "course": "Plato pequeño",
+      "origin": "Kioto, Japón",
+      "excerpt": "Un flan salado tan liso que apenas mantiene la forma: todo el plato es una prueba de tu dashi y de tu paciencia con el calor.",
+      "intro": [
+        "El chawanmushi es la pieza estrella más silenciosa de la cocina japonesa. No hay dónde esconderse: el flan cuaja por la fuerza de tu dashi y la suavidad de tu vapor, y un solo grado de más lo deja picado y lloroso en lugar de tembloroso.",
+        "Trata la proporción, tres partes de dashi por una de huevo, como ley, y cuélalo dos veces. Todo lo demás es contención."
+      ],
+      "ingredients": [
+        {
+          "title": "Flan",
+          "items": [
+            { "qty": 3, "name": "huevos", "note": "grandes" },
+            { "qty": 450, "unit": "ml", "name": "dashi frío" },
+            { "qty": 1, "unit": "cdta", "name": "salsa de soja clara (usukuchi)" },
+            { "qty": 1, "unit": "cdta", "name": "mirin" },
+            { "qty": 0.5, "unit": "cdta", "name": "sal fina" }
+          ]
+        },
+        {
+          "title": "Guarnición",
+          "items": [
+            { "qty": 4, "name": "gambas crudas", "note": "peladas" },
+            { "qty": 4, "name": "shiitake", "note": "en láminas" },
+            { "qty": 8, "name": "nueces de ginkgo o edamame" },
+            { "name": "Mitsuba o cebollino", "note": "para terminar" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Prepara la base", "body": "Bate los huevos sin airearlos: deben quedar rotos, no espumosos. Añade el dashi frío, la soja, el mirin y la sal, y remueve con suavidad." },
+        { "title": "Cuela dos veces", "body": "Pasa la mezcla por un colador fino dos veces. Esa es la diferencia entre liso como el cristal y granuloso." },
+        { "title": "Llena las tazas", "body": "Reparte las gambas, el shiitake y el ginkgo en cuatro tazas resistentes al calor. Vierte el flan por encima y retira las burbujas de la superficie con una cuchara." },
+        { "title": "Cuece al vapor, suave y lento", "body": "Cuece al vapor al fuego más suave con la tapa entreabierta, para que la temperatura nunca pase de un hervor apenas perceptible. El flan está listo cuando tiembla como una sola pieza.", "minutes": 18 },
+        { "title": "Reposa y corona", "body": "Reposa dos minutos y coloca encima una ramita de mitsuba. Sírvelo templado, con cuchara, para comerlo en silencio." }
+      ],
+      "tips": [
+        "Un palillo debe salir limpio y el hueco que deja debería llenarse despacio de un líquido claro, no turbio.",
+        "Envuelve la tapa de la vaporera en un paño para evitar que la condensación gotee y agujeree la superficie."
+      ],
+      "tags": ["flan", "al vapor", "elegante", "marisco"]
+    },
+    "tacos-al-pastor": {
+      "title": "Tacos al pastor",
+      "course": "Tacos",
+      "origin": "Ciudad de México, México",
+      "excerpt": "Shawarma libanés a la mexicana: chiles, achiote y piña, rebanado caliente sobre tortillas pequeñas y templadas.",
+      "intro": [
+        "El al pastor es una carta de amor entre dos cocinas: el trompo vertical llegó con la inmigración libanesa, el adobo es inconfundiblemente mexicano. Sin trompo en casa, un horno muy caliente y un sellado final fuerte te dejan sorprendentemente cerca.",
+        "La piña no es un adorno. Su acidez forma parte del adobo y su caramelizado forma parte del taco."
+      ],
+      "ingredients": [
+        {
+          "title": "Adobo",
+          "items": [
+            { "qty": 3, "name": "chiles guajillo", "note": "sin tallo ni semillas" },
+            { "qty": 2, "name": "chiles ancho", "note": "sin tallo ni semillas" },
+            { "qty": 2, "unit": "cda", "name": "pasta de achiote" },
+            { "qty": 3, "name": "dientes de ajo" },
+            { "qty": 60, "unit": "ml", "name": "zumo de piña" },
+            { "qty": 2, "unit": "cda", "name": "vinagre blanco" },
+            { "qty": 1, "unit": "cdta", "name": "orégano seco" },
+            { "qty": 1, "unit": "cdta", "name": "comino molido" }
+          ]
+        },
+        {
+          "title": "Para montar",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "aguja de cerdo", "note": "en lonchas finas" },
+            { "qty": 0.5, "name": "piña fresca", "note": "en rodajas gruesas" },
+            { "qty": 16, "name": "tortillas de maíz", "note": "pequeñas" },
+            { "qty": 1, "name": "cebolla blanca", "note": "picada fina" },
+            { "name": "Cilantro y lima", "note": "para terminar" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Despierta los chiles", "body": "Tuesta los chiles secos en una sartén seca hasta que huelan, y luego remójalos en agua caliente diez minutos hasta que estén flexibles.", "minutes": 10 },
+        { "title": "Tritura el adobo", "body": "Tritura los chiles remojados con el achiote, el ajo, el zumo de piña, el vinagre y las especias hasta una pasta lisa de color rojo ladrillo." },
+        { "title": "Adoba", "body": "Cubre bien la carne en lonchas y déjala al menos dos horas, idealmente toda la noche." },
+        { "title": "Asa y carameliza", "body": "Apila la carne bien prensada en un molde y ásala fuerte; luego córtala y dale un golpe de sartén muy caliente para crujir los bordes. Caramela la piña al lado.", "minutes": 20 },
+        { "title": "Monta pequeño", "body": "Calienta las tortillas, dóblalas de dos en dos y pon encima carne, un poco de piña, cebolla cruda, cilantro y un chorrito de lima. Cómelos enseguida, de pie si puedes." }
+      ],
+      "tips": [
+        "Dos tortillas pequeñas por taco no es exceso: evitan que el taco se rompa con los jugos.",
+        "Congela la carne 30 minutos antes de cortarla para lograr lonchas finísimas."
+      ],
+      "tags": ["cerdo", "tacos", "chile", "a la parrilla"]
+    },
+    "aguachile-verde": {
+      "title": "Aguachile verde",
+      "course": "Crudo",
+      "origin": "Sinaloa, México",
+      "excerpt": "Gambas apenas tocadas por la lima, ahogadas en una feroz agua verde de chile. Un plato de cuchillo: todo es tiempo, nada de cocción.",
+      "intro": [
+        "El aguachile es el primo crudo y eléctrico del ceviche. El ácido solo roza las gambas, así que la frescura no es negociable; el picante es inmediato y todo el plato se monta al momento.",
+        "Sírvelo en cuanto lo aliñes. Un minuto de más y las gambas se aprietan y se vuelven harinosas."
+      ],
+      "ingredients": [
+        {
+          "title": "Agua de chile",
+          "items": [
+            { "qty": 120, "unit": "ml", "name": "zumo de lima", "note": "fresco" },
+            { "qty": 2, "name": "chiles serranos" },
+            { "qty": 1, "unit": "puñado", "name": "cilantro" },
+            { "qty": 0.5, "name": "pepino", "note": "pelado" },
+            { "qty": 1, "unit": "diente", "name": "ajo" }
+          ]
+        },
+        {
+          "title": "Para emplatar",
+          "items": [
+            { "qty": 500, "unit": "g", "name": "gambas crudas", "note": "abiertas en mariposa" },
+            { "qty": 0.5, "name": "cebolla morada", "note": "en láminas" },
+            { "qty": 0.5, "name": "pepino", "note": "en rodajas finas" },
+            { "name": "Sal en escamas y tostadas", "note": "para servir" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Tritura el agua de chile", "body": "Tritura el zumo de lima, el serrano, el cilantro, el pepino y el ajo hasta un verde intenso. Sazona con sal y pásalo por un colador para un acabado más limpio." },
+        { "title": "Remoja la cebolla", "body": "Echa la cebolla morada en agua con hielo diez minutos para que quede crujiente y pierda su mordiente crudo.", "minutes": 10 },
+        { "title": "Aliña al momento", "body": "Coloca las gambas abiertas planas en un plato frío. Vierte el agua de chile solo cuando vayas a servir." },
+        { "title": "Termina y corre", "body": "Esparce el pepino y la cebolla escurrida, una pizca de sal en escamas, y llévalo a la mesa de inmediato con tostadas al lado." }
+      ],
+      "tips": [
+        "Compra las gambas más frescas que encuentres y avisa a tu pescadero de que van crudas.",
+        "Ajusta el picante dejando o quitando las semillas del serrano antes de triturar."
+      ],
+      "tags": ["marisco", "crudo", "picante", "sin cocción"]
+    },
+    "cacio-e-pepe": {
+      "title": "Cacio e pepe",
+      "course": "Pasta",
+      "origin": "Roma, Italia",
+      "excerpt": "Tres ingredientes y absolutamente ningún sitio donde esconderse. La prueba romana de si sabes hacer que una emulsión obedezca.",
+      "intro": [
+        "El cacio e pepe es el plato que humilla a los cocineros confiados. Queso, pimienta, pasta, y una salsa que se corta en un amasijo graso en cuanto te precipitas. El secreto es la temperatura: el pecorino se agarrota en agua hirviendo, así que el agua de cocción, rica en almidón, debe estar caliente pero no abrasando cuando se encuentra con el queso.",
+        "Trabaja rápido, fuera del fuego, y confía en el almidón."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 200, "unit": "g", "name": "tonnarelli o espaguetis" },
+            { "qty": 120, "unit": "g", "name": "Pecorino Romano", "note": "rallado fino" },
+            { "qty": 2, "unit": "cdta", "name": "granos de pimienta negra", "note": "machacados grueso" },
+            { "name": "Sal", "note": "para el agua de la pasta" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Sala poco", "body": "Cuece la pasta en menos agua de lo normal y sálala con moderación: el pecorino es salado y quieres el agua bien almidonada." },
+        { "title": "Despierta la pimienta", "body": "Tuesta la pimienta machacada en una sartén ancha hasta que sea aromática, y añade un cucharón de agua de la pasta para formar una base perfumada.", "minutes": 2 },
+        { "title": "Haz la crema", "body": "En un bol, mezcla el pecorino con un poco de agua de la pasta templada hasta una pasta espesa y sin grumos. Enfriar un poco el agua evita que el queso se agarrote." },
+        { "title": "Emulsiona fuera del fuego", "body": "Escurre la pasta un punto antes del al dente y saltéala en la sartén con pimienta. Fuera del fuego, añade la pasta de queso y saltea con fuerza, aflojando con chorritos de agua hasta lograr una salsa brillante que se adhiera.", "minutes": 3 },
+        { "title": "Sirve enseguida", "body": "Emplata de inmediato con una vuelta más de pimienta y un poco de pecorino. No espera a nadie." }
+      ],
+      "tips": [
+        "Ralla el pecorino lo más fino que puedas: el queso grueso pelea contra la emulsión.",
+        "Si se corta, retíralo del fuego y bate un poco de agua fría para recuperarlo."
+      ],
+      "tags": ["pasta", "queso", "rápido", "vegetariano"]
+    },
+    "risotto-al-limone": {
+      "title": "Risotto al limone",
+      "course": "Risotto",
+      "origin": "Milán, Italia",
+      "excerpt": "La mantecatura, ese batido final de mantequilla y queso, es donde un risotto corriente se convierte en uno de restaurante.",
+      "intro": [
+        "El risotto al limón vive y muere por dos técnicas a la vez: la construcción lenta y atenta del caldo y la mantecatura violenta de último segundo, que bate mantequilla fría y queso hasta una ola que puedes extender por el plato. El limón llega tarde, para mantenerlo vivo en vez de cocido.",
+        "Un buen risotto debe quedar all’onda: moviéndose como una ola al inclinar el plato, nunca tieso."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 320, "unit": "g", "name": "arroz carnaroli" },
+            { "qty": 1.2, "unit": "l", "name": "caldo de verduras caliente" },
+            { "qty": 1, "name": "chalota", "note": "picada fina" },
+            { "qty": 120, "unit": "ml", "name": "vino blanco seco" },
+            { "qty": 2, "name": "limones", "note": "ralladura y zumo" },
+            { "qty": 80, "unit": "g", "name": "mantequilla fría", "note": "en dados" },
+            { "qty": 70, "unit": "g", "name": "Parmigiano-Reggiano", "note": "rallado" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Sofríe y nacara", "body": "Ablanda la chalota con suavidad en un poco de mantequilla, añade el arroz y nacáralo hasta que los granos estén translúcidos por los bordes y huelan a tostado.", "minutes": 3 },
+        { "title": "Desglasa", "body": "Vierte el vino y deja que se evapore por completo, raspando el fondo de la cazuela." },
+        { "title": "Construye con el caldo", "body": "Añade el caldo caliente cucharón a cucharón, removiendo a menudo, esperando a que cada adición se absorba casi del todo antes de la siguiente. Aquí es donde se saca el almidón.", "minutes": 18 },
+        { "title": "Mantecatura", "body": "Cuando el arroz esté al dente, retíralo del fuego. Bate con energía la mantequilla fría y el parmesano hasta que el risotto quede cremoso y brillante, y luego incorpora la ralladura y el zumo de limón.", "minutes": 2 },
+        { "title": "Reposa y emplata", "body": "Reposa un minuto, extiéndelo en platos templados y golpea la base para que se asiente en una ola." }
+      ],
+      "tips": [
+        "Mantén el caldo caliente en una cazuela contigua: el caldo frío frena la cocción y vuelve los granos pegajosos.",
+        "Retíralo del fuego un minuto antes; sigue cociéndose de camino a la mesa."
+      ],
+      "tags": ["arroz", "limón", "vegetariano", "elegante"]
+    },
+    "pani-puri": {
+      "title": "Pani puri",
+      "course": "Chaat",
+      "origin": "Bombay, India",
+      "excerpt": "Todo un aperitivo diseñado para un único bocado perfecto: corteza crujiente, agua especiada y la velocidad de las manos de un vendedor callejero.",
+      "intro": [
+        "El pani puri es teatro. El vendedor rompe cada corteza crujiente, la rellena, la sumerge en agua especiada fría y te la entrega en el medio segundo antes de que se reblandezca. El genio está en el pani: un agua de tamarindo y menta ácida, picante y herbácea a la vez.",
+        "Prepara las aguas con antelación; monta solo en la mesa, bocado a bocado."
+      ],
+      "ingredients": [
+        {
+          "title": "Pani verde",
+          "items": [
+            { "qty": 1, "unit": "manojo", "name": "menta" },
+            { "qty": 1, "unit": "manojo", "name": "cilantro" },
+            { "qty": 2, "name": "chiles verdes" },
+            { "qty": 2, "unit": "cda", "name": "pasta de tamarindo" },
+            { "qty": 1, "unit": "cdta", "name": "comino tostado molido" },
+            { "qty": 1, "unit": "cdta", "name": "sal negra" },
+            { "qty": 750, "unit": "ml", "name": "agua fría" }
+          ]
+        },
+        {
+          "title": "Para montar",
+          "items": [
+            { "qty": 24, "name": "cortezas de puri", "note": "comprarlas hechas está bien" },
+            { "qty": 1, "name": "patata", "note": "cocida y en dados" },
+            { "qty": 150, "unit": "g", "name": "garbanzos", "note": "cocidos" },
+            { "name": "Chutney de tamarindo y sev", "note": "para terminar" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Tritura el pani", "body": "Tritura la menta, el cilantro, el chile, el tamarindo y las especias con un poco de agua hasta una pasta intensa, y aflójalo con el resto del agua fría. Enfríalo bien." },
+        { "title": "Haz el relleno", "body": "Mezcla la patata en dados y los garbanzos con un poco de sal negra y comino." },
+        { "title": "Rompe y rellena", "body": "Presiona con el pulgar la parte de arriba de cada puri para abrir un hueco y mete un poco de relleno." },
+        { "title": "Sumerge y come", "body": "Moja el puri relleno en el pani frío para que inunde la corteza, y cómelo entero, de inmediato, antes de que se rinda." }
+      ],
+      "tips": [
+        "Sirve el pani helado: el calor apaga todo el efecto.",
+        "Pon todo en cuencos y deja que cada quien monte el suyo; de eso se trata."
+      ],
+      "tags": ["tentempié", "vegetariano", "picante", "para compartir"]
+    },
+    "murgh-makhani": {
+      "title": "Murgh makhani",
+      "course": "Curry",
+      "origin": "Delhi, India",
+      "excerpt": "Pollo a la mantequilla, a la manera del restaurante: pollo tipo tandoori chamuscado e incorporado tarde a una salsa de tomate sedosa.",
+      "intro": [
+        "El murgh makhani se inventó para aprovechar el pollo tandoori del día anterior, y ese origen es el secreto: el pollo se marina y se chamusca primero, y luego se termina en la salsa para que conserve su ahumado. La salsa se enriquece al final con mantequilla, nata y un susurro de fenogreco machacado.",
+        "Dos fases, una sola cazuela de recompensa."
+      ],
+      "ingredients": [
+        {
+          "title": "Pollo",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "muslo de pollo", "note": "deshuesado" },
+            { "qty": 150, "unit": "g", "name": "yogur" },
+            { "qty": 2, "unit": "cda", "name": "pasta de jengibre y ajo" },
+            { "qty": 1, "unit": "cda", "name": "tandoori masala" }
+          ]
+        },
+        {
+          "title": "Salsa",
+          "items": [
+            { "qty": 6, "name": "tomates", "note": "o 400 g en lata" },
+            { "qty": 2, "unit": "cda", "name": "mantequilla" },
+            { "qty": 1, "name": "cebolla" },
+            { "qty": 1, "unit": "cda", "name": "pasta de jengibre y ajo" },
+            { "qty": 1, "unit": "cdta", "name": "chile de Cachemira en polvo" },
+            { "qty": 100, "unit": "ml", "name": "nata para montar" },
+            { "qty": 1, "unit": "cdta", "name": "fenogreco seco (kasuri methi)" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Marina", "body": "Cubre el pollo con el yogur, la pasta de jengibre y ajo y el tandoori masala, y déjalo al menos una hora." },
+        { "title": "Chamusca el pollo", "body": "Sella el pollo marinado fuerte en una sartén muy caliente o bajo el grill hasta que los bordes se ennegrezcan. No hace falta que esté cocido del todo todavía.", "minutes": 8 },
+        { "title": "Construye la salsa", "body": "Ablanda la cebolla en mantequilla, añade el jengibre y ajo y el chile, y luego los tomates. Cuece hasta que esté como mermelada, tritura hasta que quede liso y pásalo por un colador para esa seda característica.", "minutes": 20 },
+        { "title": "Júntalo todo", "body": "Devuelve la salsa a la cazuela, desliza el pollo chamuscado y cuece hasta que esté hecho y brillante.", "minutes": 12 },
+        { "title": "Termina rico", "body": "Fuera del fuego, incorpora la nata y la mantequilla y machaca el fenogreco entre las palmas por encima. Reposa antes de servir con naan." }
+      ],
+      "tips": [
+        "Pasar la salsa por un colador es el único paso que separa el restaurante de la casa.",
+        "Machaca el kasuri methi con las manos al añadirlo para liberar su aroma."
+      ],
+      "tags": ["pollo", "curry", "cremoso", "para todos"]
+    },
+    "steak-frites": {
+      "title": "Steak frites",
+      "course": "Principal",
+      "origin": "París, Francia",
+      "excerpt": "El referente del bistró. Una buena costra, un centro rosado, patatas fritas dos veces y una nuez de mantequilla café de París derritiéndose por encima.",
+      "intro": [
+        "El steak frites es una prueba de dos técnicas a la vez: un sellado fuerte y uniforme en la carne y la doble fritura que hace que una patata cruja y luego ceda. Ninguna es difícil; ambas premian la atención. La mantequilla compuesta es el toque de bistró que las une.",
+        "Reposa la carne tanto como la cocinaste. Esa paciencia es la receta."
+      ],
+      "ingredients": [
+        {
+          "title": "Carne",
+          "items": [
+            { "qty": 2, "name": "entrecots", "note": "gruesos, de 250 g cada uno" },
+            { "qty": 1, "unit": "cda", "name": "aceite neutro" },
+            { "qty": 30, "unit": "g", "name": "mantequilla" },
+            { "qty": 2, "name": "dientes de ajo", "note": "aplastados" },
+            { "qty": 1, "unit": "ramita", "name": "tomillo" }
+          ]
+        },
+        {
+          "title": "Patatas",
+          "items": [
+            { "qty": 600, "unit": "g", "name": "patatas Maris Piper", "note": "en bastones" },
+            { "qty": 1, "unit": "l", "name": "aceite para freír" },
+            { "name": "Sal en escamas", "note": "para terminar" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Primera fritura, baja", "body": "Enjuaga los bastones de patata y sécalos bien. Fríelos suave a baja temperatura hasta que estén tiernos pero pálidos, y luego escúrrelos y enfríalos del todo.", "minutes": 8 },
+        { "title": "Atempera la carne", "body": "Sala los filetes y déjalos a temperatura ambiente. Una carne fría se sella de forma irregular." },
+        { "title": "Sella y rocía", "body": "Sella los filetes fuerte en aceite sin moverlos, añade la mantequilla, el ajo y el tomillo y rocía con la mantequilla espumosa hasta que se forme una costra y el centro alcance tu punto.", "minutes": 6 },
+        { "title": "Reposa", "body": "Reposa los filetes en un sitio templado tanto como los cocinaste mientras terminas las patatas." },
+        { "title": "Segunda fritura, fuerte", "body": "Sube el aceite y fríe las patatas otra vez hasta que estén doradas y ampolladas. Escurre, sala desde lo alto y sirve enseguida junto a la carne reposada.", "minutes": 4 }
+      ],
+      "tips": [
+        "Dos temperaturas hacen la patata: baja para cocer por dentro, fuerte para crujir.",
+        "Corta la carne contra la fibra para que cada bocado quede tierno."
+      ],
+      "tags": ["ternera", "clásico", "frito", "para dos"]
+    },
+    "souffle-au-fromage": {
+      "title": "Soufflé au fromage",
+      "course": "Principal",
+      "origin": "Lyon, Francia",
+      "excerpt": "El plato que forjó reputaciones. Una bechamel, un merengue y el temple de no abrir la puerta del horno.",
+      "intro": [
+        "Un soufflé de queso es técnica pura hecha comestible. Es una bechamel aligerada con claras montadas, y su subida depende por completo de la suavidad con que mezcles y de lo estable que mantenga el horno. No hay arreglo una vez dentro; solo está la arquitectura que construyes antes.",
+        "Sírvelo en el instante en que sale del horno: un soufflé no espera a ningún comensal, y bajar es su naturaleza, no su fracaso."
+      ],
+      "ingredients": [
+        {
+          "title": "Base",
+          "items": [
+            { "qty": 50, "unit": "g", "name": "mantequilla", "note": "más extra para los moldes" },
+            { "qty": 50, "unit": "g", "name": "harina común" },
+            { "qty": 350, "unit": "ml", "name": "leche entera", "note": "templada" },
+            { "qty": 4, "name": "yemas de huevo" },
+            { "qty": 120, "unit": "g", "name": "Gruyère", "note": "rallado" },
+            { "qty": 1, "unit": "pizca", "name": "nuez moscada" }
+          ]
+        },
+        {
+          "title": "Merengue",
+          "items": [
+            { "qty": 5, "name": "claras de huevo" },
+            { "qty": 1, "unit": "pizca", "name": "crémor tártaro" },
+            { "qty": 2, "unit": "cda", "name": "parmesano rallado fino", "note": "para forrar los moldes" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Prepara los moldes", "body": "Unta los ramequines con mantequilla en trazos hacia arriba y rebózalos con parmesano rallado: eso le da al soufflé algo a lo que trepar. Enfríalos." },
+        { "title": "Haz la bechamel", "body": "Cocina la mantequilla y la harina en un roux, incorpora la leche templada y cuece hasta una salsa espesa y lisa. Fuera del fuego, bate las yemas, el Gruyère y la nuez moscada.", "minutes": 8 },
+        { "title": "Monta las claras", "body": "Monta las claras con el crémor tártaro a picos firmes y brillantes: lo bastante firmes para sostenerse, sin pasarte hasta que granulen.", "minutes": 4 },
+        { "title": "Envuelve, no remuevas", "body": "Mezcla una cucharada de claras en la base templada para aflojarla, y luego envuelve el resto en dos veces con mano ligera, conservando todo el aire que puedas." },
+        { "title": "Hornea y aguanta los nervios", "body": "Llena los moldes, pasa el pulgar por cada borde para ayudar a la subida y hornea en un horno caliente y estable sin abrir la puerta hasta que suba y cuaje justo, con el centro tierno.", "minutes": 22 }
+      ],
+      "tips": [
+        "Un hilo de bechamel templada en las claras no pasa nada; pasarse mezclando es fatal.",
+        "No abras el horno antes de los últimos minutos, o la caída de temperatura desplomará la subida."
+      ],
+      "tags": ["queso", "horno", "vegetariano", "plato estrella"]
+    },
+    "pad-kra-pao": {
+      "title": "Pad kra pao",
+      "course": "Plato de arroz",
+      "origin": "Bangkok, Tailandia",
+      "excerpt": "El plato que Tailandia come de verdad: albahaca santa, chile y un wok rugiente, rematado con un huevo frito de bordes crujientes.",
+      "intro": [
+        "El pad kra pao es el pedido por defecto en toda Tailandia por una razón: es rápido, feroz y se construye sobre un wok lo bastante caliente como para asustarte. La albahaca santa es innegociable: su nota pimentada, casi medicinal, es toda la identidad del plato.",
+        "Un huevo frito de yema líquida y bordes de encaje no es opcional en ninguna cocina seria."
+      ],
+      "ingredients": [
+        {
+          "items": [
+            { "qty": 300, "unit": "g", "name": "carne picada de cerdo o pollo" },
+            { "qty": 4, "name": "dientes de ajo" },
+            { "qty": 4, "name": "chiles ojo de pájaro" },
+            { "qty": 2, "unit": "cda", "name": "salsa de ostras" },
+            { "qty": 1, "unit": "cda", "name": "salsa de soja" },
+            { "qty": 1, "unit": "cdta", "name": "salsa de pescado" },
+            { "qty": 1, "unit": "cdta", "name": "azúcar" },
+            { "qty": 1, "unit": "puñado grande", "name": "albahaca santa" },
+            { "qty": 2, "name": "huevos", "note": "para freír" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Maja los aromáticos", "body": "Maja el ajo y el chile hasta una pasta basta en un mortero: un corte más limpio que la batidora y libera más aroma." },
+        { "title": "Fríe los huevos primero", "body": "En aceite caliente, fríe los huevos hasta que las claras estén ampolladas y de encaje en los bordes pero las yemas líquidas. Resérvalos.", "minutes": 3 },
+        { "title": "Pon el wok a humear", "body": "En el mismo aceite caliente, fríe la pasta de ajo y chile unos segundos, añade la carne picada y desmenúzala, dejándola que se agarre y dore.", "minutes": 4 },
+        { "title": "Salsa y albahaca", "body": "Añade la salsa de ostras, la soja, la salsa de pescado y el azúcar, saltea, apaga el fuego e incorpora la albahaca santa para que apenas se marchite." },
+        { "title": "Emplata", "body": "Sirve sobre arroz al vapor y corona con un huevo frito. Acompaña con salsa de pescado con chile aparte." }
+      ],
+      "tips": [
+        "Albahaca santa, no albahaca tailandesa dulce: el sabor es completamente distinto.",
+        "Deja reposar la carne en el wok entre vuelta y vuelta para que dore en vez de guisarse."
+      ],
+      "tags": ["rápido", "cerdo", "picante", "entre semana"]
+    },
+    "massaman-curry": {
+      "title": "Curry massaman",
+      "course": "Curry",
+      "origin": "Sur de Tailandia",
+      "excerpt": "El curry más suave de Tailandia: un guiso lento y especiado donde el cardamomo y la canela se encuentran con el coco y un hervor largo y paciente.",
+      "intro": [
+        "El massaman es el curry que cruzó fronteras: especias persas e indias plegadas en una base tailandesa de coco, y luego dejadas a fuego lento hasta que la ternera cede. Es dulce, cálido y casi soñoliento comparado con sus primos ardientes: un plato que premia el tiempo más que la destreza.",
+        "Tostar y majar tu propia pasta es lo que lo eleva; el hervor hace el resto."
+      ],
+      "ingredients": [
+        {
+          "title": "Pasta",
+          "items": [
+            { "qty": 4, "name": "chiles rojos secos", "note": "remojados" },
+            { "qty": 4, "name": "chalotas" },
+            { "qty": 4, "name": "dientes de ajo" },
+            { "qty": 1, "unit": "cda", "name": "semillas de cilantro" },
+            { "qty": 4, "name": "vainas de cardamomo" },
+            { "qty": 1, "unit": "rama", "name": "canela" },
+            { "qty": 1, "unit": "cda", "name": "galangal", "note": "picado" }
+          ]
+        },
+        {
+          "title": "Guiso",
+          "items": [
+            { "qty": 800, "unit": "g", "name": "jarrete de ternera", "note": "en trozos" },
+            { "qty": 400, "unit": "ml", "name": "leche de coco" },
+            { "qty": 2, "unit": "cda", "name": "pasta de tamarindo" },
+            { "qty": 2, "unit": "cda", "name": "azúcar de palma" },
+            { "qty": 2, "unit": "cda", "name": "salsa de pescado" },
+            { "qty": 2, "name": "patatas", "note": "en trozos" },
+            { "qty": 60, "unit": "g", "name": "cacahuetes tostados" }
+          ]
+        }
+      ],
+      "steps": [
+        { "title": "Tuesta y maja", "body": "Tuesta las especias enteras hasta que sean aromáticas y maja todo lo de la pasta hasta una masa lisa y fragante, o tritúrala con un chorrito de agua.", "minutes": 10 },
+        { "title": "Rompe la crema de coco", "body": "Hierve la parte espesa de arriba de la leche de coco hasta que se corte y suba el aceite, y fríe la pasta en ella hasta que sea profundamente aromática.", "minutes": 6 },
+        { "title": "Dora y guisa", "body": "Añade la ternera y cúbrela con la pasta, vierte el resto de la leche de coco y agua suficiente para cubrir. Cuece a fuego muy lento hasta que la ternera esté tierna.", "minutes": 60 },
+        { "title": "Equilibra y termina", "body": "Añade las patatas, el tamarindo, el azúcar de palma y la salsa de pescado, y cuece hasta que la patata esté blanda y la salsa sepa dulce, ácida y salada a la vez.", "minutes": 15 },
+        { "title": "Sirve", "body": "Esparce los cacahuetes tostados y sirve con arroz jazmín." }
+      ],
+      "tips": [
+        "El jarrete o el carrillo de ternera premian la cocción larga mucho mejor que un corte magro.",
+        "Equilibra al final: un massaman debe ser redondo y suave, nunca afilado."
+      ],
+      "tags": ["ternera", "curry", "lento", "reconfortante"]
+    }
+  }
+}
