@@ -25,12 +25,6 @@ jobs:
           node-version: 20
           cache: npm
 
-      # Enables GitHub Pages on this repo automatically (no manual setting needed)
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
       - run: npm ci
 
       # Middleware isn't supported in a static export; the root redirect below
