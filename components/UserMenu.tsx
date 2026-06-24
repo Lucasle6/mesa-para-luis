@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { createClient, supabaseConfigured } from '@/lib/supabase/client';
 import { extra } from '@/lib/uiText';
@@ -26,7 +25,6 @@ export function UserMenu({
   const [account, setAccount] = useState<Account | null>(initial);
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-  const router = useRouter();
   const reduce = useReducedMotion();
 
   // Keep the menu in sync with client-side auth changes (login/logout).
@@ -60,11 +58,23 @@ export function UserMenu({
   }, []);
 
   async function signOut() {
-    if (supabaseConfigured) await createClient().auth.signOut();
-    setAccount(null);
     setOpen(false);
-    router.push(`/${locale}`);
-    router.refresh();
+    if (supabaseConfigured) {
+      const supabase = createClient();
+      try {
+        await supabase.auth.signOut();
+      } catch {
+        // Fall back to clearing the local session if the network call fails.
+        try {
+          await supabase.auth.signOut({ scope: 'local' });
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+    setAccount(null);
+    // Hard reload so server components re-read the now-cleared session cookies.
+    window.location.href = `/${locale}`;
   }
 
   // Logged out → simple sign-in link.
