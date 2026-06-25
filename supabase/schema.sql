@@ -74,11 +74,15 @@ as $$
   );
 $$;
 
--- Keep a reader from promoting themselves: only admins may change role.
+-- Keep a logged-in reader from promoting themselves: only admins may change
+-- role. When auth.uid() is null (SQL editor / service role / back office) the
+-- change is allowed, so you can bootstrap the first admin.
 create or replace function public.protect_role()
 returns trigger language plpgsql security definer set search_path = public as $$
 begin
-  if new.role is distinct from old.role and not public.is_admin() then
+  if new.role is distinct from old.role
+     and auth.uid() is not null
+     and not public.is_admin() then
     new.role := old.role;
   end if;
   return new;
