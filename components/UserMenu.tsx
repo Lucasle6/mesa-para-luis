@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { createClient, supabaseConfigured } from '@/lib/supabase/client';
-import { signOutAction } from '@/lib/auth-actions';
 import { extra } from '@/lib/uiText';
 import type { Locale } from '@/lib/i18n';
 import type { Role } from '@/lib/supabase/types';
@@ -58,25 +57,14 @@ export function UserMenu({
     return () => document.removeEventListener('mousedown', onClick);
   }, []);
 
-  async function signOut() {
-    setOpen(false);
-    // Clear the browser's local session copy…
+  // Before the form navigates to /signout, clear the browser's local session
+  // copy so onAuthStateChange settles. The server route does the real work.
+  function clearLocal() {
     if (supabaseConfigured) {
-      try {
-        await createClient().auth.signOut({ scope: 'local' });
-      } catch {
-        /* ignore */
-      }
+      createClient()
+        .auth.signOut({ scope: 'local' })
+        .catch(() => {});
     }
-    // …and the server-issued cookies (only the server can remove those)…
-    try {
-      await signOutAction();
-    } catch {
-      /* ignore */
-    }
-    setAccount(null);
-    // …then hard-reload so the server re-renders the logged-out nav.
-    window.location.href = `/${locale}`;
   }
 
   // Logged out → simple sign-in link.
@@ -153,14 +141,16 @@ export function UserMenu({
               </Link>
             )}
 
-            <button
-              type="button"
-              role="menuitem"
-              onClick={signOut}
-              className="mt-1 w-full cursor-pointer rounded-xl px-3 py-2.5 text-left text-sm text-muted transition-colors hover:bg-surface hover:text-ink"
-            >
-              {t.signOut}
-            </button>
+            <form action={`/${locale}/signout`} method="post">
+              <button
+                type="submit"
+                role="menuitem"
+                onClick={clearLocal}
+                className="mt-1 w-full cursor-pointer rounded-xl px-3 py-2.5 text-left text-sm text-muted transition-colors hover:bg-surface hover:text-ink"
+              >
+                {t.signOut}
+              </button>
+            </form>
           </motion.div>
         )}
       </AnimatePresence>

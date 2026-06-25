@@ -33,6 +33,11 @@ export async function middleware(req: NextRequest) {
     return NextResponse.redirect(url);
   }
 
+  // Don't refresh the session on the sign-out route — let it clear cookies.
+  if (pathname.endsWith('/signout')) {
+    return NextResponse.next();
+  }
+
   // On localized routes, keep the Supabase session fresh.
   const res = NextResponse.next();
   return updateSession(req, res);
