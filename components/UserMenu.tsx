@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import { createClient, supabaseConfigured } from '@/lib/supabase/client';
+import { signOutAction } from '@/lib/auth-actions';
 import { extra } from '@/lib/uiText';
 import type { Locale } from '@/lib/i18n';
 import type { Role } from '@/lib/supabase/types';
@@ -59,21 +60,22 @@ export function UserMenu({
 
   async function signOut() {
     setOpen(false);
+    // Clear the browser's local session copy…
     if (supabaseConfigured) {
-      const supabase = createClient();
       try {
-        await supabase.auth.signOut();
+        await createClient().auth.signOut({ scope: 'local' });
       } catch {
-        // Fall back to clearing the local session if the network call fails.
-        try {
-          await supabase.auth.signOut({ scope: 'local' });
-        } catch {
-          /* ignore */
-        }
+        /* ignore */
       }
     }
+    // …and the server-issued cookies (only the server can remove those)…
+    try {
+      await signOutAction();
+    } catch {
+      /* ignore */
+    }
     setAccount(null);
-    // Hard reload so server components re-read the now-cleared session cookies.
+    // …then hard-reload so the server re-renders the logged-out nav.
     window.location.href = `/${locale}`;
   }
 
