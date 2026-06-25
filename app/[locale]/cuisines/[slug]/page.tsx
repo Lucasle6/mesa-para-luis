@@ -3,21 +3,20 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
-  cuisineSlugs,
+  dbToRecipe,
   getCuisine,
   getLevels,
   getRecipesByCuisine,
 } from '@/lib/data';
-import { getDictionary, interpolate, isLocale, locales } from '@/lib/i18n';
+import { getDictionary, interpolate, isLocale } from '@/lib/i18n';
+import { createClient, supabaseConfigured } from '@/lib/supabase/server';
+import type { DbRecipe } from '@/lib/supabase/types';
+import type { Recipe } from '@/lib/types';
+
+export const dynamic = 'force-dynamic';
 import { RecipeCard } from '@/components/RecipeCard';
 import { Reveal, RevealGroup } from '@/components/Reveal';
 import { ArrowRight } from '@/components/icons';
-
-export function generateStaticParams() {
-  return locales.flatMap((locale) =>
-    cuisineSlugs().map((slug) => ({ locale, slug })),
-  );
-}
 
 export async function generateMetadata({
   params,
@@ -51,7 +50,18 @@ export default async function CuisinePage({
   const cuisine = getCuisine(dict, params.slug);
   if (!cuisine) notFound();
 
-  const recipes = getRecipesByCuisine(dict, cuisine.slug);
+  let dbRecipes: Recipe[] = [];
+  if (supabaseConfigured) {
+    const { data } = await createClient()
+      .from('recipes')
+      .select('*')
+      .eq('published', true)
+      .eq('locale', locale)
+      .eq('cuisine', cuisine.slug)
+      .order('created_at', { ascending: false });
+    dbRecipes = ((data as DbRecipe[]) ?? []).map((r) => dbToRecipe(dict, r));
+  }
+  const recipes = [...dbRecipes, ...getRecipesByCuisine(dict, cuisine.slug)];
   const levels = getLevels(dict);
   const span = recipes.map((r) => r.level).sort((a, b) => a - b);
   const lowest = levels.find((l) => l.value === span[0]);

@@ -3,13 +3,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
+  dbToRecipe,
   getCuisine,
   getLevels,
   getRecipe,
   getRelated,
-  recipeSlugs,
 } from '@/lib/data';
-import { getDictionary, isLocale, locales } from '@/lib/i18n';
+import { getDictionary, isLocale } from '@/lib/i18n';
+import { createClient, supabaseConfigured } from '@/lib/supabase/server';
+import type { Dictionary } from '@/lib/dictionary';
+import type { DbRecipe } from '@/lib/supabase/types';
+import type { Recipe } from '@/lib/types';
 import { SpecStrip } from '@/components/SpecStrip';
 import { TechniqueScale } from '@/components/TechniqueScale';
 import { Ingredients } from '@/components/Ingredients';
@@ -19,10 +23,24 @@ import { RecipeCard } from '@/components/RecipeCard';
 import { Reveal } from '@/components/Reveal';
 import { ArrowRight, Knife, Sparkle } from '@/components/icons';
 
-export function generateStaticParams() {
-  return locales.flatMap((locale) =>
-    recipeSlugs().map((slug) => ({ locale, slug })),
-  );
+export const dynamic = 'force-dynamic';
+
+// Built-in recipe first; otherwise look it up in the database (published only).
+async function resolveRecipe(
+  dict: Dictionary,
+  slug: string,
+): Promise<Recipe | undefined> {
+  const builtin = getRecipe(dict, slug);
+  if (builtin) return builtin;
+  if (!supabaseConfigured) return undefined;
+  const { data } = await createClient()
+    .from('recipes')
+    .select('*')
+    .eq('slug', slug)
+    .maybeSingle();
+  const dbr = data as DbRecipe | null;
+  if (!dbr || !dbr.published) return undefined;
+  return dbToRecipe(dict, dbr);
 }
 
 export async function generateMetadata({
@@ -32,7 +50,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   if (!isLocale(params.locale)) return {};
   const dict = await getDictionary(params.locale);
-  const recipe = getRecipe(dict, params.slug);
+  const recipe = await resolveRecipe(dict, params.slug);
   if (!recipe) return { title: 'Not found' };
   return {
     title: recipe.title,
@@ -54,7 +72,7 @@ export default async function RecipePage({
   const locale = params.locale;
   const dict = await getDictionary(locale);
 
-  const recipe = getRecipe(dict, params.slug);
+  const recipe = await resolveRecipe(dict, params.slug);
   if (!recipe) notFound();
 
   const cuisine = getCuisine(dict, recipe.cuisine);

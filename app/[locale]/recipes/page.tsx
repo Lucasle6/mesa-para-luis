@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getCuisines, getLevels, getRecipes } from '@/lib/data';
-import { getDictionary, isLocale, locales } from '@/lib/i18n';
+import { dbToRecipe, getCuisines, getLevels, getRecipes } from '@/lib/data';
+import { getDictionary, isLocale } from '@/lib/i18n';
+import { createClient, supabaseConfigured } from '@/lib/supabase/server';
+import type { DbRecipe } from '@/lib/supabase/types';
+import type { Recipe } from '@/lib/types';
 import { RecipeExplorer } from '@/components/RecipeExplorer';
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -32,7 +33,20 @@ export default async function RecipesPage({
 
   const cuisines = getCuisines(dict);
   const levels = getLevels(dict);
-  const recipes = getRecipes(dict);
+
+  // Database recipes (admin-created, published) first, then the built-in ones.
+  let dbRecipes: Recipe[] = [];
+  if (supabaseConfigured) {
+    const supabase = createClient();
+    const { data } = await supabase
+      .from('recipes')
+      .select('*')
+      .eq('published', true)
+      .eq('locale', locale)
+      .order('created_at', { ascending: false });
+    dbRecipes = ((data as DbRecipe[]) ?? []).map((r) => dbToRecipe(dict, r));
+  }
+  const recipes = [...dbRecipes, ...getRecipes(dict)];
 
   return (
     <div className="shell pt-32">

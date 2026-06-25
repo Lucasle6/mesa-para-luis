@@ -1,5 +1,6 @@
 import type { Cuisine, Level, LevelValue, Recipe, RecipeBase } from './types';
 import type { Dictionary } from './dictionary';
+import type { DbRecipe } from './supabase/types';
 
 const img = (id: string, w = 1600, q = 72) =>
   `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=${q}`;
@@ -99,6 +100,36 @@ export function getRecipesByCuisine(
 
 export function getFeatured(dict: Dictionary): Recipe[] {
   return getRecipes(dict).filter((r) => r.featured);
+}
+
+const FALLBACK_IMAGE =
+  'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=72';
+
+/** Map a database recipe into the shape the public recipe pages render. */
+export function dbToRecipe(dict: Dictionary, r: DbRecipe): Recipe {
+  const cuisineName = dict.cuisines[r.cuisine ?? '']?.name ?? r.cuisine ?? '';
+  const region = dict.cuisines[r.cuisine ?? '']?.region ?? '';
+  const intro = r.intro
+    ? r.intro.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean)
+    : [];
+  return {
+    slug: r.slug,
+    cuisine: r.cuisine ?? '',
+    level: (Math.min(5, Math.max(1, r.level)) as LevelValue),
+    timeMins: r.time_mins,
+    servings: r.servings,
+    difficulty: r.difficulty,
+    image: r.image || FALLBACK_IMAGE,
+    title: r.title,
+    course: cuisineName,
+    origin: region,
+    excerpt: r.excerpt ?? '',
+    intro: intro.length ? intro : r.excerpt ? [r.excerpt] : [],
+    ingredients: Array.isArray(r.ingredients) ? r.ingredients : [],
+    steps: Array.isArray(r.steps) ? r.steps : [],
+    tags: Array.isArray(r.tags) ? r.tags : [],
+    cuisineName,
+  };
 }
 
 export function getRelated(
